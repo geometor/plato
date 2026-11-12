@@ -1,0 +1,188 @@
+geometor.plato.harmonics
+========================
+
+.. py:module:: geometor.plato.harmonics
+
+.. autoapi-nested-parse::
+
+   Exact rational harmonics of the World-Soul in Plato's *Timaeus* (35b–36b).
+
+   Implements the Demiurge's three-stage proportional division of the World-Soul:
+
+   1. **Seven Primordial Portions (*Moirai*, 35b4–c2)**:
+      Double intervals :math:`1, 2, 4, 8` and triple intervals :math:`1, 3, 9, 27`.
+   2. **Harmonic and Arithmetic Means (35c2–36a5)**:
+      Into every double and triple interval :math:`[a, b]`, insert the harmonic mean
+      :math:`h = \frac{2ab}{a+b}` (exceeding and exceeded by the same fraction of the
+      extremes) and the arithmetic mean :math:`m = \frac{a+b}{2}` (exceeding and
+      exceeded by an equal number), generating fourths (:math:`4:3`, *epitritos*),
+      fifths (:math:`3:2`, *hēmiolios*), and tones (:math:`9:8`, *epogdoos*).
+   3. **Diatonic Tetrachord Completion & the *Leimma* (36a6–b5)**:
+      Fill every :math:`4:3` fourth with two :math:`9:8` whole tones, leaving in each
+      fourth the exact minor-semitone remnant (*leimma*):
+
+      .. math::
+
+         \frac{4/3}{(9/8)^2} = \frac{4/3}{81/64} = \frac{256}{243}.
+
+   Across the full gamut from :math:`1` to :math:`27` (four octaves plus a major sixth),
+   the canonical 34-term Crantor–Proclus diatonic scale contains exactly 24 tones of
+   :math:`9/8` and 9 *leimmata* of :math:`256/243`:
+
+   .. math::
+
+      \left(\frac{9}{8}\right)^{24} \cdot \left(\frac{256}{243}\right)^{9}
+      = \frac{3^{48}}{2^{72}} \cdot \frac{2^{72}}{3^{45}} = 3^3 = 27.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.plato.harmonics.EPOGDOOS
+   geometor.plato.harmonics.EPITRITOS
+   geometor.plato.harmonics.HEMIOLIOS
+   geometor.plato.harmonics.LEIMMA
+   geometor.plato.harmonics.APOTOME
+   geometor.plato.harmonics.COMMA_PYTHAGOREAN
+   geometor.plato.harmonics.CRANTOR_INTEGER_MULTIPLIER
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.plato.harmonics.TimaeusPitch
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.plato.harmonics.arithmetic_mean
+   geometor.plato.harmonics.harmonic_mean
+   geometor.plato.harmonics.geometric_mean_squared
+   geometor.plato.harmonics.build_timaeus_skeleton
+   geometor.plato.harmonics.build_timaeus_scale
+   geometor.plato.harmonics.verify_timaeus_gamut
+
+
+Module Contents
+---------------
+
+.. py:data:: EPOGDOOS
+   :type:  sympy.Rational
+
+.. py:data:: EPITRITOS
+   :type:  sympy.Rational
+
+.. py:data:: HEMIOLIOS
+   :type:  sympy.Rational
+
+.. py:data:: LEIMMA
+   :type:  sympy.Rational
+
+.. py:data:: APOTOME
+   :type:  sympy.Rational
+
+.. py:data:: COMMA_PYTHAGOREAN
+   :type:  sympy.Rational
+
+.. py:data:: CRANTOR_INTEGER_MULTIPLIER
+   :type:  int
+   :value: 384
+
+
+.. py:class:: TimaeusPitch
+
+   Single exact rational pitch in Plato's *Timaeus* World-Soul scale (35b–36b).
+
+   :ivar index: 1-based ordinal index in the ascending scale (``1..34``).
+   :ivar ratio: Exact :class:`sympy.Rational` value in :math:`[1, 27]`.
+   :ivar crantor_integer: Exact integer value under Crantor's multiplier :math:`384`.
+   :ivar provenance: Generation stage (``"primordial"``, ``"mean"``, or ``"epogdoos"``).
+   :ivar step_from_prev: Exact adjacent ratio :math:`r_k / r_{k-1}` (``None`` for ``index=1``).
+   :ivar step_name: Greek interval name (``"arche"``, ``"epogdoos (9:8)"``, or ``"leimma (256:243)"``).
+
+
+
+   .. py:attribute:: index
+      :type:  int
+
+
+   .. py:attribute:: ratio
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: crantor_integer
+      :type:  int
+
+
+   .. py:attribute:: provenance
+      :type:  str
+
+
+   .. py:attribute:: step_from_prev
+      :type:  sympy.Rational | None
+
+
+   .. py:attribute:: step_name
+      :type:  str
+
+
+.. py:function:: arithmetic_mean(a: sympy.Rational | int, b: sympy.Rational | int) -> sympy.Rational
+
+   Compute Plato's arithmetic mean :math:`\frac{a + b}{2}` (*Timaeus* 36a1–2).
+
+
+.. py:function:: harmonic_mean(a: sympy.Rational | int, b: sympy.Rational | int) -> sympy.Rational
+
+   Compute Plato's harmonic mean :math:`\frac{2ab}{a + b}` (*Timaeus* 35c2–36a1).
+
+
+.. py:function:: geometric_mean_squared(a: sympy.Rational | int, b: sympy.Rational | int) -> sympy.Rational
+
+   Return the exact squared geometric mean :math:`ab = m \cdot h` linking the three means.
+
+
+.. py:function:: build_timaeus_skeleton() -> list[sympy.Rational]
+
+   Build the 15-term skeleton of primordial portions and their means (*Timaeus* 35b–36a).
+
+   Combines ``{1, 2, 4, 8}`` and ``{1, 3, 9, 27}`` with the harmonic and arithmetic
+   means inserted into every double interval ``[1,2], [2,4], [4,8]`` and every triple
+   interval ``[1,3], [3,9], [9,27]``.
+
+   :returns: Sorted list of 15 exact :class:`sympy.Rational` values from ``1`` to ``27``.
+
+
+.. py:function:: build_timaeus_scale() -> list[TimaeusPitch]
+
+   Construct the complete 34-term exact rational World-Soul scale (*Timaeus* 35b–36b).
+
+   Follows Plato's three-stage algorithm:
+
+   1. Establish the 7 primordial portions ``{1, 2, 3, 4, 8, 9, 27}``.
+   2. Insert harmonic and arithmetic means in all double and triple intervals, and
+      decompose the remaining :math:`3:2` *hēmiolios* fifths ``[9, 27/2]`` and
+      ``[18, 27]`` into :math:`4:3` (*epitritos*) plus :math:`9:8` (*epogdoos*)
+      via ``12`` and ``24`` (Crantor & Proclus, *In Timaeum* II.168–192).
+   3. Fill every :math:`4:3` fourth with two ascending :math:`9:8` tones, leaving
+      the exact :math:`256:243` *leimma* at the top of each tetrachord.
+
+   :returns: Ascending list of 34 :class:`TimaeusPitch` records spanning ``1`` to ``27``.
+
+
+.. py:function:: verify_timaeus_gamut(pitches: list[TimaeusPitch] | None = None) -> dict[str, sympy.Rational | int | bool]
+
+   Verify exact algebraic identities across the *Timaeus* World-Soul scale.
+
+   :param pitches: Optional precomputed scale from :func:`build_timaeus_scale`.
+
+   :returns: Dictionary of verified counts and exact rational invariants.
+
+

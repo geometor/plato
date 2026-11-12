@@ -1,0 +1,33 @@
+geometor.plato.cli
+==================
+
+.. py:module:: geometor.plato.cli
+
+.. autoapi-nested-parse::
+
+   Command-line interface (`geometor-plato`) for compiling the Codex and verifying models.
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.plato.cli.build_parser
+   geometor.plato.cli.main
+
+
+Module Contents
+---------------
+
+.. py:function:: build_parser() -> argparse.ArgumentParser
+
+   Construct the ``geometor-plato`` CLI argument parser.
+
+
+.. py:function:: main(argv: collections.abc.Sequence[str] | None = None) -> int
+
+   Entry point for ``geometor-plato`` CLI.
+
+

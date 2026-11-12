@@ -1,0 +1,98 @@
+geometor.plato.compile_codex
+============================
+
+.. py:module:: geometor.plato.compile_codex
+
+.. autoapi-nested-parse::
+
+   Deterministic 4-track Book Codex compiler for *Loci Mathematici et Geometrici*.
+
+   Parses John Burnet's Oxford Classical Text TEI-XML (`tlg0059.*.burnet_oct.xml`) and
+   Benjamin Jowett's 3rd-edition English texts (`*_jowett_pg*.txt`), aligns Stephanus
+   marginal pagination (`.. folio::`) and cross-reference anchors (`.. _stephanus-...:`)
+   across both primary language tracks, wires standalone interactive `.euclid-graphic`
+   SVG figures (`.. picture:: /_static/figures/...`), and compiles all companion tracks
+   (`-en.rst`, `-el.rst`, `-summary.rst`, `-notes.rst`), apparatus pages, and the Book
+   index (`docsrc/loci_mathematici/index.rst`).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.plato.compile_codex.DIALOGUE_FOLIO_ABBR
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.plato.compile_codex.GreekParagraph
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.plato.compile_codex.extract_burnet_passage
+   geometor.plato.compile_codex.extract_jowett_passage
+   geometor.plato.compile_codex.compile_all_codex
+
+
+Module Contents
+---------------
+
+.. py:data:: DIALOGUE_FOLIO_ABBR
+   :type:  dict[str, str]
+
+.. py:class:: GreekParagraph
+
+   Extracted polytonic Greek speech/paragraph with attached Stephanus milestones.
+
+
+   .. py:attribute:: milestones
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: text
+      :type:  str
+
+
+.. py:function:: extract_burnet_passage(xml_path: str | pathlib.Path, start_stephanus: str, end_stephanus: str) -> tuple[list[GreekParagraph], list[tuple[str, float]]]
+
+   Extract exact Stephanus slice from a Burnet TEI-XML file.
+
+   :param xml_path: Path to ``tlg0059.*.burnet_oct.xml``.
+   :param start_stephanus: Inclusive start Stephanus section (e.g., ``"75d"``).
+   :param end_stephanus: Inclusive end Stephanus section (e.g., ``"76a"``).
+
+   :returns: Tuple ``(paragraphs, milestone_progress)`` where ``milestone_progress`` lists
+             each encountered Stephanus section alongside its normalized ``[0.0, 1.0]``
+             offset within the extracted passage.
+
+
+.. py:function:: extract_jowett_passage(txt_path: str | pathlib.Path, passage: geometor.plato.units.PassageSpec, milestone_progress: list[tuple[str, float]]) -> list[tuple[list[str], str]]
+
+   Extract and Stephanus-align a Jowett English passage into paragraphs.
+
+   :param txt_path: Path to ``*_jowett_pg*.txt``.
+   :param passage: :class:`~geometor.plato.units.PassageSpec` definition.
+   :param milestone_progress: Ordered ``(sec, fraction)`` list from Burnet TEI-XML.
+
+   :returns: List of ``(stephanus_milestones, paragraph_text)`` pairs.
+
+
+.. py:function:: compile_all_codex(repo_root: str | pathlib.Path, *, regen_figures: bool = True) -> dict[str, pathlib.Path]
+
+   Compile all 4-track Codex units, apparatus JSON/RST files, concordance, and SVG figures.
+
+   :param repo_root: Root directory of ``geometor/plato``.
+   :param regen_figures: When ``True`` (default), regenerate all 6 ``.euclid-graphic`` SVGs.
+
+   :returns: Mapping of relative output paths to resolved :class:`~pathlib.Path` objects.
+
+

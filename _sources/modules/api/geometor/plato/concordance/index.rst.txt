@@ -1,0 +1,154 @@
+geometor.plato.concordance
+==========================
+
+.. py:module:: geometor.plato.concordance
+
+.. autoapi-nested-parse::
+
+   Stephanus concordance and SHA-256 primary-source manifest for *geometor-plato*.
+
+   Reconciles every ``plato:*`` citation across the GEOMETOR canon (``euclid``,
+   ``elements``, ``proclus``, ``aristotle``, ``hoenen``, and ``pacioli`` — 58
+   repository-level citation entries across 63 apparatus files, 33 distinct
+   normalized citation keys) against canonical Stephanus anchors in the six units of
+   *Loci Mathematici et Geometrici*, and records cryptographic SHA-256 checksums for
+   all 14 public-domain Burnet (1900–1907) and Jowett (1892) source texts.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.plato.concordance.CROSS_CORPUS_PLATO_ENTRIES
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.plato.concordance.ConcordanceEntry
+   geometor.plato.concordance.SourceFileRecord
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.plato.concordance.build_sources_manifest
+   geometor.plato.concordance.build_concordance_data
+   geometor.plato.concordance.render_concordance_rst
+   geometor.plato.concordance.write_concordance_artifacts
+
+
+Module Contents
+---------------
+
+.. py:class:: ConcordanceEntry
+
+   Canonical cross-corpus Plato citation mapping to Stephanus anchors.
+
+   :ivar cite_key: Exact citation key used in sister repositories (e.g., ``"plato:meno:76A"``).
+   :ivar repos: Tuple of sister repositories declaring this key.
+   :ivar dialogue: Canonical Platonic dialogue title.
+   :ivar stephanus_locus: Normalized Stephanus coordinate or span.
+   :ivar in_codex: ``True`` when staged verbatim in Units I–VI; ``False`` for peripheral
+                   civic/mimetic passages catalogued in Critical Notes.
+   :ivar unit_slug: Target unit folder slug in ``docsrc/loci_mathematici/`` (or nearest note unit).
+   :ivar stephanus_anchor: Exact RST target label ``stephanus-<dialogue>-<sec>`` (when ``in_codex``).
+   :ivar euclid_proclus_context: Mathematical/philosophical locus in Euclid, Proclus, Aristotle,
+                                 Hoenen, or Pacioli.
+
+
+
+   .. py:attribute:: cite_key
+      :type:  str
+
+
+   .. py:attribute:: repos
+      :type:  tuple[str, ...]
+
+
+   .. py:attribute:: dialogue
+      :type:  str
+
+
+   .. py:attribute:: stephanus_locus
+      :type:  str
+
+
+   .. py:attribute:: in_codex
+      :type:  bool
+
+
+   .. py:attribute:: unit_slug
+      :type:  str
+
+
+   .. py:attribute:: stephanus_anchor
+      :type:  str
+
+
+   .. py:attribute:: euclid_proclus_context
+      :type:  str
+
+
+.. py:class:: SourceFileRecord
+
+   Cryptographically verified primary-source file metadata.
+
+
+   .. py:attribute:: dialogue_key
+      :type:  str
+
+
+   .. py:attribute:: language
+      :type:  str
+
+
+   .. py:attribute:: edition
+      :type:  str
+
+
+   .. py:attribute:: relative_path
+      :type:  str
+
+
+   .. py:attribute:: size_bytes
+      :type:  int
+
+
+   .. py:attribute:: sha256
+      :type:  str
+
+
+.. py:data:: CROSS_CORPUS_PLATO_ENTRIES
+   :type:  tuple[ConcordanceEntry, ...]
+
+.. py:function:: build_sources_manifest(repo_root: str | pathlib.Path) -> dict[str, Any]
+
+   Build SHA-256 verified manifest of all 14 Burnet & Jowett primary source files.
+
+   :param repo_root: Root directory of ``geometor/plato``.
+
+   :returns: JSON-serializable manifest dictionary.
+
+
+.. py:function:: build_concordance_data() -> dict[str, Any]
+
+   Construct the structured cross-corpus Plato Stephanus concordance payload.
+
+
+.. py:function:: render_concordance_rst() -> str
+
+   Render ``docsrc/loci_mathematici/concordance.rst`` from canonical concordance data.
+
+
+.. py:function:: write_concordance_artifacts(repo_root: str | pathlib.Path) -> dict[str, pathlib.Path]
+
+   Write ``concordance.json``, ``sources_manifest.json``, and ``concordance.rst``.
+
+

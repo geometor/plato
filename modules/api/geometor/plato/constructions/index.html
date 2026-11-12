@@ -1,0 +1,464 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.plato.constructions &mdash; GEOMETOR • plato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d2b6ecbc" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • plato</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">plato</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../mission/index.html"  >Mission</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; plato</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • plato</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../concordance/index.html" title="geometor.plato.concordance">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../harmonics/index.html" title="geometor.plato.harmonics"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.plato.constructions">
+        <span id="geometor-plato-constructions"></span><h1>geometor.plato.constructions<a class="headerlink" href="#module-geometor.plato.constructions" title="Link to this heading">¶</a></h1>
+        <p>Exact symbolic constructions for Plato’s Mathematical &amp; Geometric Dialogues.</p>
+        <p>Every construction builds a <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> with <code class="docutils literal notranslate"><span class="pre">auto_intersect=False</span></code>
+        and 100% exact SymPy coordinates over <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>, <span class="math notranslate nohighlight">\(\mathbb{Q}(\phi)\)</span>, or
+        closed-form quadratic radicals—never injecting <code class="docutils literal notranslate"><span class="pre">float</span></code> or <code class="docutils literal notranslate"><span class="pre">sp.Float</span></code> approximations.</p>
+        <p>Constructions provided:</p>
+        <ol class="arabic simple">
+        <li><p><a class="reference internal" href="#geometor.plato.constructions.construct_meno_diagonal_doubling" title="geometor.plato.constructions.construct_meno_diagonal_doubling"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_meno_diagonal_doubling()</span></code></a> (<em>Meno</em> 82b–85b): The <span class="math notranslate nohighlight">\(2\times 2\)</span>
+        given square (<span class="math notranslate nohighlight">\(Q=4\)</span>), false <span class="math notranslate nohighlight">\(4\times 4\)</span> (<span class="math notranslate nohighlight">\(Q=16\)</span>) and <span class="math notranslate nohighlight">\(3\times 3\)</span>
+        (<span class="math notranslate nohighlight">\(Q=9\)</span>) conjectures, and Socrates’ inscribed diagonal square (<span class="math notranslate nohighlight">\(Q=8\)</span>).</p></li>
+        <li><p><a class="reference internal" href="#geometor.plato.constructions.construct_theodorus_spiral" title="geometor.plato.constructions.construct_theodorus_spiral"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_theodorus_spiral()</span></code></a> (<em>Theaetetus</em> 147c–148b): Pure straightedge-and-compass
+        right-triangle spiral constructing exact quadrances <span class="math notranslate nohighlight">\(Q(O, P_n) = n\)</span> for
+        <span class="math notranslate nohighlight">\(n = 1, 2, \dots, 17\)</span>, classifying lengths (<em>mēkē</em>) vs. powers (<em>dynameis</em>).</p></li>
+        <li><p><a class="reference internal" href="#geometor.plato.constructions.construct_divided_line" title="geometor.plato.constructions.construct_divided_line"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_divided_line()</span></code></a> (<em>Republic</em> VI, 509d–511e): Exact division of the
+        Visible and Intelligible realms proving <code class="docutils literal notranslate"><span class="pre">Q(pistis)</span> <span class="pre">==</span> <span class="pre">Q(dianoia)</span></code> identically,
+        with semicircle geometric-mean ordinates and Golden Ratio default.</p></li>
+        <li><p><a class="reference internal" href="#geometor.plato.constructions.construct_timaeus_proportion_circles" title="geometor.plato.constructions.construct_timaeus_proportion_circles"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_timaeus_proportion_circles()</span></code></a> (<em>Timaeus</em> 31c–36d): Semicircle
+        construction of Plato’s arithmetic (<span class="math notranslate nohighlight">\(3\)</span>), geometric (<span class="math notranslate nohighlight">\(2\sqrt{2}\)</span>), and
+        harmonic (<span class="math notranslate nohighlight">\(8/3\)</span>) means on the <span class="math notranslate nohighlight">\([2, 4]\)</span> octave, exhibiting the <span class="math notranslate nohighlight">\(9:8\)</span>
+        <em>epogdoos</em> tone and the inclined circles of the Same and the Different.</p></li>
+        <li><p><a class="reference internal" href="#geometor.plato.constructions.construct_timaeus_triangles" title="geometor.plato.constructions.construct_timaeus_triangles"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_timaeus_triangles()</span></code></a> &amp; <a class="reference internal" href="#geometor.plato.constructions.construct_timaeus_cube_face" title="geometor.plato.constructions.construct_timaeus_cube_face"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_timaeus_cube_face()</span></code></a> (<em>Timaeus</em>
+        53c–56c): Six <span class="math notranslate nohighlight">\(1:\sqrt{3}:2\)</span> scalene half-triangles (quadrances <span class="math notranslate nohighlight">\(1, 3, 4\)</span>;
+        spreads <span class="math notranslate nohighlight">\(1/4, 3/4, 1\)</span>) around centroid <span class="math notranslate nohighlight">\(G = X(2)\)</span> forming the cosmic
+        equilateral face, plus the 4-isosceles-triangle square face of the Cube.</p></li>
+        <li><p><a class="reference internal" href="#geometor.plato.constructions.construct_compass_and_peras" title="geometor.plato.constructions.construct_compass_and_peras"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_compass_and_peras()</span></code></a> (<em>Parmenides</em> 137e, <em>Philebus</em> 51c, <em>Laws</em> VII 819d):
+        Circular equidistance (<em>tornos</em>), optical straightness (<em>kanōn</em>), and the <span class="math notranslate nohighlight">\(1, \sqrt{2}, \sqrt{3}\)</span>
+        length–breadth–depth incommensurability chain.</p></li>
+        </ol>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.constructions.TheaetetusPowerEntry" title="geometor.plato.constructions.TheaetetusPowerEntry"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TheaetetusPowerEntry</span></code></a></p></td>
+        <td><p>Classification of an integer area <span class="math notranslate nohighlight">\(n\)</span> under <em>Theaetetus</em> 147e–148b.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.constructions.construct_meno_diagonal_doubling" title="geometor.plato.constructions.construct_meno_diagonal_doubling"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_meno_diagonal_doubling</span></code></a>([model]) → geometor.model.Model</p></td>
+        <td><p>Construct Socrates' diagonal square-doubling proof (<em>Meno</em> 82b–85b).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.constructions.classify_theaetetus_powers" title="geometor.plato.constructions.classify_theaetetus_powers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">classify_theaetetus_powers</span></code></a>([max_n]) → list[TheaetetusPowerEntry]</p></td>
+        <td><p>Classify integer areas <code class="docutils literal notranslate"><span class="pre">1..max_n</span></code> into <em>mēkē</em> (lengths) and <em>dynameis</em> (powers).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.constructions.construct_theodorus_spiral" title="geometor.plato.constructions.construct_theodorus_spiral"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_theodorus_spiral</span></code></a>([model, max_n]) → geometor.model.Model</p></td>
+        <td><p>Construct Theodorus's exact <span class="math notranslate nohighlight">\(\sqrt{1}\dots\sqrt{17}\)</span> spiral (<em>Theaetetus</em> 147d–148b).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.constructions.verify_divided_line_identity" title="geometor.plato.constructions.verify_divided_line_identity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_divided_line_identity</span></code></a>() → dict[str, sympy.Expr | bool]</p></td>
+        <td><p>Prove over symbolic ratio <span class="math notranslate nohighlight">\(r &gt; 0\)</span> that <em>pistis</em> equals <em>dianoia</em> (<em>Republic</em> 509d).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.constructions.construct_divided_line" title="geometor.plato.constructions.construct_divided_line"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_divided_line</span></code></a>([model, ratio]) → geometor.model.Model</p></td>
+        <td><p>Construct Plato's Divided Line (<em>Republic</em> VI, 509d–511e) and verify middle equality.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.constructions.construct_timaeus_proportion_circles" title="geometor.plato.constructions.construct_timaeus_proportion_circles"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_timaeus_proportion_circles</span></code></a>([model]) → geometor.model.Model</p></td>
+        <td><p>Construct the Three Platonic Means &amp; Circles of Same/Different (<em>Timaeus</em> 31c–36d).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.constructions.construct_timaeus_triangles" title="geometor.plato.constructions.construct_timaeus_triangles"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_timaeus_triangles</span></code></a>([model]) → geometor.model.Model</p></td>
+        <td><p>Construct the 6-triangle equilateral cosmic face of <em>Timaeus</em> 54d–55a.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.constructions.construct_timaeus_cube_face" title="geometor.plato.constructions.construct_timaeus_cube_face"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_timaeus_cube_face</span></code></a>([model]) → geometor.model.Model</p></td>
+        <td><p>Construct the 4-isosceles-triangle square face of Earth (<em>Timaeus</em> 55b).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.constructions.construct_compass_and_peras" title="geometor.plato.constructions.construct_compass_and_peras"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_compass_and_peras</span></code></a>([model]) → geometor.model.Model</p></td>
+        <td><p>Construct Unit 6's Compass (<em>Tornos</em>), Straight Ray (<em>Kanōn</em>) &amp; <span class="math notranslate nohighlight">\(1,\sqrt{2},\sqrt{3}\)</span> Triad.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.TheaetetusPowerEntry">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">TheaetetusPowerEntry</span></span><a class="headerlink" href="#geometor.plato.constructions.TheaetetusPowerEntry" title="Link to this definition">¶</a></dt>
+        <dd><p>Classification of an integer area <span class="math notranslate nohighlight">\(n\)</span> under <em>Theaetetus</em> 147e–148b.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Variables<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>area_n</strong> – Integer square area <span class="math notranslate nohighlight">\(n = Q(O, P_n)\)</span>.</p></li>
+        <li><p><strong>side_expr</strong> – Exact symbolic side length <span class="math notranslate nohighlight">\(\sqrt{n}\)</span>.</p></li>
+        <li><p><strong>number_kind</strong> – <code class="docutils literal notranslate"><span class="pre">&quot;square</span> <span class="pre">(isos</span> <span class="pre">isakis)&quot;</span></code> or <code class="docutils literal notranslate"><span class="pre">&quot;oblong</span> <span class="pre">(promekes)&quot;</span></code>.</p></li>
+        <li><p><strong>line_kind</strong> – <code class="docutils literal notranslate"><span class="pre">&quot;mekos</span> <span class="pre">(length)&quot;</span></code> when commensurable in length with unit,
+        else <code class="docutils literal notranslate"><span class="pre">&quot;dynamis</span> <span class="pre">(power)&quot;</span></code>.</p></li>
+        </ul>
+        </dd>
+        </dl>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.TheaetetusPowerEntry.area_n">
+        <span class="sig-name descname"><span class="pre">area_n</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.plato.constructions.TheaetetusPowerEntry.area_n" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.TheaetetusPowerEntry.side_expr">
+        <span class="sig-name descname"><span class="pre">side_expr</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.plato.constructions.TheaetetusPowerEntry.side_expr" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.TheaetetusPowerEntry.number_kind">
+        <span class="sig-name descname"><span class="pre">number_kind</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.plato.constructions.TheaetetusPowerEntry.number_kind" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.TheaetetusPowerEntry.line_kind">
+        <span class="sig-name descname"><span class="pre">line_kind</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.plato.constructions.TheaetetusPowerEntry.line_kind" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.construct_meno_diagonal_doubling">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">construct_meno_diagonal_doubling</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.plato.constructions.construct_meno_diagonal_doubling" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Socrates’ diagonal square-doubling proof (<em>Meno</em> 82b–85b).</p>
+        <p>Starting from the unit/two-foot baseline <code class="docutils literal notranslate"><span class="pre">A=(0,0)</span></code>, <code class="docutils literal notranslate"><span class="pre">U=(1,0)</span></code>, <code class="docutils literal notranslate"><span class="pre">B=(2,0)</span></code>,
+        constructs by straightedge and compass:</p>
+        <ul class="simple">
+        <li><p>Initial <span class="math notranslate nohighlight">\(2\times 2\)</span> square <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">C</span> <span class="pre">D</span> <span class="pre">&gt;</span></code> of side <span class="math notranslate nohighlight">\(2\)</span> (<span class="math notranslate nohighlight">\(Q(A, B) = 4\)</span>, area <span class="math notranslate nohighlight">\(4\)</span>),</p></li>
+        <li><p>First false conjecture <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">A</span> <span class="pre">E</span> <span class="pre">F</span> <span class="pre">G</span> <span class="pre">&gt;</span></code> of doubled side <span class="math notranslate nohighlight">\(4\)</span> (<span class="math notranslate nohighlight">\(Q(A, E) = 16\)</span>, area <span class="math notranslate nohighlight">\(16\)</span>),</p></li>
+        <li><p>Second false conjecture <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">A</span> <span class="pre">M</span> <span class="pre">N</span> <span class="pre">P</span> <span class="pre">&gt;</span></code> of three-foot side <span class="math notranslate nohighlight">\(3\)</span> (<span class="math notranslate nohighlight">\(Q(A, M) = 9\)</span>, area <span class="math notranslate nohighlight">\(9\)</span>),</p></li>
+        <li><p>Inscribed diagonal square <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">B</span> <span class="pre">H</span> <span class="pre">K</span> <span class="pre">D</span> <span class="pre">&gt;</span></code> cut by the four <em>diametroi</em> (<span class="math notranslate nohighlight">\(Q(B, H) = 8\)</span>, area <span class="math notranslate nohighlight">\(8\)</span>).</p></li>
+        </ul>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> (created if <code class="docutils literal notranslate"><span class="pre">None</span></code>).</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> with verified assertions.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.classify_theaetetus_powers">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">classify_theaetetus_powers</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">17</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.plato.constructions.TheaetetusPowerEntry" title="geometor.plato.constructions.TheaetetusPowerEntry"><span class="pre">TheaetetusPowerEntry</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.plato.constructions.classify_theaetetus_powers" title="Link to this definition">¶</a></dt>
+        <dd><p>Classify integer areas <code class="docutils literal notranslate"><span class="pre">1..max_n</span></code> into <em>mēkē</em> (lengths) and <em>dynameis</em> (powers).</p>
+        <p>Follows Theaetetus’s exact dichotomy (<em>Theaetetus</em> 147e–148b):</p>
+        <ul class="simple">
+        <li><p>Equilateral square numbers (<em>isos isakis</em>, <span class="math notranslate nohighlight">\(n = k^2\)</span>) produce lines
+        commensurable in length with the unit (<em>mēkē</em>).</p></li>
+        <li><p>Oblong numbers (<em>promēkeis</em>, non-square <span class="math notranslate nohighlight">\(n\)</span>) produce lines incommensurable
+        in length with the unit, commensurable only in the plane areas they have the
+        power to form (<em>dynameis</em>).</p></li>
+        </ul>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>max_n</strong> – Upper integer area bound (defaults to Theodorus’s <code class="docutils literal notranslate"><span class="pre">17</span></code>).</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>List of <a class="reference internal" href="#geometor.plato.constructions.TheaetetusPowerEntry" title="geometor.plato.constructions.TheaetetusPowerEntry"><code class="xref py py-class docutils literal notranslate"><span class="pre">TheaetetusPowerEntry</span></code></a> records for <code class="docutils literal notranslate"><span class="pre">1..max_n</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.construct_theodorus_spiral">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">construct_theodorus_spiral</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_n</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">17</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.plato.constructions.construct_theodorus_spiral" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Theodorus’s exact <span class="math notranslate nohighlight">\(\sqrt{1}\dots\sqrt{17}\)</span> spiral (<em>Theaetetus</em> 147d–148b).</p>
+        <p>Starting from <code class="docutils literal notranslate"><span class="pre">O=(0,0)</span></code> and <code class="docutils literal notranslate"><span class="pre">P1=(1,0)</span></code>, each vertex <code class="docutils literal notranslate"><span class="pre">P_{n+1}</span></code> is erected
+        along the perpendicular to <code class="docutils literal notranslate"><span class="pre">[O,</span> <span class="pre">P_n]</span></code> at <code class="docutils literal notranslate"><span class="pre">P_n</span></code> (Euclid I.11) at exact unit
+        step <code class="docutils literal notranslate"><span class="pre">Q(P_n,</span> <span class="pre">P_{n+1})</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">=</span> <span class="pre">Q(O,</span> <span class="pre">P1)</span></code> (Postulate 3) in the positive orientation
+        <code class="docutils literal notranslate"><span class="pre">side_of=(O,</span> <span class="pre">P_n,</span> <span class="pre">+1)</span></code>, expanding cross-terms at each step so every coordinate
+        remains a flat <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>-linear combination of <span class="math notranslate nohighlight">\(\sqrt{k}\)</span> (<span class="math notranslate nohighlight">\(k \le n\)</span>)
+        with zero nested square roots and exact symbolic quadrance <code class="docutils literal notranslate"><span class="pre">Q(O,</span> <span class="pre">P_{n+1})</span> <span class="pre">=</span> <span class="pre">n</span> <span class="pre">+</span> <span class="pre">1</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Optional existing <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>max_n</strong> – Maximum integer area <code class="docutils literal notranslate"><span class="pre">n</span></code> (defaults to <code class="docutils literal notranslate"><span class="pre">17</span></code> per <em>Theaetetus</em> 147d6).</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> with vertices <code class="docutils literal notranslate"><span class="pre">O,</span> <span class="pre">P1..P{max_n}</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.verify_divided_line_identity">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">verify_divided_line_identity</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.plato.constructions.verify_divided_line_identity" title="Link to this definition">¶</a></dt>
+        <dd><p>Prove over symbolic ratio <span class="math notranslate nohighlight">\(r &gt; 0\)</span> that <em>pistis</em> equals <em>dianoia</em> (<em>Republic</em> 509d).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>Dictionary of exact symbolic lengths, quadrances, and verified proportion checks.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.construct_divided_line">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">construct_divided_line</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ratio</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Expr</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">sp.GoldenRatio</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.plato.constructions.construct_divided_line" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Plato’s Divided Line (<em>Republic</em> VI, 509d–511e) and verify middle equality.</p>
+        <p>Divides baseline <code class="docutils literal notranslate"><span class="pre">[A,</span> <span class="pre">E]</span></code> at <code class="docutils literal notranslate"><span class="pre">C</span></code> into Visible <code class="docutils literal notranslate"><span class="pre">AC</span></code> and Intelligible <code class="docutils literal notranslate"><span class="pre">CE</span></code> in
+        <code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">:</span> <span class="pre">r</span></code>, and subdivides each realm in the same ratio <code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">:</span> <span class="pre">r</span></code> at <code class="docutils literal notranslate"><span class="pre">B</span></code> and <code class="docutils literal notranslate"><span class="pre">D</span></code>:</p>
+        <ul class="simple">
+        <li><p><code class="docutils literal notranslate"><span class="pre">AB</span></code> (<em>eikasia</em>, length <span class="math notranslate nohighlight">\(1\)</span>, <span class="math notranslate nohighlight">\(Q = 1\)</span>),</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">BC</span></code> (<em>pistis</em>, length <span class="math notranslate nohighlight">\(r\)</span>, <span class="math notranslate nohighlight">\(Q = r^2\)</span>),</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">CD</span></code> (<em>dianoia</em>, length <span class="math notranslate nohighlight">\(r\)</span>, <span class="math notranslate nohighlight">\(Q = r^2\)</span>),</p></li>
+        <li><p><code class="docutils literal notranslate"><span class="pre">DE</span></code> (<em>noēsis</em>, length <span class="math notranslate nohighlight">\(r^2\)</span>, <span class="math notranslate nohighlight">\(Q = r^4\)</span>).</p></li>
+        </ul>
+        <p>Also constructs the semicircle on <code class="docutils literal notranslate"><span class="pre">[A,</span> <span class="pre">K]</span></code> of length <span class="math notranslate nohighlight">\(1 + r^2\)</span> (<cite>AB + DE</cite>)
+        whose ordinate <code class="docutils literal notranslate"><span class="pre">BG</span></code> at <code class="docutils literal notranslate"><span class="pre">B</span></code> has exact length <span class="math notranslate nohighlight">\(\sqrt{1 \cdot r^2} = r\)</span>,
+        demonstrating geometrically why <code class="docutils literal notranslate"><span class="pre">BC</span> <span class="pre">=</span> <span class="pre">CD</span> <span class="pre">=</span> <span class="pre">BG</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Optional existing <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>ratio</strong> – Symbolic proportion <span class="math notranslate nohighlight">\(r &gt; 0\)</span> (defaults to <code class="docutils literal notranslate"><span class="pre">sp.GoldenRatio</span></code>).</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code> with verified equal-middle proof.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.construct_timaeus_proportion_circles">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">construct_timaeus_proportion_circles</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.plato.constructions.construct_timaeus_proportion_circles" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the Three Platonic Means &amp; Circles of Same/Different (<em>Timaeus</em> 31c–36d).</p>
+        <p>On diameter <code class="docutils literal notranslate"><span class="pre">AB</span></code> of length <span class="math notranslate nohighlight">\(2 + 4 = 6\)</span> (<cite>A=(0,0)</cite>, <cite>J=(2,0)</cite>, <cite>O=(3,0)</cite>, <cite>B=(6,0)</cite>),
+        exhibits in a single exact Euclidean figure:</p>
+        <ul class="simple">
+        <li><p><strong>Arithmetic mean</strong> <code class="docutils literal notranslate"><span class="pre">O</span> <span class="pre">G</span></code> of length <span class="math notranslate nohighlight">\(3 = \frac{2+4}{2}\)</span> (<em>hēmiolios</em>, <span class="math notranslate nohighlight">\(Q = 9\)</span>),</p></li>
+        <li><p><strong>Geometric mean</strong> <code class="docutils literal notranslate"><span class="pre">J</span> <span class="pre">G</span></code> of length <span class="math notranslate nohighlight">\(2\sqrt{2} = \sqrt{2\cdot 4}\)</span> (<span class="math notranslate nohighlight">\(Q = 8\)</span>),</p></li>
+        <li><p><strong>Harmonic mean</strong> <code class="docutils literal notranslate"><span class="pre">G</span> <span class="pre">H</span></code> of length <span class="math notranslate nohighlight">\(\frac{8}{3} = \frac{2\cdot 2\cdot 4}{2+4}\)</span> (<em>epitritos</em>, <span class="math notranslate nohighlight">\(Q = 64/9\)</span>),</p></li>
+        <li><p><strong>Epogdoos ratio</strong> <span class="math notranslate nohighlight">\(\frac{OG}{GH} = \frac{3}{8/3} = \frac{9}{8}\)</span> (<span class="math notranslate nohighlight">\(Q(O,G)/Q(G,H) = 81/64\)</span>),</p></li>
+        </ul>
+        <p>together with the equatorial Circle of the Same <code class="docutils literal notranslate"><span class="pre">(O,</span> <span class="pre">B)</span></code> and the inclined Circle
+        of the Different <code class="docutils literal notranslate"><span class="pre">[P,</span> <span class="pre">Q]</span></code> crossing at <code class="docutils literal notranslate"><span class="pre">O</span></code> like the Greek letter <span class="math notranslate nohighlight">\(\mathrm{X}\)</span> (<em>chi</em>, 36b–c).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.construct_timaeus_triangles">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">construct_timaeus_triangles</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.plato.constructions.construct_timaeus_triangles" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the 6-triangle equilateral cosmic face of <em>Timaeus</em> 54d–55a.</p>
+        <p>Assembles six elementary right-angled scalene half-triangles (<em>hēmitrigōna</em>)
+        with exact side lengths <span class="math notranslate nohighlight">\(1 : \sqrt{3} : 2\)</span> (quadrances <span class="math notranslate nohighlight">\(1, 3, 4\)</span> and
+        spreads <span class="math notranslate nohighlight">\(1/4, 3/4, 1\)</span>) meeting thrice along their diagonals and altitudes
+        at the centroid <code class="docutils literal notranslate"><span class="pre">G</span> <span class="pre">=</span> <span class="pre">(0,</span> <span class="pre">0)</span> <span class="pre">=</span> <span class="pre">X(2)</span></code> to form one equilateral face <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">C</span> <span class="pre">&gt;</span></code>
+        of the Tetrahedron, Octahedron, and Icosahedron.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.construct_timaeus_cube_face">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">construct_timaeus_cube_face</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.plato.constructions.construct_timaeus_cube_face" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the 4-isosceles-triangle square face of Earth (<em>Timaeus</em> 55b).</p>
+        <p>Assembles four elementary isosceles right triangles (<span class="math notranslate nohighlight">\(1 : 1 : \sqrt{2}\)</span>,
+        quadrances <span class="math notranslate nohighlight">\(1, 1, 2\)</span>; spreads <span class="math notranslate nohighlight">\(1/2, 1/2, 1\)</span>) with right angles
+        meeting at center <code class="docutils literal notranslate"><span class="pre">O=(0,0)</span></code> to form one square face <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">A</span> <span class="pre">B</span> <span class="pre">C</span> <span class="pre">D</span> <span class="pre">&gt;</span></code> of the Cube.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.constructions.construct_compass_and_peras">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.constructions.</span></span><span class="sig-name descname"><span class="pre">construct_compass_and_peras</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.plato.constructions.construct_compass_and_peras" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Unit 6’s Compass (<em>Tornos</em>), Straight Ray (<em>Kanōn</em>) &amp; <span class="math notranslate nohighlight">\(1,\sqrt{2},\sqrt{3}\)</span> Triad.</p>
+        <p>Synthesizes the three foundational definitions and problems of Unit 6:</p>
+        <ol class="arabic simple">
+        <li><p><em>Parmenides</em> 137e &amp; <em>Philebus</em> 51c: Circle <code class="docutils literal notranslate"><span class="pre">(O,</span> <span class="pre">A)</span></code> whose extremities <code class="docutils literal notranslate"><span class="pre">A,</span> <span class="pre">B,</span> <span class="pre">C</span></code>
+        are equidistant from the middle <code class="docutils literal notranslate"><span class="pre">O=(0,0)</span></code>, and straight line <code class="docutils literal notranslate"><span class="pre">[A,</span> <span class="pre">O,</span> <span class="pre">C]</span></code> whose
+        middle <code class="docutils literal notranslate"><span class="pre">O</span></code> stands optically before both extremes.</p></li>
+        <li><p><em>Laws</em> VII, 819d–820d: Unit length <code class="docutils literal notranslate"><span class="pre">OC</span></code> (<span class="math notranslate nohighlight">\(Q = 1\)</span>), breadth <code class="docutils literal notranslate"><span class="pre">CD</span></code> (<span class="math notranslate nohighlight">\(Q = 1\)</span>)
+        yielding plane diagonal <code class="docutils literal notranslate"><span class="pre">OD</span></code> (<span class="math notranslate nohighlight">\(Q = 2\)</span>), and unfolded unit depth <code class="docutils literal notranslate"><span class="pre">DE</span></code>
+        perpendicular to <code class="docutils literal notranslate"><span class="pre">OD</span></code> yielding solid cube diagonal <code class="docutils literal notranslate"><span class="pre">OE</span></code> (<span class="math notranslate nohighlight">\(Q = 3\)</span>).</p></li>
+        </ol>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../concordance/index.html" title="geometor.plato.concordance">&larr; <span class="nav-label">geometor.plato.concordance</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • plato</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../harmonics/index.html" title="geometor.plato.harmonics"><span class="nav-label">geometor.plato.harmonics</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-initial-codex.html">Initial Codex & Symbolic Engine — Loci Mathematici et Geometrici (Burnet OCT & Jowett Edition)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/apparatus.html">apparatus</a></li>
+        <li><a href="../../../../../types/el.html">el</a></li>
+        <li><a href="../../../../../types/log.html">log</a></li>
+        <li><a href="../../../../../types/notes.html">notes</a></li>
+        <li><a href="../../../../../types/summary.html">summary</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../about/index.html"  >About</a></li>
+        <li><a href="../../../../../changelog.html"  >changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 2026, GEOMETOR • Burnet OCT (1900–1907) & Jowett (1892) Critical Codex.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,239 @@
+geometor.plato.constructions
+============================
+
+.. py:module:: geometor.plato.constructions
+
+.. autoapi-nested-parse::
+
+   Exact symbolic constructions for Plato's Mathematical & Geometric Dialogues.
+
+   Every construction builds a :class:`~geometor.model.Model` with ``auto_intersect=False``
+   and 100% exact SymPy coordinates over :math:`\mathbb{Q}`, :math:`\mathbb{Q}(\phi)`, or
+   closed-form quadratic radicals—never injecting ``float`` or ``sp.Float`` approximations.
+
+   Constructions provided:
+
+   1. :func:`construct_meno_diagonal_doubling` (*Meno* 82b–85b): The :math:`2\times 2`
+      given square (:math:`Q=4`), false :math:`4\times 4` (:math:`Q=16`) and :math:`3\times 3`
+      (:math:`Q=9`) conjectures, and Socrates' inscribed diagonal square (:math:`Q=8`).
+   2. :func:`construct_theodorus_spiral` (*Theaetetus* 147c–148b): Pure straightedge-and-compass
+      right-triangle spiral constructing exact quadrances :math:`Q(O, P_n) = n` for
+      :math:`n = 1, 2, \dots, 17`, classifying lengths (*mēkē*) vs. powers (*dynameis*).
+   3. :func:`construct_divided_line` (*Republic* VI, 509d–511e): Exact division of the
+      Visible and Intelligible realms proving ``Q(pistis) == Q(dianoia)`` identically,
+      with semicircle geometric-mean ordinates and Golden Ratio default.
+   4. :func:`construct_timaeus_proportion_circles` (*Timaeus* 31c–36d): Semicircle
+      construction of Plato's arithmetic (:math:`3`), geometric (:math:`2\sqrt{2}`), and
+      harmonic (:math:`8/3`) means on the :math:`[2, 4]` octave, exhibiting the :math:`9:8`
+      *epogdoos* tone and the inclined circles of the Same and the Different.
+   5. :func:`construct_timaeus_triangles` & :func:`construct_timaeus_cube_face` (*Timaeus*
+      53c–56c): Six :math:`1:\sqrt{3}:2` scalene half-triangles (quadrances :math:`1, 3, 4`;
+      spreads :math:`1/4, 3/4, 1`) around centroid :math:`G = X(2)` forming the cosmic
+      equilateral face, plus the 4-isosceles-triangle square face of the Cube.
+   6. :func:`construct_compass_and_peras` (*Parmenides* 137e, *Philebus* 51c, *Laws* VII 819d):
+      Circular equidistance (*tornos*), optical straightness (*kanōn*), and the :math:`1, \sqrt{2}, \sqrt{3}`
+      length–breadth–depth incommensurability chain.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.plato.constructions.TheaetetusPowerEntry
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.plato.constructions.construct_meno_diagonal_doubling
+   geometor.plato.constructions.classify_theaetetus_powers
+   geometor.plato.constructions.construct_theodorus_spiral
+   geometor.plato.constructions.verify_divided_line_identity
+   geometor.plato.constructions.construct_divided_line
+   geometor.plato.constructions.construct_timaeus_proportion_circles
+   geometor.plato.constructions.construct_timaeus_triangles
+   geometor.plato.constructions.construct_timaeus_cube_face
+   geometor.plato.constructions.construct_compass_and_peras
+
+
+Module Contents
+---------------
+
+.. py:class:: TheaetetusPowerEntry
+
+   Classification of an integer area :math:`n` under *Theaetetus* 147e–148b.
+
+   :ivar area_n: Integer square area :math:`n = Q(O, P_n)`.
+   :ivar side_expr: Exact symbolic side length :math:`\sqrt{n}`.
+   :ivar number_kind: ``"square (isos isakis)"`` or ``"oblong (promekes)"``.
+   :ivar line_kind: ``"mekos (length)"`` when commensurable in length with unit,
+                    else ``"dynamis (power)"``.
+
+
+
+   .. py:attribute:: area_n
+      :type:  int
+
+
+   .. py:attribute:: side_expr
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: number_kind
+      :type:  str
+
+
+   .. py:attribute:: line_kind
+      :type:  str
+
+
+.. py:function:: construct_meno_diagonal_doubling(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Socrates' diagonal square-doubling proof (*Meno* 82b–85b).
+
+   Starting from the unit/two-foot baseline ``A=(0,0)``, ``U=(1,0)``, ``B=(2,0)``,
+   constructs by straightedge and compass:
+
+   - Initial :math:`2\times 2` square ``< A B C D >`` of side :math:`2` (:math:`Q(A, B) = 4`, area :math:`4`),
+   - First false conjecture ``< A E F G >`` of doubled side :math:`4` (:math:`Q(A, E) = 16`, area :math:`16`),
+   - Second false conjecture ``< A M N P >`` of three-foot side :math:`3` (:math:`Q(A, M) = 9`, area :math:`9`),
+   - Inscribed diagonal square ``< B H K D >`` cut by the four *diametroi* (:math:`Q(B, H) = 8`, area :math:`8`).
+
+   :param model: Optional existing :class:`~geometor.model.Model` (created if ``None``).
+
+   :returns: Populated :class:`~geometor.model.Model` with verified assertions.
+
+
+.. py:function:: classify_theaetetus_powers(max_n: int = 17) -> list[TheaetetusPowerEntry]
+
+   Classify integer areas ``1..max_n`` into *mēkē* (lengths) and *dynameis* (powers).
+
+   Follows Theaetetus's exact dichotomy (*Theaetetus* 147e–148b):
+
+   - Equilateral square numbers (*isos isakis*, :math:`n = k^2`) produce lines
+     commensurable in length with the unit (*mēkē*).
+   - Oblong numbers (*promēkeis*, non-square :math:`n`) produce lines incommensurable
+     in length with the unit, commensurable only in the plane areas they have the
+     power to form (*dynameis*).
+
+   :param max_n: Upper integer area bound (defaults to Theodorus's ``17``).
+
+   :returns: List of :class:`TheaetetusPowerEntry` records for ``1..max_n``.
+
+
+.. py:function:: construct_theodorus_spiral(model: geometor.model.Model | None = None, max_n: int = 17) -> geometor.model.Model
+
+   Construct Theodorus's exact :math:`\sqrt{1}\dots\sqrt{17}` spiral (*Theaetetus* 147d–148b).
+
+   Starting from ``O=(0,0)`` and ``P1=(1,0)``, each vertex ``P_{n+1}`` is erected
+   along the perpendicular to ``[O, P_n]`` at ``P_n`` (Euclid I.11) at exact unit
+   step ``Q(P_n, P_{n+1}) = 1 = Q(O, P1)`` (Postulate 3) in the positive orientation
+   ``side_of=(O, P_n, +1)``, expanding cross-terms at each step so every coordinate
+   remains a flat :math:`\mathbb{Q}`-linear combination of :math:`\sqrt{k}` (:math:`k \le n`)
+   with zero nested square roots and exact symbolic quadrance ``Q(O, P_{n+1}) = n + 1``.
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+   :param max_n: Maximum integer area ``n`` (defaults to ``17`` per *Theaetetus* 147d6).
+
+   :returns: Populated :class:`~geometor.model.Model` with vertices ``O, P1..P{max_n}``.
+
+
+.. py:function:: verify_divided_line_identity() -> dict[str, sympy.Expr | bool]
+
+   Prove over symbolic ratio :math:`r > 0` that *pistis* equals *dianoia* (*Republic* 509d).
+
+   :returns: Dictionary of exact symbolic lengths, quadrances, and verified proportion checks.
+
+
+.. py:function:: construct_divided_line(model: geometor.model.Model | None = None, ratio: sympy.Expr = sp.GoldenRatio) -> geometor.model.Model
+
+   Construct Plato's Divided Line (*Republic* VI, 509d–511e) and verify middle equality.
+
+   Divides baseline ``[A, E]`` at ``C`` into Visible ``AC`` and Intelligible ``CE`` in
+   ``1 : r``, and subdivides each realm in the same ratio ``1 : r`` at ``B`` and ``D``:
+
+   - ``AB`` (*eikasia*, length :math:`1`, :math:`Q = 1`),
+   - ``BC`` (*pistis*, length :math:`r`, :math:`Q = r^2`),
+   - ``CD`` (*dianoia*, length :math:`r`, :math:`Q = r^2`),
+   - ``DE`` (*noēsis*, length :math:`r^2`, :math:`Q = r^4`).
+
+   Also constructs the semicircle on ``[A, K]`` of length :math:`1 + r^2` (`AB + DE`)
+   whose ordinate ``BG`` at ``B`` has exact length :math:`\sqrt{1 \cdot r^2} = r`,
+   demonstrating geometrically why ``BC = CD = BG``.
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+   :param ratio: Symbolic proportion :math:`r > 0` (defaults to ``sp.GoldenRatio``).
+
+   :returns: Populated :class:`~geometor.model.Model` with verified equal-middle proof.
+
+
+.. py:function:: construct_timaeus_proportion_circles(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct the Three Platonic Means & Circles of Same/Different (*Timaeus* 31c–36d).
+
+   On diameter ``AB`` of length :math:`2 + 4 = 6` (`A=(0,0)`, `J=(2,0)`, `O=(3,0)`, `B=(6,0)`),
+   exhibits in a single exact Euclidean figure:
+
+   - **Arithmetic mean** ``O G`` of length :math:`3 = \frac{2+4}{2}` (*hēmiolios*, :math:`Q = 9`),
+   - **Geometric mean** ``J G`` of length :math:`2\sqrt{2} = \sqrt{2\cdot 4}` (:math:`Q = 8`),
+   - **Harmonic mean** ``G H`` of length :math:`\frac{8}{3} = \frac{2\cdot 2\cdot 4}{2+4}` (*epitritos*, :math:`Q = 64/9`),
+   - **Epogdoos ratio** :math:`\frac{OG}{GH} = \frac{3}{8/3} = \frac{9}{8}` (:math:`Q(O,G)/Q(G,H) = 81/64`),
+
+   together with the equatorial Circle of the Same ``(O, B)`` and the inclined Circle
+   of the Different ``[P, Q]`` crossing at ``O`` like the Greek letter :math:`\mathrm{X}` (*chi*, 36b–c).
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model`.
+
+
+.. py:function:: construct_timaeus_triangles(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct the 6-triangle equilateral cosmic face of *Timaeus* 54d–55a.
+
+   Assembles six elementary right-angled scalene half-triangles (*hēmitrigōna*)
+   with exact side lengths :math:`1 : \sqrt{3} : 2` (quadrances :math:`1, 3, 4` and
+   spreads :math:`1/4, 3/4, 1`) meeting thrice along their diagonals and altitudes
+   at the centroid ``G = (0, 0) = X(2)`` to form one equilateral face ``< A B C >``
+   of the Tetrahedron, Octahedron, and Icosahedron.
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model`.
+
+
+.. py:function:: construct_timaeus_cube_face(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct the 4-isosceles-triangle square face of Earth (*Timaeus* 55b).
+
+   Assembles four elementary isosceles right triangles (:math:`1 : 1 : \sqrt{2}`,
+   quadrances :math:`1, 1, 2`; spreads :math:`1/2, 1/2, 1`) with right angles
+   meeting at center ``O=(0,0)`` to form one square face ``< A B C D >`` of the Cube.
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model`.
+
+
+.. py:function:: construct_compass_and_peras(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Unit 6's Compass (*Tornos*), Straight Ray (*Kanōn*) & :math:`1,\sqrt{2},\sqrt{3}` Triad.
+
+   Synthesizes the three foundational definitions and problems of Unit 6:
+
+   1. *Parmenides* 137e & *Philebus* 51c: Circle ``(O, A)`` whose extremities ``A, B, C``
+      are equidistant from the middle ``O=(0,0)``, and straight line ``[A, O, C]`` whose
+      middle ``O`` stands optically before both extremes.
+   2. *Laws* VII, 819d–820d: Unit length ``OC`` (:math:`Q = 1`), breadth ``CD`` (:math:`Q = 1`)
+      yielding plane diagonal ``OD`` (:math:`Q = 2`), and unfolded unit depth ``DE``
+      perpendicular to ``OD`` yielding solid cube diagonal ``OE`` (:math:`Q = 3`).
+
+   :param model: Optional existing :class:`~geometor.model.Model`.
+
+   :returns: Populated :class:`~geometor.model.Model`.
+
+

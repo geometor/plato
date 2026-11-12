@@ -1,0 +1,83 @@
+geometor.plato.render
+=====================
+
+.. py:module:: geometor.plato.render
+
+.. autoapi-nested-parse::
+
+   Interactive `.euclid-graphic` SVG renderer for Plato's geometric constructions.
+
+   Produces dark/light theme-adaptive SVGs from exact :class:`~geometor.model.Model`
+   instances conforming simultaneously to:
+
+   1. Standalone SVG display (GitHub ``README.rst``, browsers, ``prefers-color-scheme``), and
+   2. ``photon-platform/publish`` interactive ``geometor_interactive.js`` figures
+      (``svg.euclid-graphic``, ``<defs>`` tick markers, ``#elements``, ``#graphics``,
+      ``#highlights``, ``#points``, ``#labels``, 3-vertex midpoint ``<path>`` geometry,
+      ``data-ref``, and ``data-aliases``).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.plato.render.EMBEDDED_SVG_STYLE
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.plato.render.render_svg_string
+   geometor.plato.render.export_svg
+   geometor.plato.render.export_all_codex_figures
+
+
+Module Contents
+---------------
+
+.. py:data:: EMBEDDED_SVG_STYLE
+   :type:  str
+   :value: ''
+
+
+.. py:function:: render_svg_string(model: geometor.model.Model, *, graphic_id: str = 'g1', title: str = 'Plato Geometric Construction', width: int = 680, height: int = 460, margin: float = 44.0, bbox: tuple[float, float, float, float] | None = None, focus_points: collections.abc.Sequence[sympy.geometry.Point] | None = None, finite_segments: bool = True, include_guides: bool = False, show_labels: bool = True, show_aux_labels: bool = False, label_overrides: dict[str, tuple[str, str]] | None = None, highlight_point_ids: collections.abc.Sequence[str] | None = None) -> str
+
+   Render an exact :class:`~geometor.model.Model` into an interactive ``.euclid-graphic`` SVG string.
+
+   :param model: Populated :class:`~geometor.model.Model`.
+   :param graphic_id: ``data-graphic-id`` attribute for ``geometor_interactive.js``.
+   :param title: Accessible SVG title.
+   :param width: SVG ``viewBox`` width in pixels.
+   :param height: SVG ``viewBox`` height in pixels.
+   :param margin: Outer pixel margin around the framed scene.
+   :param bbox: Optional explicit math viewport ``(xmin, xmax, ymin, ymax)``.
+   :param focus_points: Optional subset of points for auto-framing.
+   :param finite_segments: When ``True`` (default), draw each line strictly spanning all
+                           incident visible points (preventing infinite ray clutter on spiral/grid plates).
+   :param include_guides: If ``True``, include elements marked ``guide=True``.
+   :param show_labels: Master toggle for point labels.
+   :param show_aux_labels: If ``True``, label ``X1..Xn`` auto-intersections.
+   :param label_overrides: Optional mapping ``pt_id -> (base, subscript)``.
+   :param highlight_point_ids: Optional point IDs to emphasize with a halo ring.
+
+   :returns: Complete UTF-8 SVG document string.
+
+
+.. py:function:: export_svg(model: geometor.model.Model, output_path: str | pathlib.Path, *, graphic_id: str = 'g1', title: str = 'Plato Geometric Construction', width: int = 680, height: int = 460, margin: float = 44.0, bbox: tuple[float, float, float, float] | None = None, focus_points: collections.abc.Sequence[sympy.geometry.Point] | None = None, finite_segments: bool = True, include_guides: bool = False, show_labels: bool = True, show_aux_labels: bool = False, label_overrides: dict[str, tuple[str, str]] | None = None, highlight_point_ids: collections.abc.Sequence[str] | None = None) -> pathlib.Path
+
+   Export an interactive ``.euclid-graphic`` SVG file to ``output_path``.
+
+
+.. py:function:: export_all_codex_figures(figures_dir: str | pathlib.Path) -> dict[str, pathlib.Path]
+
+   Generate and write all 6 interactive ``.euclid-graphic`` SVG figures for the Codex.
+
+   :param figures_dir: Target directory (e.g., ``docsrc/_static/figures``).
+
+   :returns: Mapping from figure filename stem to resolved :class:`~pathlib.Path`.
+
+

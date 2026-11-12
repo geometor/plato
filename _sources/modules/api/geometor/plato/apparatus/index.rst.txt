@@ -1,0 +1,69 @@
+geometor.plato.apparatus
+========================
+
+.. py:module:: geometor.plato.apparatus
+
+.. autoapi-nested-parse::
+
+   Scholarly apparatus registries (glossary, persons, bibliography) for *geometor-plato*.
+
+   Exports canonical JSON dictionaries to both ``resources/`` and
+   ``resources/loci_mathematici/`` for ``photon-platform/publish`` inline roles
+   (``:term:``, ``:person:``, ``:cite:``) and compiles ``glossary.rst``,
+   ``persons.rst``, and ``bibliography.rst`` for the Book Codex.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.plato.apparatus.GLOSSARY_DATA
+   geometor.plato.apparatus.PERSONS_DATA
+   geometor.plato.apparatus.CITATIONS_DATA
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.plato.apparatus.render_glossary_rst
+   geometor.plato.apparatus.render_persons_rst
+   geometor.plato.apparatus.render_bibliography_rst
+   geometor.plato.apparatus.write_apparatus_artifacts
+
+
+Module Contents
+---------------
+
+.. py:data:: GLOSSARY_DATA
+   :type:  dict[str, dict[str, str]]
+
+.. py:data:: PERSONS_DATA
+   :type:  dict[str, dict[str, str]]
+
+.. py:data:: CITATIONS_DATA
+   :type:  dict[str, dict[str, str]]
+
+.. py:function:: render_glossary_rst() -> str
+
+   Render ``docsrc/loci_mathematici/glossary.rst``.
+
+
+.. py:function:: render_persons_rst() -> str
+
+   Render ``docsrc/loci_mathematici/persons.rst``.
+
+
+.. py:function:: render_bibliography_rst() -> str
+
+   Render ``docsrc/loci_mathematici/bibliography.rst``.
+
+
+.. py:function:: write_apparatus_artifacts(repo_root: str | pathlib.Path) -> dict[str, pathlib.Path]
+
+   Write ``glossary.json``, ``persons.json``, ``citations.json`` & apparatus ``.rst`` pages.
+
+

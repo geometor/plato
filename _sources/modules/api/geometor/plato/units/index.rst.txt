@@ -1,0 +1,169 @@
+geometor.plato.units
+====================
+
+.. py:module:: geometor.plato.units
+
+.. autoapi-nested-parse::
+
+   Canonical unit and Stephanus passage definitions for *Loci Mathematici et Geometrici*.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.plato.units.DIALOGUE_METADATA
+   geometor.plato.units.CODEX_UNITS
+   geometor.plato.units.CODEX_UNITS_BY_SLUG
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.plato.units.PassageSpec
+   geometor.plato.units.CodexUnitSpec
+
+
+Module Contents
+---------------
+
+.. py:class:: PassageSpec
+
+   Exact primary-source passage specification within a Platonic dialogue.
+
+   :ivar passage_id: Short stable identifier (e.g., ``"meno-81e-85d"``).
+   :ivar dialogue_key: Canonical dialogue slug (``"meno"``, ``"theaetetus"``, ``"republic"``,
+                       ``"timaeus"``, ``"parmenides"``, ``"philebus"``, ``"laws"``).
+   :ivar dialogue_title_en: English title of the dialogue.
+   :ivar dialogue_title_el: Greek title of the dialogue.
+   :ivar heading: Scholarly section heading for this passage.
+   :ivar stephanus_range: Human-readable Stephanus citation span (e.g., ``"81e–85d"``).
+   :ivar start_stephanus: Inclusive starting Burnet ``<milestone unit="section">`` key (lowercase).
+   :ivar end_stephanus: Inclusive ending Burnet ``<milestone unit="section">`` key (lowercase).
+   :ivar burnet_xml: Filename in ``resources/loci_mathematici/sources/el/``.
+   :ivar jowett_txt: Filename in ``resources/loci_mathematici/sources/en/``.
+   :ivar jowett_start_line: 1-based start line in ``jowett_txt`` (``0`` when using Republic inline markers).
+   :ivar jowett_end_line: 1-based inclusive end line in ``jowett_txt`` (``0`` when using Republic inline markers).
+   :ivar republic_start_marker: Optional inline marker in PG #55201 (e.g., ``"509D"``).
+   :ivar republic_end_marker: Optional exclusive stop marker in PG #55201 (e.g., ``"BOOK VII"`` or ``"535A"``).
+
+
+
+   .. py:attribute:: passage_id
+      :type:  str
+
+
+   .. py:attribute:: dialogue_key
+      :type:  str
+
+
+   .. py:attribute:: dialogue_title_en
+      :type:  str
+
+
+   .. py:attribute:: dialogue_title_el
+      :type:  str
+
+
+   .. py:attribute:: heading
+      :type:  str
+
+
+   .. py:attribute:: stephanus_range
+      :type:  str
+
+
+   .. py:attribute:: start_stephanus
+      :type:  str
+
+
+   .. py:attribute:: end_stephanus
+      :type:  str
+
+
+   .. py:attribute:: burnet_xml
+      :type:  str
+
+
+   .. py:attribute:: jowett_txt
+      :type:  str
+
+
+   .. py:attribute:: jowett_start_line
+      :type:  int
+      :value: 0
+
+
+
+   .. py:attribute:: jowett_end_line
+      :type:  int
+      :value: 0
+
+
+
+   .. py:attribute:: republic_start_marker
+      :type:  str
+      :value: ''
+
+
+
+   .. py:attribute:: republic_end_marker
+      :type:  str
+      :value: ''
+
+
+
+.. py:class:: CodexUnitSpec
+
+   Canonical unit in the 4-track Book Codex (``docsrc/loci_mathematici/``).
+
+
+   .. py:attribute:: slug
+      :type:  str
+
+
+   .. py:attribute:: unit_number
+      :type:  str
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: subtitle
+      :type:  str
+
+
+   .. py:attribute:: stephanus_summary
+      :type:  str
+
+
+   .. py:attribute:: figure_svg
+      :type:  str
+
+
+   .. py:attribute:: figure_caption
+      :type:  str
+
+
+   .. py:attribute:: demo_doc
+      :type:  str
+
+
+   .. py:attribute:: passages
+      :type:  tuple[PassageSpec, ...]
+
+
+.. py:data:: DIALOGUE_METADATA
+   :type:  dict[str, dict[str, str]]
+
+.. py:data:: CODEX_UNITS
+   :type:  tuple[CodexUnitSpec, ...]
+
+.. py:data:: CODEX_UNITS_BY_SLUG
+   :type:  dict[str, CodexUnitSpec]
+

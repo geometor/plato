@@ -1,0 +1,39 @@
+geometor.plato.commentary
+=========================
+
+.. py:module:: geometor.plato.commentary
+
+.. autoapi-nested-parse::
+
+   Scholarly summaries, mathematical reconstructions, and Greek philology notes for Units I–VI.
+
+   Maintains strict separation of concerns: primary Codex companion tracks (``-summary.rst``
+   and ``-notes.rst``) contain zero embedded Python code blocks, pairing interactive
+   ``:g:`` / ``:eq:`` SVG references, literal Greek philology (correcting Jowett's literary
+   paraphrases), and Euclidean/Neoplatonic/Scholastic reception with forward links to
+   ``/demos/index``.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.plato.commentary.UNIT_EPIGRAPHS
+   geometor.plato.commentary.UNIT_SUMMARIES
+   geometor.plato.commentary.UNIT_NOTES
+
+
+Module Contents
+---------------
+
+.. py:data:: UNIT_EPIGRAPHS
+   :type:  dict[str, tuple[str, str, str]]
+
+.. py:data:: UNIT_SUMMARIES
+   :type:  dict[str, str]
+
+.. py:data:: UNIT_NOTES
+   :type:  dict[str, str]
+

@@ -1,0 +1,404 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.plato.harmonics &mdash; GEOMETOR • plato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/custom.css?v=d2b6ecbc" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • plato</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">plato</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../mission/index.html"  >Mission</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; plato</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • plato</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../constructions/index.html" title="geometor.plato.constructions">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../render/index.html" title="geometor.plato.render"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.plato.harmonics">
+        <span id="geometor-plato-harmonics"></span><h1>geometor.plato.harmonics<a class="headerlink" href="#module-geometor.plato.harmonics" title="Link to this heading">¶</a></h1>
+        <p>Exact rational harmonics of the World-Soul in Plato’s <em>Timaeus</em> (35b–36b).</p>
+        <p>Implements the Demiurge’s three-stage proportional division of the World-Soul:</p>
+        <ol class="arabic">
+        <li><p><strong>Seven Primordial Portions (*Moirai*, 35b4–c2)</strong>:
+        Double intervals <span class="math notranslate nohighlight">\(1, 2, 4, 8\)</span> and triple intervals <span class="math notranslate nohighlight">\(1, 3, 9, 27\)</span>.</p></li>
+        <li><p><strong>Harmonic and Arithmetic Means (35c2–36a5)</strong>:
+        Into every double and triple interval <span class="math notranslate nohighlight">\([a, b]\)</span>, insert the harmonic mean
+        <span class="math notranslate nohighlight">\(h = \frac{2ab}{a+b}\)</span> (exceeding and exceeded by the same fraction of the
+        extremes) and the arithmetic mean <span class="math notranslate nohighlight">\(m = \frac{a+b}{2}\)</span> (exceeding and
+        exceeded by an equal number), generating fourths (<span class="math notranslate nohighlight">\(4:3\)</span>, <em>epitritos</em>),
+        fifths (<span class="math notranslate nohighlight">\(3:2\)</span>, <em>hēmiolios</em>), and tones (<span class="math notranslate nohighlight">\(9:8\)</span>, <em>epogdoos</em>).</p></li>
+        <li><p><strong>Diatonic Tetrachord Completion &amp; the *Leimma* (36a6–b5)</strong>:
+        Fill every <span class="math notranslate nohighlight">\(4:3\)</span> fourth with two <span class="math notranslate nohighlight">\(9:8\)</span> whole tones, leaving in each
+        fourth the exact minor-semitone remnant (<em>leimma</em>):</p>
+        <div class="math notranslate nohighlight">
+        \[\frac{4/3}{(9/8)^2} = \frac{4/3}{81/64} = \frac{256}{243}.\]</div>
+        </li>
+        </ol>
+        <p>Across the full gamut from <span class="math notranslate nohighlight">\(1\)</span> to <span class="math notranslate nohighlight">\(27\)</span> (four octaves plus a major sixth),
+        the canonical 34-term Crantor–Proclus diatonic scale contains exactly 24 tones of
+        <span class="math notranslate nohighlight">\(9/8\)</span> and 9 <em>leimmata</em> of <span class="math notranslate nohighlight">\(256/243\)</span>:</p>
+        <div class="math notranslate nohighlight">
+        \[\left(\frac{9}{8}\right)^{24} \cdot \left(\frac{256}{243}\right)^{9}
+        = \frac{3^{48}}{2^{72}} \cdot \frac{2^{72}}{3^{45}} = 3^3 = 27.\]</div>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.harmonics.EPOGDOOS" title="geometor.plato.harmonics.EPOGDOOS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EPOGDOOS</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.harmonics.EPITRITOS" title="geometor.plato.harmonics.EPITRITOS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EPITRITOS</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.harmonics.HEMIOLIOS" title="geometor.plato.harmonics.HEMIOLIOS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HEMIOLIOS</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.harmonics.LEIMMA" title="geometor.plato.harmonics.LEIMMA"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LEIMMA</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.harmonics.APOTOME" title="geometor.plato.harmonics.APOTOME"><code class="xref py py-obj docutils literal notranslate"><span class="pre">APOTOME</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.harmonics.COMMA_PYTHAGOREAN" title="geometor.plato.harmonics.COMMA_PYTHAGOREAN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">COMMA_PYTHAGOREAN</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.harmonics.CRANTOR_INTEGER_MULTIPLIER" title="geometor.plato.harmonics.CRANTOR_INTEGER_MULTIPLIER"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CRANTOR_INTEGER_MULTIPLIER</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.harmonics.TimaeusPitch" title="geometor.plato.harmonics.TimaeusPitch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TimaeusPitch</span></code></a></p></td>
+        <td><p>Single exact rational pitch in Plato's <em>Timaeus</em> World-Soul scale (35b–36b).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.harmonics.arithmetic_mean" title="geometor.plato.harmonics.arithmetic_mean"><code class="xref py py-obj docutils literal notranslate"><span class="pre">arithmetic_mean</span></code></a>(a, b) → sympy.Rational</p></td>
+        <td><p>Compute Plato's arithmetic mean <span class="math notranslate nohighlight">\(\frac{a + b}{2}\)</span> (<em>Timaeus</em> 36a1–2).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.harmonics.harmonic_mean" title="geometor.plato.harmonics.harmonic_mean"><code class="xref py py-obj docutils literal notranslate"><span class="pre">harmonic_mean</span></code></a>(a, b) → sympy.Rational</p></td>
+        <td><p>Compute Plato's harmonic mean <span class="math notranslate nohighlight">\(\frac{2ab}{a + b}\)</span> (<em>Timaeus</em> 35c2–36a1).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.harmonics.geometric_mean_squared" title="geometor.plato.harmonics.geometric_mean_squared"><code class="xref py py-obj docutils literal notranslate"><span class="pre">geometric_mean_squared</span></code></a>(a, b) → sympy.Rational</p></td>
+        <td><p>Return the exact squared geometric mean <span class="math notranslate nohighlight">\(ab = m \cdot h\)</span> linking the three means.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.harmonics.build_timaeus_skeleton" title="geometor.plato.harmonics.build_timaeus_skeleton"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_timaeus_skeleton</span></code></a>() → list[sympy.Rational]</p></td>
+        <td><p>Build the 15-term skeleton of primordial portions and their means (<em>Timaeus</em> 35b–36a).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.plato.harmonics.build_timaeus_scale" title="geometor.plato.harmonics.build_timaeus_scale"><code class="xref py py-obj docutils literal notranslate"><span class="pre">build_timaeus_scale</span></code></a>() → list[TimaeusPitch]</p></td>
+        <td><p>Construct the complete 34-term exact rational World-Soul scale (<em>Timaeus</em> 35b–36b).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.plato.harmonics.verify_timaeus_gamut" title="geometor.plato.harmonics.verify_timaeus_gamut"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_timaeus_gamut</span></code></a>([pitches]) → dict[str, sympy.Rational | int | bool]</p></td>
+        <td><p>Verify exact algebraic identities across the <em>Timaeus</em> World-Soul scale.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.EPOGDOOS">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">EPOGDOOS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.plato.harmonics.EPOGDOOS" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.EPITRITOS">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">EPITRITOS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.plato.harmonics.EPITRITOS" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.HEMIOLIOS">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">HEMIOLIOS</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.plato.harmonics.HEMIOLIOS" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.LEIMMA">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">LEIMMA</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.plato.harmonics.LEIMMA" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.APOTOME">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">APOTOME</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.plato.harmonics.APOTOME" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.COMMA_PYTHAGOREAN">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">COMMA_PYTHAGOREAN</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.plato.harmonics.COMMA_PYTHAGOREAN" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.CRANTOR_INTEGER_MULTIPLIER">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">CRANTOR_INTEGER_MULTIPLIER</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><span class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">384</span></span><a class="headerlink" href="#geometor.plato.harmonics.CRANTOR_INTEGER_MULTIPLIER" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.TimaeusPitch">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">TimaeusPitch</span></span><a class="headerlink" href="#geometor.plato.harmonics.TimaeusPitch" title="Link to this definition">¶</a></dt>
+        <dd><p>Single exact rational pitch in Plato’s <em>Timaeus</em> World-Soul scale (35b–36b).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Variables<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>index</strong> – 1-based ordinal index in the ascending scale (<code class="docutils literal notranslate"><span class="pre">1..34</span></code>).</p></li>
+        <li><p><strong>ratio</strong> – Exact <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.Rational</span></code> value in <span class="math notranslate nohighlight">\([1, 27]\)</span>.</p></li>
+        <li><p><strong>crantor_integer</strong> – Exact integer value under Crantor’s multiplier <span class="math notranslate nohighlight">\(384\)</span>.</p></li>
+        <li><p><strong>provenance</strong> – Generation stage (<code class="docutils literal notranslate"><span class="pre">&quot;primordial&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;mean&quot;</span></code>, or <code class="docutils literal notranslate"><span class="pre">&quot;epogdoos&quot;</span></code>).</p></li>
+        <li><p><strong>step_from_prev</strong> – Exact adjacent ratio <span class="math notranslate nohighlight">\(r_k / r_{k-1}\)</span> (<code class="docutils literal notranslate"><span class="pre">None</span></code> for <code class="docutils literal notranslate"><span class="pre">index=1</span></code>).</p></li>
+        <li><p><strong>step_name</strong> – Greek interval name (<code class="docutils literal notranslate"><span class="pre">&quot;arche&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;epogdoos</span> <span class="pre">(9:8)&quot;</span></code>, or <code class="docutils literal notranslate"><span class="pre">&quot;leimma</span> <span class="pre">(256:243)&quot;</span></code>).</p></li>
+        </ul>
+        </dd>
+        </dl>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.TimaeusPitch.index">
+        <span class="sig-name descname"><span class="pre">index</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.plato.harmonics.TimaeusPitch.index" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.TimaeusPitch.ratio">
+        <span class="sig-name descname"><span class="pre">ratio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.plato.harmonics.TimaeusPitch.ratio" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.TimaeusPitch.crantor_integer">
+        <span class="sig-name descname"><span class="pre">crantor_integer</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.plato.harmonics.TimaeusPitch.crantor_integer" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.TimaeusPitch.provenance">
+        <span class="sig-name descname"><span class="pre">provenance</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.plato.harmonics.TimaeusPitch.provenance" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.TimaeusPitch.step_from_prev">
+        <span class="sig-name descname"><span class="pre">step_from_prev</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><a class="headerlink" href="#geometor.plato.harmonics.TimaeusPitch.step_from_prev" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.TimaeusPitch.step_name">
+        <span class="sig-name descname"><span class="pre">step_name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.plato.harmonics.TimaeusPitch.step_name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.arithmetic_mean">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">arithmetic_mean</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Rational</span></span></span><a class="headerlink" href="#geometor.plato.harmonics.arithmetic_mean" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute Plato’s arithmetic mean <span class="math notranslate nohighlight">\(\frac{a + b}{2}\)</span> (<em>Timaeus</em> 36a1–2).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.harmonic_mean">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">harmonic_mean</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Rational</span></span></span><a class="headerlink" href="#geometor.plato.harmonics.harmonic_mean" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute Plato’s harmonic mean <span class="math notranslate nohighlight">\(\frac{2ab}{a + b}\)</span> (<em>Timaeus</em> 35c2–36a1).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.geometric_mean_squared">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">geometric_mean_squared</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Rational</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">int</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Rational</span></span></span><a class="headerlink" href="#geometor.plato.harmonics.geometric_mean_squared" title="Link to this definition">¶</a></dt>
+        <dd><p>Return the exact squared geometric mean <span class="math notranslate nohighlight">\(ab = m \cdot h\)</span> linking the three means.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.build_timaeus_skeleton">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">build_timaeus_skeleton</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.plato.harmonics.build_timaeus_skeleton" title="Link to this definition">¶</a></dt>
+        <dd><p>Build the 15-term skeleton of primordial portions and their means (<em>Timaeus</em> 35b–36a).</p>
+        <p>Combines <code class="docutils literal notranslate"><span class="pre">{1,</span> <span class="pre">2,</span> <span class="pre">4,</span> <span class="pre">8}</span></code> and <code class="docutils literal notranslate"><span class="pre">{1,</span> <span class="pre">3,</span> <span class="pre">9,</span> <span class="pre">27}</span></code> with the harmonic and arithmetic
+        means inserted into every double interval <code class="docutils literal notranslate"><span class="pre">[1,2],</span> <span class="pre">[2,4],</span> <span class="pre">[4,8]</span></code> and every triple
+        interval <code class="docutils literal notranslate"><span class="pre">[1,3],</span> <span class="pre">[3,9],</span> <span class="pre">[9,27]</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>Sorted list of 15 exact <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.Rational</span></code> values from <code class="docutils literal notranslate"><span class="pre">1</span></code> to <code class="docutils literal notranslate"><span class="pre">27</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.build_timaeus_scale">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">build_timaeus_scale</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.plato.harmonics.TimaeusPitch" title="geometor.plato.harmonics.TimaeusPitch"><span class="pre">TimaeusPitch</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.plato.harmonics.build_timaeus_scale" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the complete 34-term exact rational World-Soul scale (<em>Timaeus</em> 35b–36b).</p>
+        <p>Follows Plato’s three-stage algorithm:</p>
+        <ol class="arabic simple">
+        <li><p>Establish the 7 primordial portions <code class="docutils literal notranslate"><span class="pre">{1,</span> <span class="pre">2,</span> <span class="pre">3,</span> <span class="pre">4,</span> <span class="pre">8,</span> <span class="pre">9,</span> <span class="pre">27}</span></code>.</p></li>
+        <li><p>Insert harmonic and arithmetic means in all double and triple intervals, and
+        decompose the remaining <span class="math notranslate nohighlight">\(3:2\)</span> <em>hēmiolios</em> fifths <code class="docutils literal notranslate"><span class="pre">[9,</span> <span class="pre">27/2]</span></code> and
+        <code class="docutils literal notranslate"><span class="pre">[18,</span> <span class="pre">27]</span></code> into <span class="math notranslate nohighlight">\(4:3\)</span> (<em>epitritos</em>) plus <span class="math notranslate nohighlight">\(9:8\)</span> (<em>epogdoos</em>)
+        via <code class="docutils literal notranslate"><span class="pre">12</span></code> and <code class="docutils literal notranslate"><span class="pre">24</span></code> (Crantor &amp; Proclus, <em>In Timaeum</em> II.168–192).</p></li>
+        <li><p>Fill every <span class="math notranslate nohighlight">\(4:3\)</span> fourth with two ascending <span class="math notranslate nohighlight">\(9:8\)</span> tones, leaving
+        the exact <span class="math notranslate nohighlight">\(256:243\)</span> <em>leimma</em> at the top of each tetrachord.</p></li>
+        </ol>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>Ascending list of 34 <a class="reference internal" href="#geometor.plato.harmonics.TimaeusPitch" title="geometor.plato.harmonics.TimaeusPitch"><code class="xref py py-class docutils literal notranslate"><span class="pre">TimaeusPitch</span></code></a> records spanning <code class="docutils literal notranslate"><span class="pre">1</span></code> to <code class="docutils literal notranslate"><span class="pre">27</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.plato.harmonics.verify_timaeus_gamut">
+        <span class="sig-prename descclassname"><span class="pre">geometor.plato.harmonics.</span></span><span class="sig-name descname"><span class="pre">verify_timaeus_gamut</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pitches</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.plato.harmonics.TimaeusPitch" title="geometor.plato.harmonics.TimaeusPitch"><span class="pre">TimaeusPitch</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.plato.harmonics.verify_timaeus_gamut" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify exact algebraic identities across the <em>Timaeus</em> World-Soul scale.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>pitches</strong> – Optional precomputed scale from <a class="reference internal" href="#geometor.plato.harmonics.build_timaeus_scale" title="geometor.plato.harmonics.build_timaeus_scale"><code class="xref py py-func docutils literal notranslate"><span class="pre">build_timaeus_scale()</span></code></a>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Dictionary of verified counts and exact rational invariants.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../constructions/index.html" title="geometor.plato.constructions">&larr; <span class="nav-label">geometor.plato.constructions</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • plato</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../render/index.html" title="geometor.plato.render"><span class="nav-label">geometor.plato.render</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-initial-codex.html">Initial Codex & Symbolic Engine — Loci Mathematici et Geometrici (Burnet OCT & Jowett Edition)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/apparatus.html">apparatus</a></li>
+        <li><a href="../../../../../types/el.html">el</a></li>
+        <li><a href="../../../../../types/log.html">log</a></li>
+        <li><a href="../../../../../types/notes.html">notes</a></li>
+        <li><a href="../../../../../types/summary.html">summary</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../about/index.html"  >About</a></li>
+        <li><a href="../../../../../changelog.html"  >changelog</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 2026, GEOMETOR • Burnet OCT (1900–1907) & Jowett (1892) Critical Codex.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

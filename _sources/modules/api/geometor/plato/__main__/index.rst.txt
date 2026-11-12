@@ -1,0 +1,11 @@
+geometor.plato.__main__
+=======================
+
+.. py:module:: geometor.plato.__main__
+
+.. autoapi-nested-parse::
+
+   Module entry point allowing `python -m geometor.plato` execution.
+
+
+
