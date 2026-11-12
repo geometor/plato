@@ -1,0 +1,56 @@
+[project]
+name = "geometor-plato"
+dynamic = ["version"]
+authors = [
+  { name = "phi ARCHITECT", email = "phi@geometor.com" },
+]
+description = "Plato's Mathematical & Geometric Dialogues (Loci Mathematici et Geometrici) — 4-Track Synchronized Burnet Greek & Jowett English Book Codex with Exact Symbolic Constructions."
+readme = "README.rst"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "sympy",
+    "rich",
+    "geometor-model",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[project.scripts]
+geometor-plato = "geometor.plato.cli:main"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometor"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+version = {attr = "geometor.plato.__version__"}
+
+[project.urls]
+"Website" = "https://geometor.github.io/plato"
+"Repository" = "https://github.com/geometor/plato"
+"Issues" = "https://github.com/geometor/plato/issues"
+
+[tool.ruff]
+lint.select = ["E", "F", "I", "ANN", "D"]
+lint.ignore = ["E501"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

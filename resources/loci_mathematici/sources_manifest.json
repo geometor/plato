@@ -1,0 +1,120 @@
+{
+  "edition": "GEOMETOR • plato — Loci Mathematici et Geometrici",
+  "greek_authority": "John Burnet, Platonis Opera, Vols. I–V (Oxford: Clarendon Press, 1900–1907, Perseus Canonical GreekLit TEI-XML)",
+  "english_authority": "Benjamin Jowett, The Dialogues of Plato, 3rd ed., 5 vols. (Oxford: Clarendon Press, 1892, Project Gutenberg public domain)",
+  "file_count": 14,
+  "files": [
+    {
+      "dialogue_key": "meno",
+      "language": "el",
+      "edition": "John Burnet, Platonis Opera, Tomus III (Oxford, 1903) (tlg0059.tlg024)",
+      "relative_path": "resources/loci_mathematici/sources/el/tlg0059.tlg024.burnet_oct.xml",
+      "size_bytes": 162700,
+      "sha256": "789e95e17b74af5d740a77edab9a888f94a606e191d2b9d7d7e8e5cb2bf5f585"
+    },
+    {
+      "dialogue_key": "meno",
+      "language": "en",
+      "edition": "Benjamin Jowett, Project Gutenberg #1643 (Jowett 3rd ed., 1892)",
+      "relative_path": "resources/loci_mathematici/sources/en/meno_jowett_pg1643.txt",
+      "size_bytes": 142349,
+      "sha256": "8c49ac25bef6f3482c5672155c4955eeab90e04709127c5ce211e55efa7485a8"
+    },
+    {
+      "dialogue_key": "theaetetus",
+      "language": "el",
+      "edition": "John Burnet, Platonis Opera, Tomus I (Oxford, 1900; 2nd ed. 1905) (tlg0059.tlg006)",
+      "relative_path": "resources/loci_mathematici/sources/el/tlg0059.tlg006.burnet_oct.xml",
+      "size_bytes": 383021,
+      "sha256": "a1b54593888b01d2ea81eb6752e0d170feec1c60ba6bf63ea025d76095722e23"
+    },
+    {
+      "dialogue_key": "theaetetus",
+      "language": "en",
+      "edition": "Benjamin Jowett, Project Gutenberg #1726 (Jowett 3rd ed., 1892)",
+      "relative_path": "resources/loci_mathematici/sources/en/theaetetus_jowett_pg1726.txt",
+      "size_bytes": 390030,
+      "sha256": "bf52d78a0b98c99fa8a6a34ec9df9b98b4191ae39c4836a79e4f1d211298e60b"
+    },
+    {
+      "dialogue_key": "republic",
+      "language": "el",
+      "edition": "John Burnet, Platonis Opera, Tomus IV (Oxford, 1902/1905) (tlg0059.tlg030)",
+      "relative_path": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml",
+      "size_bytes": 1297564,
+      "sha256": "5f9f8ad62cdbfb0446223cc93a52215614c10e66c4ffd53a99d497ded855edfd"
+    },
+    {
+      "dialogue_key": "republic",
+      "language": "en",
+      "edition": "Benjamin Jowett, Project Gutenberg #55201 (Jowett 3rd ed., 1892, with Stephanus pagination)",
+      "relative_path": "resources/loci_mathematici/sources/en/republic_jowett_pg55201.txt",
+      "size_bytes": 1427746,
+      "sha256": "2923baac4976ed3139f750bf6283f7adb9d6ec661961db21aa46c6f99ff01eb0"
+    },
+    {
+      "dialogue_key": "timaeus",
+      "language": "el",
+      "edition": "John Burnet, Platonis Opera, Tomus IV (Oxford, 1902/1905) (tlg0059.tlg031)",
+      "relative_path": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml",
+      "size_bytes": 324831,
+      "sha256": "cd73ff8a2551cf1b1bd37eb7f810ef36019a734745d70453a61476010d33e123"
+    },
+    {
+      "dialogue_key": "timaeus",
+      "language": "en",
+      "edition": "Benjamin Jowett, Project Gutenberg #1572 (Jowett 3rd ed., 1892)",
+      "relative_path": "resources/loci_mathematici/sources/en/timaeus_jowett_pg1572.txt",
+      "size_bytes": 468332,
+      "sha256": "c9e32662221c9487c937016a5ad3adba9b765ce5aa66478807b593e58fec8746"
+    },
+    {
+      "dialogue_key": "parmenides",
+      "language": "el",
+      "edition": "John Burnet, Platonis Opera, Tomus II (Oxford, 1901; 2nd ed. 1910) (tlg0059.tlg009)",
+      "relative_path": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml",
+      "size_bytes": 202629,
+      "sha256": "7ce5683aaad09582aa92c708e946a67784cd59cb815eb648c3d3f8e43a02d198"
+    },
+    {
+      "dialogue_key": "parmenides",
+      "language": "en",
+      "edition": "Benjamin Jowett, Project Gutenberg #1687 (Jowett 3rd ed., 1892)",
+      "relative_path": "resources/loci_mathematici/sources/en/parmenides_jowett_pg1687.txt",
+      "size_bytes": 216573,
+      "sha256": "07670acd50a86725a73c698ac5705610520b44e3e4b488d45282a5496d20cb63"
+    },
+    {
+      "dialogue_key": "philebus",
+      "language": "el",
+      "edition": "John Burnet, Platonis Opera, Tomus II (Oxford, 1901; 2nd ed. 1910) (tlg0059.tlg010)",
+      "relative_path": "resources/loci_mathematici/sources/el/tlg0059.tlg010.burnet_oct.xml",
+      "size_bytes": 323474,
+      "sha256": "d082ba8a0f49ff234df056851d6a042123289ad3a6fe3eb845db82713f8efcc5"
+    },
+    {
+      "dialogue_key": "philebus",
+      "language": "en",
+      "edition": "Benjamin Jowett, Project Gutenberg #1744 (Jowett 3rd ed., 1892)",
+      "relative_path": "resources/loci_mathematici/sources/en/philebus_jowett_pg1744.txt",
+      "size_bytes": 280856,
+      "sha256": "73fd3908f4d3e40f78d5ee03264180bf0e77de305b55a6b9276904c21f72bb44"
+    },
+    {
+      "dialogue_key": "laws",
+      "language": "el",
+      "edition": "John Burnet, Platonis Opera, Tomus V (Oxford, 1907) (tlg0059.tlg034)",
+      "relative_path": "resources/loci_mathematici/sources/el/tlg0059.tlg034.burnet_oct.xml",
+      "size_bytes": 1512357,
+      "sha256": "d04a58a42557c3f738414981fecb73e8e3995da43c41fdfdaa5880c7364dfeaa"
+    },
+    {
+      "dialogue_key": "laws",
+      "language": "en",
+      "edition": "Benjamin Jowett, Project Gutenberg #1750 (Jowett 3rd ed., 1892)",
+      "relative_path": "resources/loci_mathematici/sources/en/laws_jowett_pg1750.txt",
+      "size_bytes": 1341679,
+      "sha256": "b7d919c892fe536e0ced48f2cc6f07c7c06914a67864ca2f8b8bcaf545a7d80e"
+    }
+  ]
+}

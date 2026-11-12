@@ -1,0 +1,274 @@
+{
+  "schema": {
+    "headword": "σχῆμα (schēma)",
+    "greek": "σχῆμα",
+    "latin": "figura",
+    "translation": "Geometric figure",
+    "loci": "Meno 75d–76a; Parmenides 145b; Philebus 51c",
+    "definition": "Defined dialectically by Socrates at Meno 76a7 as 'the limit of solid' (στερεοῦ πέρας), anticipating Euclid Elements I, Defs. 13–14 and XI, Def. 2."
+  },
+  "stereon": {
+    "headword": "στερεόν (stereon)",
+    "greek": "στερεόν",
+    "latin": "solidum",
+    "translation": "Solid / Three-dimensional body",
+    "loci": "Meno 76a; Theaetetus 148b; Republic VII 528a–d; Timaeus 32b; Laws VII 817e",
+    "definition": "Magnitude possessing depth (βάθος) in addition to length and breadth; requires two geometric means for continuous proportion (Timaeus 32b; Elements VIII.12)."
+  },
+  "epipedon": {
+    "headword": "ἐπίπεδον (epipedon)",
+    "greek": "ἐπίπεδον",
+    "latin": "planum / superficies",
+    "translation": "Plane surface / Plane number",
+    "loci": "Meno 76a; Theaetetus 148a; Republic VII 528a; Timaeus 32a, 53c",
+    "definition": "Two-dimensional surface or plane product of two factors; joined in continuous proportion by a single mean proportional (Timaeus 32a; Elements VIII.11)."
+  },
+  "peras": {
+    "headword": "πέρας (peras)",
+    "greek": "πέρας",
+    "latin": "terminus / finis",
+    "translation": "Limit / Determinate ratio",
+    "loci": "Meno 76a; Philebus 16c–26d",
+    "definition": "In Meno 76a, the bounding extremity of a magnitude; in Philebus 25a–d, the supreme ontological genus of equal, double, and every exact ratio of number to number or measure to measure that brings indeterminate continua into symmetry."
+  },
+  "apeiron": {
+    "headword": "ἄπειρον (apeiron)",
+    "greek": "ἄπειρον",
+    "latin": "infinitum / indeterminatum",
+    "translation": "The Unlimited / Indeterminate continuum",
+    "loci": "Parmenides 137d, 145a; Philebus 16c–26d",
+    "definition": "The domain of 'the more and less' (τὸ μᾶλλόν τε καὶ ἧττον) lacking intrinsic numeric or geometric measure prior to the imposition of Limit (peras)."
+  },
+  "anamnesis": {
+    "headword": "ἀνάμνησις (anamnēsis)",
+    "greek": "ἀνάμνησις",
+    "latin": "reminiscentia",
+    "translation": "Noetic recollection",
+    "loci": "Meno 81d–85d",
+    "definition": "Plato's epistemological thesis that geometric discovery—exemplified when Meno's untutored attendant recognizes Q = 4 + 4 = 8 from the diagonal diagram—consists in recovering necessary truths latent within rational soul."
+  },
+  "diametros": {
+    "headword": "διάμετρος (diametros)",
+    "greek": "διάμετρος",
+    "latin": "diameter / diagonalis",
+    "translation": "Diagonal of a square or diameter of a circle",
+    "loci": "Meno 85b; Republic VI 510d",
+    "definition": "Technical geometric term ('as the sophists/geometers call it', Meno 85b4) for the line cutting a square into two equal isosceles right triangles, whose square has double the area of the original square."
+  },
+  "hypothesis": {
+    "headword": "ὑπόθεσις (hypothesis)",
+    "greek": "ὑπόθεσις",
+    "latin": "suppositio",
+    "translation": "Mathematical hypothesis / Starting assumption",
+    "loci": "Meno 86e–87b; Republic VI 510b–511d; VII 533c",
+    "definition": "Both the geometer's analytic reduction of a problem to an auxiliary condition (Meno 86e–87a) and the unexamined postulates of odd, even, figures, and angles from which dianoia reasons downward (Republic VI 510c)."
+  },
+  "parateinein": {
+    "headword": "παρατείνειν / ἐλλείπειν (parateinein / elleipein)",
+    "greek": "παρατείνειν, ἐλλείπειν",
+    "latin": "applicatio arearum cum defectu",
+    "translation": "Elliptic application of area",
+    "loci": "Meno 87a",
+    "definition": "To apply (παρατείνειν) a given area along the diameter of a circle so as to fall short (ἐλλείπειν) by a figure similar to the applied area—equivalent to inscribing a triangle of given area in a circle and to Euclid Elements VI.28."
+  },
+  "mekos": {
+    "headword": "μῆκος (mēkos)",
+    "greek": "μῆκος",
+    "latin": "longitudo",
+    "translation": "Rational / Commensurable length",
+    "loci": "Theaetetus 148a–b; Laws VII 819e",
+    "definition": "In Theaetetus's classification (148a–b), any line segment commensurable in linear measure with the chosen unit—specifically the side of an equilateral square number (1, 4, 9, 16, ...)."
+  },
+  "dynamis": {
+    "headword": "δύναμις (dynamis)",
+    "greek": "δύναμις",
+    "latin": "potentia",
+    "translation": "Quadratic power / Incommensurable square-root line",
+    "loci": "Theaetetus 147d–148b; Republic VIII 546b; Timaeus 31c",
+    "definition": "A line segment incommensurable in length (μήκει οὐ σύμμετρος) with the unit, yet commensurable by the plane square area it has the 'power' (δύναται) to generate (√2, √3, √5, ..., √17; cf. Euclid Elements X, Defs. 1–4 & X.9)."
+  },
+  "isos-isakis": {
+    "headword": "ἴσος ἰσάκις (isos isakis)",
+    "greek": "ἴσος ἰσάκις",
+    "latin": "aequaliter aequalis / numerus quadratus",
+    "translation": "Equilateral square number",
+    "loci": "Theaetetus 147e",
+    "definition": "An integer factorable as equal times equal (n = k · k), likened to a square geometric figure; its side is commensurable in length (mēkos) with the unit (Euclid VII, Def. 18)."
+  },
+  "promekes": {
+    "headword": "προμήκης (promēkēs)",
+    "greek": "προμήκης ἀριθμός",
+    "latin": "numerus oblongus",
+    "translation": "Oblong (non-square) number",
+    "loci": "Theaetetus 148a",
+    "definition": "An integer enclosed by unequal factors (greater times less, e.g., 3 = 3×1, 6 = 3×2), whose equivalent square has a side that is a quadratic surd (dynamis)."
+  },
+  "eikasia": {
+    "headword": "εἰκασία (eikasia)",
+    "greek": "εἰκασία",
+    "latin": "imaginatio / conjectura",
+    "translation": "Apprehension of shadows and reflections",
+    "loci": "Republic VI 509e–511e; VII 534a",
+    "definition": "Lowest segment (/ A B /) of the Divided Line, directed toward cast shadows and specular reflections in water and polished surfaces."
+  },
+  "pistis": {
+    "headword": "πίστις (pistis)",
+    "greek": "πίστις",
+    "latin": "fides",
+    "translation": "Sensible belief / Conviction",
+    "loci": "Republic VI 510a, 511e; VII 534a",
+    "definition": "Upper segment (/ B C /) of the visible realm on the Divided Line, grasping physical organisms and artifacts—the very objects geometers redeploy as visible diagrams in dianoia (/ C D /) with exact proportional equality ``|BC| = |CD|``."
+  },
+  "dianoia": {
+    "headword": "διάνοια (dianoia)",
+    "greek": "διάνοια",
+    "latin": "ratio discursiva / cogitatio",
+    "translation": "Discursive mathematical understanding",
+    "loci": "Republic VI 510b–511e; VII 533d–534a",
+    "definition": "Lower segment (/ C D /) of the intelligible realm: the proper cognitive state of geometry and the sister sciences, reasoning deductively from unexamined hypotheses with the aid of visible diagrams toward immutable intelligible figures."
+  },
+  "noesis": {
+    "headword": "νόησις / νοῦς (noēsis / nous)",
+    "greek": "νόησις, νοῦς",
+    "latin": "intellectus / intelligentia",
+    "translation": "Pure dialectical intuition",
+    "loci": "Republic VI 511b–e; VII 534a",
+    "definition": "Supreme segment (/ D E /) of the Divided Line, treating hypotheses literally as stepping-stones to ascend to the unhypothetical first principle without sensible images."
+  },
+  "anhypotheton": {
+    "headword": "ἀνυπόθετον (anhypotheton)",
+    "greek": "τὸ ἀνυπόθετον",
+    "latin": "principium non suppositum",
+    "translation": "The unhypothetical first principle",
+    "loci": "Republic VI 510b, 511b; VII 533c",
+    "definition": "The self-grounding first principle of the whole (ἡ τοῦ παντὸς ἀρχή), identified with the Idea of the Good, from which dialectic validates the axioms of mathematics."
+  },
+  "arithmetike": {
+    "headword": "ἀριθμητική (arithmētikē)",
+    "greek": "ἀριθμητική",
+    "latin": "arithmetica",
+    "translation": "Pure number theory",
+    "loci": "Republic VII 525a–526c; Philebus 56d–e",
+    "definition": "First science of the Platonic Quadrivium, contemplating abstract equal units completely indivisible and free of sensible inequality (cf. Euclid Books VII–IX)."
+  },
+  "logistike": {
+    "headword": "λογιστική (logistikē)",
+    "greek": "λογιστική",
+    "latin": "logistica",
+    "translation": "Science of numerical ratios and calculation",
+    "loci": "Republic VII 525a–c; Laws VII 817e",
+    "definition": "Paired with arithmetic as the study of the mutual quantitative relations of numbers; distinguished into vulgar mercantile reckoning vs. philosophical ratio theory."
+  },
+  "stereometria": {
+    "headword": "στερεομετρία / τριχῇ αὔξη (stereometria)",
+    "greek": "ἡ τῶν κύβων αὔξη / στερεόν",
+    "latin": "stereometria",
+    "translation": "Solid geometry (three-dimensional increase)",
+    "loci": "Republic VII 528a–d",
+    "definition": "Third science of the Quadrivium—inserted by Socrates between plane geometry and astronomy—investigating cubes and figures sharing depth; historically realized in Theaetetus's and Eudoxus's work culminating in Euclid Elements Books XI–XIII."
+  },
+  "dialektike": {
+    "headword": "διαλεκτική / θριγκός (dialektikē / thrinkos)",
+    "greek": "διαλεκτική, θριγκός",
+    "latin": "dialectica",
+    "translation": "Dialectic, coping-stone of the mathematical sciences",
+    "loci": "Republic VII 531d–534e",
+    "definition": "The synoptic science that grasps the kinship (συγγένεια) and community of the five mathematical disciplines and ascends to the essence (λόγος τῆς οὐσίας) of each thing."
+  },
+  "analogia": {
+    "headword": "ἀναλογία (analogia)",
+    "greek": "ἀναλογία",
+    "latin": "proportio",
+    "translation": "Geometric proportion",
+    "loci": "Timaeus 31c–32c; Republic VI 509d, VII 534a",
+    "definition": "Continuous equality of ratios (a : b = b : c), revered in Timaeus 31c as the fairest of all bonds because it makes the mean simultaneously first, middle, and last."
+  },
+  "desmos": {
+    "headword": "δεσμός (desmos)",
+    "greek": "δεσμός",
+    "latin": "vinculum",
+    "translation": "Proportional bond",
+    "loci": "Timaeus 31c",
+    "definition": "The unifying mathematical relation binding disparate elements into an indissoluble cosmos: one mean for planes (a, ab, b²), two means for solids (a³, a²b, ab², b³)."
+  },
+  "mesotes": {
+    "headword": "μεσότης (mesotēs)",
+    "greek": "μεσότης",
+    "latin": "medietas",
+    "translation": "Mathematical mean (arithmetic, geometric, harmonic)",
+    "loci": "Timaeus 32a, 36a",
+    "definition": "The three classical Archytean means inscribed in Timaeus 31c–36a: geometric √(ab), harmonic 2ab/(a+b) ('exceeding and exceeded by the same fraction of the extremes'), and arithmetic (a+b)/2 ('exceeding and exceeded by an equal number')."
+  },
+  "epitritos": {
+    "headword": "ἐπίτριτος (epitritos)",
+    "greek": "ἐπίτριτος διάστασις",
+    "latin": "proportio sesquitertia",
+    "translation": "Sesquitertian ratio / Perfect fourth (4 : 3)",
+    "loci": "Timaeus 36a–b",
+    "definition": "Superparticular ratio 1 + 1/3 = 4/3 generated between a double-interval baseline a and its harmonic mean 4a/3, as well as between its arithmetic mean 3a/2 and double 2a."
+  },
+  "hemiolios": {
+    "headword": "ἡμιόλιος (hēmiolios)",
+    "greek": "ἡμιόλιος διάστασις",
+    "latin": "proportio sesquialtera",
+    "translation": "Sesquialter ratio / Perfect fifth (3 : 2)",
+    "loci": "Timaeus 36a",
+    "definition": "Superparticular ratio 1 + 1/2 = 3/2 generated both in the double intervals (between 1 and 3/2) and throughout the triple intervals (1, 3/2, 2, 3)."
+  },
+  "epogdoos": {
+    "headword": "ἐπόγδοος (epogdoos)",
+    "greek": "ἐπόγδοον διάστημα",
+    "latin": "proportio sesquioctava / tonus",
+    "translation": "Whole-tone ratio (9 : 8)",
+    "loci": "Timaeus 36a–b",
+    "definition": "Superparticular ratio 1 + 1/8 = 9/8 separating the arithmetic mean (3/2) from the harmonic mean (4/3), used by the Demiurge to measure out every 4:3 fourth."
+  },
+  "leimma": {
+    "headword": "λεῖμμα (leimma)",
+    "greek": "λεῖμμα",
+    "latin": "limma",
+    "translation": "Pythagorean diatonic semitone (256 : 243)",
+    "loci": "Timaeus 36b",
+    "definition": "The exact rational remainder left when two 9:8 whole tones (81/64) are divided out of a 4:3 fourth: (4/3) / (81/64) = 256/243 ('number to number, 256 to 243')."
+  },
+  "stoicheion": {
+    "headword": "στοιχεῖον (stoicheion)",
+    "greek": "στοιχεῖον",
+    "latin": "elementum",
+    "translation": "Geometric element",
+    "loci": "Theaetetus 201e; Timaeus 48b, 53c–55c",
+    "definition": "Originally a letter/syllabic element; transferred by Plato in Timaeus 48b–53d from fire, air, water, and earth (which are 'not even syllables') down to their planar right-triangle constituents—whence Euclid's title Στοιχεῖα."
+  },
+  "hemitrigonon": {
+    "headword": "ἡμιτρίγωνον (hēmitrigōnon)",
+    "greek": "τρίγωνον σκαληνές / ἡμιτρίγωνον",
+    "latin": "semitriangulum",
+    "translation": "Fairest scalene right triangle (1 : √3 : 2)",
+    "loci": "Timaeus 54a–55b",
+    "definition": "Half of an equilateral triangle bisected by its altitude, having exact side quadrances 1, 3, 4 ('the greater side triple in power of the lesser', 54b5) and rational spreads 1/4, 3/4, 1."
+  },
+  "epiprosthesis": {
+    "headword": "ἐπιπρόσθησις (epiprosthēsis)",
+    "greek": "ἐπίπροσθεν εἶναι",
+    "latin": "occultatio optica",
+    "translation": "Optical line-of-sight occultation",
+    "loci": "Parmenides 137e",
+    "definition": "Plato's celebrated definition of the straight line (εὐθύ): 'that of which the middle stands in front of (blocks) both extremes' along a visual ray."
+  },
+  "tornos-kanon": {
+    "headword": "τόρνος καὶ κανών (tornos kai kanōn)",
+    "greek": "τόρνος, κανών, διαβήτης",
+    "latin": "circinus et regula",
+    "translation": "Compass/lathe and straightedge",
+    "loci": "Philebus 51c, 56b",
+    "definition": "Canonical constructive instruments generating pure, non-relative geometric beauty (circles, straight lines, planes, and solids) intrinsic to form itself."
+  },
+  "symmetros-asymmetros": {
+    "headword": "σύμμετρος / ἀσύμμετρος (symmetros / asymmetros)",
+    "greek": "σύμμετρος, ἀσύμμετρος",
+    "latin": "commensurabilis / incommensurabilis",
+    "translation": "Commensurable & Incommensurable",
+    "loci": "Theaetetus 147d–148b; Laws VII 819e–820c",
+    "definition": "Having (or lacking) a common unit measure across lengths, surfaces, and solids; declared in Laws VII 819e–820c indispensable knowledge distinguishing rational human beings from 'swine-like' ignorance."
+  }
+}

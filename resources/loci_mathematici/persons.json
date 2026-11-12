@@ -1,0 +1,140 @@
+{
+  "plato": {
+    "name": "Plato of Athens",
+    "dates": "c. 428 – 347 BC",
+    "role": "Founder of the Academy & Architect of Mathematical Philosophy",
+    "bio": "Founded the Athenian Academy (c. 387 BC), elevating pure arithmetic, plane geometry, solid geometry, mathematical astronomy, and harmonics into the indispensable propaedeutic to dialectic and catalyzing the research of Theaetetus and Eudoxus."
+  },
+  "socrates": {
+    "name": "Socrates of Athens",
+    "dates": "469 – 399 BC",
+    "role": "Dialectical Interlocutor in Meno, Theaetetus, Republic & Philebus",
+    "bio": "Guides Meno's attendant through the diagonal doubling proof, frames Theaetetus's classification of powers, expounds the Divided Line and Quadrivium, and analyzes Limit (peras) and pure geometric beauty in the Philebus."
+  },
+  "meno": {
+    "name": "Meno of Pharsalus",
+    "dates": "c. 423 – 400 BC",
+    "role": "Thessalian Aristocrat & Interlocutor of the Meno",
+    "bio": "Raises the celebrated paradox of inquiry (Meno 80d), prompting Socrates' geometric demonstration of recollection on his Greek-speaking household attendant and the method of inquiry from hypothesis."
+  },
+  "theodorus": {
+    "name": "Theodorus of Cyrene",
+    "dates": "c. 465 – 398 BC",
+    "role": "Pythagorean Geometer & Teacher of Plato and Theaetetus",
+    "bio": "Proved case-by-case via diagrams that the sides of squares of 3, 5, ..., 17 square feet are incommensurable in length with the 1-foot unit (Theaetetus 147d)."
+  },
+  "theaetetus": {
+    "name": "Theaetetus of Athens",
+    "dates": "c. 417 – 369 BC",
+    "role": "Academic Geometer of Irrational Powers & the Five Regular Solids",
+    "bio": "Generalized Theodorus's surds into the universal classification of lengths (mēkē) and powers (dynameis), founded the theory of medial/binomial/apotome irrationals (Euclid Book X), and first constructed all five regular polyhedra (Euclid Book XIII)."
+  },
+  "glaucon": {
+    "name": "Glaucon of Athens",
+    "dates": "c. 445 – 4th c. BC",
+    "role": "Elder Brother of Plato & Interlocutor of Republic Books VI–VII",
+    "bio": "Converse partner with Socrates throughout the Divided Line (509d–511e) and the mathematical curriculum of the Quadrivium (525a–534e)."
+  },
+  "timaeus": {
+    "name": "Timaeus of Locri",
+    "dates": "5th c. BC (dramatic persona)",
+    "role": "Italic Pythagorean Astronomer-Statesman & Speaker of the Timaeus",
+    "bio": "Expounds the geometric proportion binding the four elements, the harmonic division of the World-Soul (31b–36d), and the reconstruction of physical bodies from elementary isosceles and scalene right triangles (53c–56c)."
+  },
+  "parmenides": {
+    "name": "Parmenides of Elea",
+    "dates": "fl. early 5th c. BC",
+    "role": "Founder of Eleatic Ontology & Speaker of the Eight Hypotheses",
+    "bio": "Conducts the dialectical exercise of Parmenides 137c–166c, articulating the foundational definitions of equidistant roundness and optical straightness (137e, 145b)."
+  },
+  "protarchus": {
+    "name": "Protarchus of Athens",
+    "dates": "late 5th c. BC",
+    "role": "Interlocutor of the Philebus",
+    "bio": "Examines with Socrates the fourfold ontology of Limit, Unlimited, Mixture, and Cause (16c–26d) and the pure beauty of compass-and-straightedge forms (51b–52c)."
+  },
+  "athenian-stranger": {
+    "name": "The Athenian Stranger",
+    "dates": "4th c. BC (dramatic persona)",
+    "role": "Philosophical Legislator of the Laws",
+    "bio": "Denounces Greek pedagogical ignorance of three-dimensional incommensurability in Laws VII (817e–820d) before Clinias of Crete and Megillus of Sparta."
+  },
+  "pythagoras": {
+    "name": "Pythagoras & the Italic Pythagoreans",
+    "dates": "6th – 4th c. BC",
+    "role": "Pioneers of Harmonic Ratios, Figurate Numbers & Application of Areas",
+    "bio": "Discovered the diatonic ratios (2:1, 3:2, 4:3, 9:8, 256:243), the application of areas, and quadratic incommensurability; commended in Republic VII 530d as treating astronomy and harmonics as sister sciences."
+  },
+  "archytas": {
+    "name": "Archytas of Tarentum",
+    "dates": "c. 428 – 347 BC",
+    "role": "Pythagorean Geometer, Theorist of the Three Means & Friend of Plato",
+    "bio": "Defined the arithmetic, geometric, and harmonic means in music (DK 47 B2), proved no superparticular ratio (n+1):n admits a rational mean proportional, and solved the doubling of the cube in three dimensions by intersecting a cylinder, torus, and cone."
+  },
+  "eudoxus": {
+    "name": "Eudoxus of Cnidus",
+    "dates": "c. 390 – c. 337 BC",
+    "role": "Academic Geometer of General Proportion & Method of Exhaustion",
+    "bio": "Answered Plato's challenges with the general theory of proportion valid for commensurable and incommensurable magnitudes alike (Euclid Book V) and rigorous stereometric volume theorems (Euclid Book XII)."
+  },
+  "aristotle": {
+    "name": "Aristotle of Stagira",
+    "dates": "384 – 322 BC",
+    "role": "Student of Plato & Author of the Analytics, Physics, De Caelo & Metaphysics",
+    "bio": "Preserves vital testimony on Plato's mathematical intermediates (ta mathēmatika), resolves Meno's paradox in Posterior Analytics I.1, and critiques the Timaeus planar-triangle physics in De Caelo III.7–8."
+  },
+  "euclid": {
+    "name": "Euclid of Alexandria",
+    "dates": "fl. c. 300 BC",
+    "role": "Author of the Thirteen Books of Elements",
+    "bio": "Systematized the geometric heritage of Plato's Academy, culminating in Book X (Theaetetus's irrationals) and Book XIII (construction and uniqueness of the five Platonic cosmic polyhedra, praised by Proclus as the telos of the Elements)."
+  },
+  "crantor": {
+    "name": "Crantor of Soli",
+    "dates": "c. 335 – 275 BC",
+    "role": "Old Academic First Exegete of Plato's Timaeus",
+    "bio": "Introduced the lambda (Λ) arrangement of the doubles (1, 2, 4, 8) and triples (1, 3, 9, 27) and the least integer base 384 clearing all fractions of the 34-term World-Soul diatonic scale."
+  },
+  "proclus": {
+    "name": "Proclus Diadochus",
+    "dates": "412 – 485 AD",
+    "role": "Neoplatonic Diadochus & Commentator on Euclid I and Plato's Timaeus",
+    "bio": "Wove Philebus's Limit/Unlimited, Republic's Divided Line (dianoia), Meno's anamnesis, and Timaeus's polyhedra into the Prologue of his Commentary on the First Book of Euclid's Elements."
+  },
+  "thomas-aquinas": {
+    "name": "St. Thomas Aquinas",
+    "dates": "1225 – 1274",
+    "role": "Scholastic Doctor of Mathematical Abstraction & Judgment",
+    "bio": "Synthesized Platonic-Aristotelian mathematical epistemology through abstraction in intelligible matter and resolution to imagination (resolutio ad imaginationem)."
+  },
+  "pacioli": {
+    "name": "Fra Luca Pacioli",
+    "dates": "c. 1447 – 1517",
+    "role": "Renaissance Mathematician & Author of De Divina Proportione (1509)",
+    "bio": "Celebrated Timaeus 53c–56c across nine chapters of De Divina Proportione, pairing Leonardo da Vinci's skeletal polyhedral plates with Euclid Book XIII and the golden ratio."
+  },
+  "burnet": {
+    "name": "John Burnet",
+    "dates": "1863 – 1928",
+    "role": "Editor of the Oxford Classical Text Platonis Opera (1900–1907)",
+    "bio": "Scottish classicist at St Andrews whose five-volume Clarendon Press critical edition established the authoritative modern Greek text and Stephanus apparatus of Plato."
+  },
+  "jowett": {
+    "name": "Benjamin Jowett",
+    "dates": "1817 – 1893",
+    "role": "Master of Balliol College, Oxford & Translator of The Dialogues of Plato",
+    "bio": "Produced the monumental five-volume English translation of Plato (3rd revised edition, 1892), staged in the English track of this Codex alongside corrective mathematical philology notes."
+  },
+  "heath": {
+    "name": "Sir Thomas Little Heath",
+    "dates": "1861 – 1940",
+    "role": "Historian of Greek Mathematics & Editor of Euclid's Elements",
+    "bio": "Author of A History of Greek Mathematics (1921) and The Thirteen Books of Euclid's Elements (1926), reconstructing Meno 86e–87b, Theodorus's proofs, and Timaeus's astronomy."
+  },
+  "hoenen": {
+    "name": "Fr. Petrus H. J. Hoenen, S.J.",
+    "dates": "1880 – 1961",
+    "role": "Gregorian University Philosopher of Science & Author of De Noetica Geometriae (1952)",
+    "bio": "Analyzed Meno 82b–85b and Republic VI–VII as perennial witnesses to intellectual insight into geometric necessity within the singular diagram."
+  }
+}

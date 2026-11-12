@@ -1,0 +1,182 @@
+{
+  "burnet:opera:1900": {
+    "author": "Burnet, John (ed.)",
+    "work": "Platonis Opera, recognovit brevique adnotatione critica instruxit Ioannes Burnet, Tomi I–V (Oxford: Clarendon Press, 1900–1907)",
+    "locus": "Tomi I–V",
+    "notes": "Authoritative Oxford Classical Text staged verbatim in the Greek (el) track via Perseus Canonical GreekLit TEI-XML."
+  },
+  "jowett:dialogues:1892": {
+    "author": "Jowett, Benjamin (trans.)",
+    "work": "The Dialogues of Plato, Translated into English with Analyses and Introductions, 3rd ed., 5 vols. (Oxford: Clarendon Press, 1892)",
+    "locus": "Vols. I–V",
+    "notes": "Public-domain English translation staged in the English (en) track with exact mathematical philology notes."
+  },
+  "stephanus:1578": {
+    "author": "Estienne, Henri (Henricus Stephanus, ed.)",
+    "work": "Platonis opera quae extant omnia, 3 vols. (Geneva, 1578)",
+    "locus": "Vols. I–III (a–e sections)",
+    "notes": "Universal pagination and five-section column standard (a–e) governing all Platonic references."
+  },
+  "euclid:elements": {
+    "author": "Euclid of Alexandria",
+    "work": "Στοιχεῖα — The Thirteen Books of Euclid's Elements (ed. Heiberg 1883–1888; trans. Heath 1926)",
+    "locus": "Books I–XIII",
+    "notes": "Deductive culmination of the fourth-century Academic curriculum (geometor/euclid & geometor/elements)."
+  },
+  "euclid:I.def.4": {
+    "author": "Euclid",
+    "work": "Elements, Book I, Definitions 4 & 15 (Straight Line & Circle)",
+    "locus": "I, Defs. 4, 15",
+    "notes": "Euclidean counterpart to Plato's optical straightness and equidistant roundness in Parmenides 137e."
+  },
+  "euclid:I.def.13": {
+    "author": "Euclid",
+    "work": "Elements, Book I, Definitions 13–14 & Book XI, Definition 2 (Boundary, Figure & Solid)",
+    "locus": "I, Defs. 13–14; XI, Def. 2",
+    "notes": "Formalizes Socrates' definition of figure as limit (peras) in Meno 76a."
+  },
+  "euclid:I.1": {
+    "author": "Euclid",
+    "work": "Elements, Book I, Proposition 1 (Equilateral Triangle Construction)",
+    "locus": "I.1",
+    "notes": "Constructs the cosmic equilateral face bisected into six Timaeus 1:√3:2 half-triangles."
+  },
+  "euclid:I.11": {
+    "author": "Euclid",
+    "work": "Elements, Book I, Propositions 11–12 (Perpendicular Lines)",
+    "locus": "I.11–12",
+    "notes": "Erects orthogonal legs in Meno's square, Theodorus's spiral, and the Divided Line mean ordinate."
+  },
+  "euclid:I.46": {
+    "author": "Euclid",
+    "work": "Elements, Book I, Proposition 46 (Construction of a Square)",
+    "locus": "I.46",
+    "notes": "Constructs the given square ABCD and diagonal square BHKD in Meno 82b–85b."
+  },
+  "euclid:I.47": {
+    "author": "Euclid",
+    "work": "Elements, Book I, Proposition 47 (Pythagorean Theorem)",
+    "locus": "I.47",
+    "notes": "General theorem generalizing Socrates' isosceles case Q = 4 + 4 = 8 and iterating Theodorus's spiral Q_{n+1} = Q_n + 1."
+  },
+  "euclid:II.11": {
+    "author": "Euclid",
+    "work": "Elements, Book II, Proposition 11 & Book VI, Proposition 30 (Extreme and Mean Ratio)",
+    "locus": "II.11, VI.30",
+    "notes": "Canonical Academic 'section' (ἡ τομή) realizing the Divided Line under golden ratio φ."
+  },
+  "euclid:II.14": {
+    "author": "Euclid",
+    "work": "Elements, Book II, Proposition 14 & Book VI, Proposition 13 (Quadrature & Mean Proportional)",
+    "locus": "II.14, VI.13",
+    "notes": "Semicircle ordinate construction of quadratic powers √n (Theaetetus 147d) and geometric mean √(ab) (Timaeus 32a)."
+  },
+  "euclid:V.def.5": {
+    "author": "Euclid (Eudoxus)",
+    "work": "Elements, Book V, Definition 5 & Proposition 16 (General Theory of Proportion)",
+    "locus": "V, Def. 5; V.16",
+    "notes": "Proves alternation (A:B = C:D => A:C = B:D) required for the Divided Line equality ``|BC| = |CD|`` even for irrational ratios."
+  },
+  "euclid:VI.28": {
+    "author": "Euclid",
+    "work": "Elements, Book VI, Propositions 27–28 (Elliptic Application of Areas & Diorismos)",
+    "locus": "VI.27–28",
+    "notes": "Exact Euclidean counterpart to Socrates' hypothesis of applying an area with similar defect in Meno 87a."
+  },
+  "euclid:VII.def.16": {
+    "author": "Euclid",
+    "work": "Elements, Book VII, Definitions 16–19 (Plane, Solid, Square & Oblong Numbers)",
+    "locus": "VII, Defs. 16–19",
+    "notes": "Preserves Theaetetus's arithmetic distinction between equilateral square and oblong numbers (147e–148a)."
+  },
+  "euclid:VIII.11": {
+    "author": "Euclid",
+    "work": "Elements, Book VIII, Propositions 11–12 (Means Between Square and Cube Numbers)",
+    "locus": "VIII.11–12",
+    "notes": "Demonstrates Timaeus 32a–b: one mean proportional between two squares, two means between two cubes."
+  },
+  "euclid:X.def.1": {
+    "author": "Euclid (Theaetetus)",
+    "work": "Elements, Book X, Definitions 1–4 & Proposition 9 (Commensurability in Length vs. Square)",
+    "locus": "X, Defs. 1–4; X.9",
+    "notes": "Codifies Theaetetus 147d–148b: squares have commensurable sides iff their areas have the ratio of square numbers."
+  },
+  "euclid:XIII.13": {
+    "author": "Euclid (Theaetetus)",
+    "work": "Elements, Book XIII, Propositions 13–18 (Construction & Exhaustive Comparison of the Five Cosmic Solids)",
+    "locus": "XIII.13–18",
+    "notes": "Inscribes tetrahedron, octahedron, cube, icosahedron, and dodecahedron in a sphere and proves no sixth regular polyhedron can exist (cf. Timaeus 54d–55c)."
+  },
+  "proclus:in-euclidem": {
+    "author": "Proclus Diadochus",
+    "work": "In Primum Euclidis Elementorum Librum Commentarii (ed. Friedlein 1873; trans. Morrow 1970)",
+    "locus": "Friedlein pp. 1–436",
+    "notes": "Neoplatonic mathematical synthesis linking Philebus, Republic VI–VII, Meno, Parmenides, and Timaeus to Euclid Book I (geometor/proclus)."
+  },
+  "proclus:in-timaeum": {
+    "author": "Proclus Diadochus",
+    "work": "In Platonis Timaeum Commentaria, ed. Ernst Diehl, 3 vols. (Leipzig: Teubner, 1903–1906)",
+    "locus": "Vol. II, pp. 167–236 (on Tim. 35a–36d)",
+    "notes": "Preserves Crantor's base-384 integer table and verifies the 34-pitch Timaeus World-Soul scale."
+  },
+  "aristotle:anal-post": {
+    "author": "Aristotle",
+    "work": "Analytica Posteriora, Book I (Bekker 71a1–89b20)",
+    "locus": "71a29, 76b39, 77b30",
+    "notes": "Engages Meno's paradox and Republic's doctrine of mathematical hypotheses and diagrams (geometor/aristotle)."
+  },
+  "aristotle:metaphysics": {
+    "author": "Aristotle",
+    "work": "Metaphysica, Books A.6, B.2, M.1–3 (ed. Ross 1924)",
+    "locus": "987b14–18, 997b, 1076a–1078b",
+    "notes": "Primary witness for Plato's doctrine of mathematical intermediates (ta mathēmatika) between Forms and sensibles."
+  },
+  "aristotle:de-caelo": {
+    "author": "Aristotle",
+    "work": "De Caelo, Book III, Chapters 7–8 (Bekker 305b28–307b24)",
+    "locus": "306a1–307b18",
+    "notes": "Critiques Timaeus 53c–56c on generating three-dimensional bodies from weightless planar triangles."
+  },
+  "heath:greek-math:1921": {
+    "author": "Heath, Sir Thomas Little",
+    "work": "A History of Greek Mathematics, Vol. I: From Thales to Euclid (Oxford: Clarendon Press, 1921)",
+    "locus": "Vol. I, Ch. IX ('Plato', pp. 284–315) & pp. 202–212",
+    "notes": "Standard reconstruction of Meno's geometric hypothesis, Theodorus's √3..√17 methods, and the Timaeus scale."
+  },
+  "heath:euclid:1926": {
+    "author": "Heath, Sir Thomas Little",
+    "work": "The Thirteen Books of Euclid's Elements, 2nd ed., 3 vols. (Cambridge University Press, 1926)",
+    "locus": "Vols. I–III",
+    "notes": "Exhaustive commentary reconciling all 21 Plato citations in geometor/euclid and geometor/elements."
+  },
+  "taylor:timaeus:1928": {
+    "author": "Taylor, A. E.",
+    "work": "A Commentary on Plato's Timaeus (Oxford: Clarendon Press, 1928)",
+    "locus": "pp. 92–164, 362–388",
+    "notes": "Detailed mathematical analysis of the World-Soul harmonic intervals and cosmic polyhedra."
+  },
+  "cornford:timaeus:1937": {
+    "author": "Cornford, Francis Macdonald",
+    "work": "Plato's Cosmology: The Timaeus of Plato Translated with a Running Commentary (London: Routledge, 1937)",
+    "locus": "pp. 43–93, 210–230",
+    "notes": "Clarifies the band construction of the Circles of the Same and the Different and the planar triangle assemblies."
+  },
+  "pacioli:divina:1509": {
+    "author": "Pacioli, Fra Luca",
+    "work": "De Divina Proportione (Venice: Paganino Paganini, 1509)",
+    "locus": "Compendio Caps. V, XXV–LV",
+    "notes": "Renaissance synthesis of Timaeus 53c–56c and Euclid Book XIII (geometor/pacioli)."
+  },
+  "hoenen:noetica:1952": {
+    "author": "Hoenen, Petrus H. J., S.J.",
+    "work": "De Noetica Geometriae: Origine Theoriae Cognitionis (Rome: Analecta Gregoriana 63, 1954)",
+    "locus": "Caps. I, IV, VII",
+    "notes": "Scholastic-noetic analysis of Meno 82b–85b, Republic VI–VII, and Laws V 737e (geometor/hoenen)."
+  },
+  "knorr:evolution:1975": {
+    "author": "Knorr, Wilbur Richard",
+    "work": "The Evolution of the Euclidean Elements: A Study of the Theory of Incommensurable Magnitudes and Its Significance for Early Greek Geometry (Dordrecht: Reidel, 1975)",
+    "locus": "Chs. III–VIII",
+    "notes": "Definitive modern study of Theodorus's stopping-point at √17 and Theaetetus's theory of quadratic powers."
+  }
+}

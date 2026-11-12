@@ -1,0 +1,471 @@
+{
+  "edition": "GEOMETOR • plato — Cross-Corpus Stephanus Concordance",
+  "sister_repositories": [
+    "euclid",
+    "elements",
+    "proclus",
+    "aristotle",
+    "hoenen",
+    "pacioli"
+  ],
+  "unique_citation_keys": 36,
+  "repository_level_declarations": 58,
+  "in_codex_keys": 30,
+  "peripheral_catalogued_keys": 6,
+  "entries": [
+    {
+      "cite_key": "plato:meno:76A",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Meno",
+      "stephanus_locus": "75d–76a",
+      "in_codex": true,
+      "unit_slug": "meno",
+      "stephanus_anchor": "stephanus-meno-76a",
+      "euclid_proclus_context": "Euclid Elements I, Defs. 13–14 & Proclus Friedlein 136–143: figure (schema) defined as limit of solid (stereou peras)."
+    },
+    {
+      "cite_key": "plato:meno",
+      "repos": [
+        "aristotle"
+      ],
+      "dialogue": "Meno",
+      "stephanus_locus": "80d–86c",
+      "in_codex": true,
+      "unit_slug": "meno",
+      "stephanus_anchor": "stephanus-meno-81e",
+      "euclid_proclus_context": "Aristotle Anal. Post. I.1 (71a29) & Anal. Prior. II.21 (67a21): Meno's paradox of inquiry resolved via universal vs. particular recognition."
+    },
+    {
+      "cite_key": "plato:meno:81e-85d",
+      "repos": [
+        "proclus"
+      ],
+      "dialogue": "Meno",
+      "stephanus_locus": "81e–85d",
+      "in_codex": true,
+      "unit_slug": "meno",
+      "stephanus_anchor": "stephanus-meno-81e",
+      "euclid_proclus_context": "Proclus In Euclidem Prologue I (Friedlein 45.15–46.3): mathematical recollection (anamnesis) awakened through diagrammatic discovery."
+    },
+    {
+      "cite_key": "plato:meno:82b-85b",
+      "repos": [
+        "hoenen"
+      ],
+      "dialogue": "Meno",
+      "stephanus_locus": "82b–85b",
+      "in_codex": true,
+      "unit_slug": "meno",
+      "stephanus_anchor": "stephanus-meno-82b",
+      "euclid_proclus_context": "Hoenen De Noetica Geometriae Cap. I & VII: intellectual insight (intuitus mentis) into the necessary nexus Q = 4 + 4 = 8 in the singular diagram."
+    },
+    {
+      "cite_key": "plato:theaetetus",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Theaetetus",
+      "stephanus_locus": "147c–148b",
+      "in_codex": true,
+      "unit_slug": "theaetetus",
+      "stephanus_anchor": "stephanus-theaetetus-147c",
+      "euclid_proclus_context": "Euclid Elements Book X Introduction (Heath Vol. III, pp. 1–4): historical origin of the theory of irrationals in the Academy."
+    },
+    {
+      "cite_key": "plato:theaetetus:147.d",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Theaetetus",
+      "stephanus_locus": "147d",
+      "in_codex": true,
+      "unit_slug": "theaetetus",
+      "stephanus_anchor": "stephanus-theaetetus-147d",
+      "euclid_proclus_context": "Euclid Elements X, Defs. 1–4: commensurable in length (mekei) vs. commensurable in square/power only (dynamei)."
+    },
+    {
+      "cite_key": "plato:theaetetus:147D",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Theaetetus",
+      "stephanus_locus": "147d",
+      "in_codex": true,
+      "unit_slug": "theaetetus",
+      "stephanus_anchor": "stephanus-theaetetus-147d",
+      "euclid_proclus_context": "Euclid Elements X.9 & Scholium: Theodorus's individual proofs from 3 to 17 square feet generalized by Theaetetus."
+    },
+    {
+      "cite_key": "plato:theaetetus:147.d.sqq",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Theaetetus",
+      "stephanus_locus": "147d–148b",
+      "in_codex": true,
+      "unit_slug": "theaetetus",
+      "stephanus_anchor": "stephanus-theaetetus-147d",
+      "euclid_proclus_context": "Euclid Elements VII, Defs. 16–19: plane, equilateral square (isos isakis), and oblong (promekes) numbers."
+    },
+    {
+      "cite_key": "plato:theaetetus:147-e-148-b",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Theaetetus",
+      "stephanus_locus": "147e–148b",
+      "in_codex": true,
+      "unit_slug": "theaetetus",
+      "stephanus_anchor": "stephanus-theaetetus-147e",
+      "euclid_proclus_context": "Euclid Elements X.9: exact number-theoretic criterion for rational lengths (meke) vs. quadratic surds (dynameis)."
+    },
+    {
+      "cite_key": "plato:rep",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "VI 509d–511e; VII 525a–534e",
+      "in_codex": true,
+      "unit_slug": "republic",
+      "stephanus_anchor": "stephanus-republic-509d",
+      "euclid_proclus_context": "Euclid Elements Vol. I Ch. IX: Plato's philosophy of mathematical hypotheses, definitions, and deductive method."
+    },
+    {
+      "cite_key": "plato:republic",
+      "repos": [
+        "aristotle"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "VI 509d–511e; VII 525a–534d",
+      "in_codex": true,
+      "unit_slug": "republic",
+      "stephanus_anchor": "stephanus-republic-509d",
+      "euclid_proclus_context": "Aristotle Metaphysics B.2, M.1–3 & Anal. Post. I.10: mathematical intermediates (ta mathematika), dianoia, and unhypothetical first principles."
+    },
+    {
+      "cite_key": "plato:rep:VI.510b-511d",
+      "repos": [
+        "proclus"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "VI 510b–511d",
+      "in_codex": true,
+      "unit_slug": "republic",
+      "stephanus_anchor": "stephanus-republic-510b",
+      "euclid_proclus_context": "Proclus In Euclidem Prologue I (Friedlein 10.15–11.25, 29.14–32.20): dianoia as the proper cognitive faculty of geometry between nous and opinion."
+    },
+    {
+      "cite_key": "plato:rep:VI.510C",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "VI 510c",
+      "in_codex": true,
+      "unit_slug": "republic",
+      "stephanus_anchor": "stephanus-republic-510c",
+      "euclid_proclus_context": "Euclid Elements I, Defs. 10–12: geometers hypothesize the odd and even, the figures, and the three species of angles (right, obtuse, acute)."
+    },
+    {
+      "cite_key": "plato:rep:VI.510c",
+      "repos": [
+        "hoenen"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "VI 510c–511a",
+      "in_codex": true,
+      "unit_slug": "republic",
+      "stephanus_anchor": "stephanus-republic-510c",
+      "euclid_proclus_context": "Hoenen De Noetica Geometriae Cap. I: geometers use visible figures as images while reasoning about the square itself and the diagonal itself."
+    },
+    {
+      "cite_key": "plato:rep:VII.525a-534e",
+      "repos": [
+        "proclus"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "VII 525a–534e",
+      "in_codex": true,
+      "unit_slug": "republic",
+      "stephanus_anchor": "stephanus-republic-525a",
+      "euclid_proclus_context": "Proclus In Euclidem Prologue I (Friedlein 20.8–24.20, 35.17–42.8): the five mathematical sciences as the cathartic ascent to dialectic."
+    },
+    {
+      "cite_key": "plato:rep:528.b.d",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "VII 528b–d",
+      "in_codex": true,
+      "unit_slug": "republic",
+      "stephanus_anchor": "stephanus-republic-528b",
+      "euclid_proclus_context": "Euclid Elements Book XI Introduction: Plato's programmatic critique of leaping from plane geometry to astronomy before cultivating 3D stereometry."
+    },
+    {
+      "cite_key": "plato:rep:VII.532c",
+      "repos": [
+        "hoenen"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "VII 532c",
+      "in_codex": true,
+      "unit_slug": "republic",
+      "stephanus_anchor": "stephanus-republic-532c",
+      "euclid_proclus_context": "Hoenen De Noetica Geometriae: liberation of the eye of the soul from sensible shadows through mathematical arts."
+    },
+    {
+      "cite_key": "plato:rep:VII.533c",
+      "repos": [
+        "hoenen"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "VII 533c",
+      "in_codex": true,
+      "unit_slug": "republic",
+      "stephanus_anchor": "stephanus-republic-533c",
+      "euclid_proclus_context": "Hoenen De Noetica Geometriae: geometry dreams about being so long as it leaves its hypotheses unmoved without ascending to the unhypothetical."
+    },
+    {
+      "cite_key": "plato:timaeus:31c-36d",
+      "repos": [
+        "proclus"
+      ],
+      "dialogue": "Timaeus",
+      "stephanus_locus": "31c–36d",
+      "in_codex": true,
+      "unit_slug": "timaeus-world-soul",
+      "stephanus_anchor": "stephanus-timaeus-31c",
+      "euclid_proclus_context": "Proclus In Euclidem & In Timaeum: geometric analogia as the fairest cosmic bond and harmonic constitution of the World-Soul."
+    },
+    {
+      "cite_key": "plato:timaeus:32-a-b",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Timaeus",
+      "stephanus_locus": "32a–b",
+      "in_codex": true,
+      "unit_slug": "timaeus-world-soul",
+      "stephanus_anchor": "stephanus-timaeus-32a",
+      "euclid_proclus_context": "Euclid Elements VIII.11–12: one mean proportional suffices between two square/plane numbers, whereas two means are required between solid cubes."
+    },
+    {
+      "cite_key": "plato:timaeus:32-a-sqq",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Timaeus",
+      "stephanus_locus": "32a–c",
+      "in_codex": true,
+      "unit_slug": "timaeus-world-soul",
+      "stephanus_anchor": "stephanus-timaeus-32a",
+      "euclid_proclus_context": "Euclid Elements VIII.11–12 & V, Def. 9–10: duplicate and triplicate ratios of plane and solid numbers."
+    },
+    {
+      "cite_key": "plato:timaeus:32.a.b",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Timaeus",
+      "stephanus_locus": "32a–b",
+      "in_codex": true,
+      "unit_slug": "timaeus-world-soul",
+      "stephanus_anchor": "stephanus-timaeus-32a",
+      "euclid_proclus_context": "Euclid Elements VIII.11–12: architectural necessity of four elements (fire, air, water, earth) from double geometric means."
+    },
+    {
+      "cite_key": "plato:timaeus",
+      "repos": [
+        "euclid",
+        "elements",
+        "aristotle"
+      ],
+      "dialogue": "Timaeus",
+      "stephanus_locus": "31b–36d, 53c–56c",
+      "in_codex": true,
+      "unit_slug": "timaeus-polyhedra",
+      "stephanus_anchor": "stephanus-timaeus-53c",
+      "euclid_proclus_context": "Euclid Elements Book XIII & Aristotle De Caelo III.7–8 (306a1–307b18): resolution of elemental bodies into planar right triangles."
+    },
+    {
+      "cite_key": "plato:timaeus:53c-56c",
+      "repos": [
+        "pacioli"
+      ],
+      "dialogue": "Timaeus",
+      "stephanus_locus": "53c–56c",
+      "in_codex": true,
+      "unit_slug": "timaeus-polyhedra",
+      "stephanus_anchor": "stephanus-timaeus-53c",
+      "euclid_proclus_context": "Luca Pacioli De Divina Proportione (1509, 9 citations across Caps. V, XXV–LV): the five regular Platonic bodies assigned to fire, earth, air, water, and the cosmos."
+    },
+    {
+      "cite_key": "plato:timaeus:54-d-e",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Timaeus",
+      "stephanus_locus": "54d–e",
+      "in_codex": true,
+      "unit_slug": "timaeus-polyhedra",
+      "stephanus_anchor": "stephanus-timaeus-54d",
+      "euclid_proclus_context": "Euclid Elements XIII.13–17: six 1:sqrt(3):2 half-equilateral scalene triangles compose each equilateral cosmic face."
+    },
+    {
+      "cite_key": "plato:parm:137E",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Parmenides",
+      "stephanus_locus": "137e",
+      "in_codex": true,
+      "unit_slug": "foundations",
+      "stephanus_anchor": "stephanus-parmenides-137e",
+      "euclid_proclus_context": "Euclid Elements I, Def. 4 & Def. 15: Plato's optical definition of the straight line ('middle blocks both extremes') and equidistant circle."
+    },
+    {
+      "cite_key": "plato:parmenides:137e",
+      "repos": [
+        "proclus"
+      ],
+      "dialogue": "Parmenides",
+      "stephanus_locus": "137e",
+      "in_codex": true,
+      "unit_slug": "foundations",
+      "stephanus_anchor": "stephanus-parmenides-137e",
+      "euclid_proclus_context": "Proclus In Euclidem (Friedlein 109.21–110.16): commentary on Plato's optical characterization of straightness vs. Euclid I, Def. 4."
+    },
+    {
+      "cite_key": "plato:parm:145B",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Parmenides",
+      "stephanus_locus": "145a–b",
+      "in_codex": true,
+      "unit_slug": "foundations",
+      "stephanus_anchor": "stephanus-parmenides-145b",
+      "euclid_proclus_context": "Euclid Elements I, Defs. 13–14: figure (schema), beginning, middle equally distant from extremes, round, straight, or mixed."
+    },
+    {
+      "cite_key": "plato:philebus:16c-26d",
+      "repos": [
+        "proclus"
+      ],
+      "dialogue": "Philebus",
+      "stephanus_locus": "16c–26d",
+      "in_codex": true,
+      "unit_slug": "foundations",
+      "stephanus_anchor": "stephanus-philebus-16c",
+      "euclid_proclus_context": "Proclus In Euclidem Prologue I (Friedlein 5.18–7.12): Limit (peras) and Unlimited (apeiron) as supreme ontological principles of geometry."
+    },
+    {
+      "cite_key": "plato:laws:817.e",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Laws",
+      "stephanus_locus": "VII 817e–820d",
+      "in_codex": true,
+      "unit_slug": "foundations",
+      "stephanus_anchor": "stephanus-laws-817e",
+      "euclid_proclus_context": "Euclid Elements Book X & Book VII: three liberal mathematical sciences and the scandal of ignorance regarding incommensurable lengths, surfaces, and solids."
+    },
+    {
+      "cite_key": "plato:leges:737e-738b",
+      "repos": [
+        "hoenen"
+      ],
+      "dialogue": "Laws",
+      "stephanus_locus": "V 737e–738b",
+      "in_codex": false,
+      "unit_slug": "republic",
+      "stephanus_anchor": "",
+      "euclid_proclus_context": "Hoenen De Noetica Geometriae Cap. IV: civic number 5,040 (= 7!) divisible by every integer from 1 to 10 (59 proper divisors); analyzed in Unit III Notes."
+    },
+    {
+      "cite_key": "plato:leges:738a",
+      "repos": [
+        "hoenen"
+      ],
+      "dialogue": "Laws",
+      "stephanus_locus": "V 738a",
+      "in_codex": false,
+      "unit_slug": "republic",
+      "stephanus_anchor": "",
+      "euclid_proclus_context": "Hoenen De Noetica Geometriae Cap. IV: Plato's exact divisor theorem for 5,040 (divisible by 1..12 except 11, which divides 5,038); analyzed in Unit III Notes."
+    },
+    {
+      "cite_key": "plato:laws:777D",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Laws",
+      "stephanus_locus": "VI 777d",
+      "in_codex": false,
+      "unit_slug": "foundations",
+      "stephanus_anchor": "",
+      "euclid_proclus_context": "Heath on Euclid Common Notion 3: Plato's proverbial 'if equals be added to unequals, the wholes remain unequal'; contextualized in Unit VI Notes."
+    },
+    {
+      "cite_key": "plato:rep:417",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "III 416d–417b",
+      "in_codex": false,
+      "unit_slug": "republic",
+      "stephanus_anchor": "",
+      "euclid_proclus_context": "Peripheral civic reference in Heath's philological notes on terminology; outside mathematical curriculum."
+    },
+    {
+      "cite_key": "plato:rep:X.602c",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Republic",
+      "stephanus_locus": "X 602c–603a",
+      "in_codex": false,
+      "unit_slug": "foundations",
+      "stephanus_anchor": "",
+      "euclid_proclus_context": "Heath on Optics & Measurement: bent-stick refraction illusion overcome by numbering, measuring, and weighing (metretike); analyzed in Unit VI Notes."
+    },
+    {
+      "cite_key": "plato:sophist:235.d",
+      "repos": [
+        "euclid",
+        "elements"
+      ],
+      "dialogue": "Sophist",
+      "stephanus_locus": "235d–236c",
+      "in_codex": false,
+      "unit_slug": "foundations",
+      "stephanus_anchor": "",
+      "euclid_proclus_context": "Heath on Perspective Optics (scenographia): true symmetry (eikastike) vs. foreshortened optical appearance (phantastike); analyzed in Unit VI Notes."
+    }
+  ]
+}
