@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=8713e751" />
   <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=d2b6ecbc" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
@@ -38,7 +38,7 @@
       <label for="nav-Header-toggle" >Header</label>
       <ul>
         <li>
-          <a href="../loci_mathematici/index.html"  >Mathematical & Geometric Dialogues</a>
+          <a href="../loci_mathematici/index.html"  >Mathematical Dialogues</a>
         </li>
         <li>
           <a href="../loci_mathematici/persons.html"  >People</a>
@@ -47,10 +47,10 @@
           <a href="../loci_mathematici/bibliography.html"  >Bibliography</a>
         </li>
         <li>
-          <a href="../mission/index.html"  >Mission</a>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">About</a>
         </li>
         <li>
-          <a href="../usage/index.html"  >Using This Edition</a>
+          <a href="../usage/index.html"  >Usage</a>
         </li>
         <li>
           <a href="../demos/index.html"  >Demos</a>
@@ -87,15 +87,38 @@
         </div>
       </header>
       <div class="content body book-content" role="main">
-        <section class="level-1" id="about">
-        <span id="about-index"></span><h1>About<a class="headerlink" href="#about" title="Link to this heading">¶</a></h1>
-        <p class="rubric">Textual Authority, Stephanus Coordinates &amp; SHA-256 Source Provenance</p>
-        <p>Editorial documentation on the primary Greek and English editions, Henri Estienne’s 1578 Stephanus pagination, and SHA-256 verification in <code class="docutils literal notranslate"><span class="pre">geometor/plato</span></code>.</p>
+        <section class="level-1" id="about-index">
+        <span id="about"></span><span id="id1"></span><h1>About<a class="headerlink" href="#about-index" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Extracting Historical Semantic Knowledge &amp; Repurposing It for Exact Symbolic Reasoning</p>
+        <section class="level-2" id="about-this-edition">
+        <h2>About This Edition<a class="headerlink" href="#about-this-edition" title="Link to this heading">¶</a></h2>
+        <p><code class="docutils literal notranslate"><span class="pre">geometor/plato</span></code> (<em>Loci Mathematici et Geometrici</em>) reconstructs the foundational mathematical and geometric passages across seven pivotal dialogues of <span class="person-ref" data-person="plato" title="Plato of Athens (c. 428 – 347 BC) — Founder of the Academy &amp; Architect of Mathematical Philosophy">Plato of Athens</span> (c. 428–347 BC)—the intellectual crucible of the fourth-century Athenian Academy. Over the portal of the Academy stood the celebrated maxim <em>Ἀγεωμέτρητος μηδεὶς εἰσίτω</em> (“Let no one ignorant of geometry enter”). Within its precincts, Plato united Pythagorean harmonic ratio theory with Theodorus’s and Theaetetus’s investigations of quadratic irrationals and Eudoxus’s general theory of proportion, forging the philosophical and axiomatic foundations from which Hellenistic mathematics arose.</p>
+        <p>The implicit architecture of these dialogues—comprising eleven primary mathematical loci across <em>Meno</em>, <em>Theaetetus</em>, <em>Republic</em>, <em>Timaeus</em>, <em>Parmenides</em>, <em>Philebus</em>, and <em>Laws</em>—is extracted into addressable semantic elements across four synchronized tracks powered by <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>. Every unit coordinates verbatim English translations segmented to canonical Stephanus <code class="docutils literal notranslate"><span class="pre">a–e</span></code> folios, verbatim polytonic Greek from John Burnet’s Oxford Classical Texts, deductive structural summaries, and philological critical notes equipped with interactive calibrated <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVG diagrams and exact algebraic proofs.</p>
+        <p>This digital codex anchors <strong>58 cross-corpus Platonic citations</strong> across sister GEOMETOR repositories: establishing the pre-Euclidean terminology of limits, diagonals, and powers in <span class="person-ref" data-person="euclid" title="Euclid of Alexandria (fl. c. 300 BC) — Author of the Thirteen Books of Elements">Euclid's</span> <em>Elements</em> (<code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code>); providing the ontological framework of Limit (<em>peras</em>), Unlimited (<em>apeiron</em>), and discursive understanding (<em>dianoia</em>) in <span class="person-ref" data-person="proclus" title="Proclus Diadochus (412 – 485 AD) — Neoplatonic Diadochus &amp; Commentator on Euclid I and Plato&#x27;s Timaeus">Proclus Diadochus's</span> <em>Commentary</em> (<code class="docutils literal notranslate"><span class="pre">geometor/proclus</span></code>); framing demonstrative hypotheses and mathematical intermediates in <span class="person-ref" data-person="aristotle" title="Aristotle of Stagira (384 – 322 BC) — Student of Plato &amp; Author of the Analytics, Physics, De Caelo &amp; Metaphysics">Aristotle's</span> <em>Analytics</em> and <em>Metaphysics</em> (<code class="docutils literal notranslate"><span class="pre">geometor/aristotle</span></code>); and inspiring the regular polyhedral cosmologies of <span class="person-ref" data-person="pacioli" title="Fra Luca Pacioli (c. 1447 – 1517) — Renaissance Mathematician &amp; Author of De Divina Proportione (1509)">Fra Luca Pacioli's</span> <em>De Divina Proportione</em> (<code class="docutils literal notranslate"><span class="pre">geometor/pacioli</span></code>) and <span class="person-ref" data-person="hoenen" title="Fr. Petrus H. J. Hoenen, S.J. (1880 – 1961) — Gregorian University Philosopher of Science &amp; Author of De Noetica Geometriae (1952)">Fr. Peter Hoenen S.J.'s</span> <em>De Noetica Geometriae</em> (<code class="docutils literal notranslate"><span class="pre">geometor/hoenen</span></code>).</p>
+        </section>
+        <section class="level-2" id="the-geometor-mission">
+        <h2>The GEOMETOR Mission<a class="headerlink" href="#the-geometor-mission" title="Link to this heading">¶</a></h2>
+        <p>The GEOMETOR project, initiated and directed by <strong>phi ARCHITECT</strong>, is dedicated to the complete digital renaissance and computational re-grounding of classical geometry and axiomatic thought. The mission advances across three foundational pillars:</p>
+        <ol class="arabic simple">
+        <li><p><strong>Extracting Historical Semantic Knowledge</strong>: Moving beyond passive page scans, static PDFs, and raw OCR to recover the living deductive structure of 2,300+ years of geometric, axiomatic, and philosophical treatises. GEOMETOR elevates historical prose, marginal scholia, primary-source folios (via <code class="docutils literal notranslate"><span class="pre">publish</span> <span class="pre">folio</span></code> directives), and calibrated Ink-to-Vector <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> diagrams into structured, machine-addressable semantic graphs. Each proposition, enunciation, step, hypothesis, and proof is rendered uniquely identifiable, computationally navigable, and interoperable across the entire historical canon.</p></li>
+        <li><p><strong>Exact Symbolic Grounding (``geometor.model``)</strong>: Anchoring geometric constructions and spatial relations in 100% exact symbolic algebra via <cite>SymPy</cite> and Norman J. Wildberger’s Rational Trigonometry invariants (quadrance, spread, cross-ratio). By operating strictly over exact algebraic number fields rather than floating-point approximations, GEOMETOR eliminates rounding degradation, preserves absolute mathematical truth, and guarantees that every geometric demonstration is provably exact.</p></li>
+        <li><p><strong>Repurposing Knowledge Across Mediums</strong>: Re-deploying extracted semantic and algebraic structures across synchronized multi-track <strong>Book Codices</strong> and accessible EPUB 3 editions (powered by <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>), computable deductive canons (<code class="docutils literal notranslate"><span class="pre">geometor.elements</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.etc</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.pappus</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.divine</span></code>), interactive SVG exploratory laboratories (<code class="docutils literal notranslate"><span class="pre">geometor.explorer</span></code>), ultra-high-definition visual broadcasts, and neuro-symbolic program synthesis (<code class="docutils literal notranslate"><span class="pre">geometor.seer</span></code>) across <a class="reference external" href="https://geometor.com">geometor.com</a>.</p></li>
+        </ol>
+        </section>
+        <section class="level-2" id="sources-provenance-methodology">
+        <h2>Sources, Provenance &amp; Methodology<a class="headerlink" href="#sources-provenance-methodology" title="Link to this heading">¶</a></h2>
+        <p>This edition adheres to rigorous Digital Scriptorium archival standards and strict separation of textual witness from computational model:</p>
         <ul class="simple">
+        <li><p><strong>Greek Textual Witness</strong>: Verbatim polytonic Greek text is drawn from <span class="person-ref" data-person="burnet" title="John Burnet (1863 – 1928) — Editor of the Oxford Classical Text Platonis Opera (1900–1907)">John Burnet's</span> five-volume critical edition, <em>Platonis Opera</em> (Oxford Classical Texts, Clarendon Press, 1900–1907), parsed from Perseus Digital Library Canonical GreekLit TEI-XML witnesses.</p></li>
+        <li><p><strong>English Translation</strong>: Verbatim English text is drawn from the public-domain 3rd revised edition (Clarendon Press, 1892) of <span class="person-ref" data-person="jowett" title="Benjamin Jowett (1817 – 1893) — Master of Balliol College, Oxford &amp; Translator of The Dialogues of Plato">Benjamin Jowett</span> (<em>The Dialogues of Plato</em>), audited against Project Gutenberg witnesses with editorial corrections of Victorian literary paraphrases in the critical apparatus.</p></li>
+        <li><p><strong>Stephanus Canonical Pagination</strong>: All passages are anchored to Henri Estienne’s (<em>Henricus Stephanus</em>) canonical 1578 Geneva Greek-Latin edition, generating deterministic <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">folio::</span></code> anchors (e.g. <code class="docutils literal notranslate"><span class="pre">#stephanus-meno-82b</span></code>) for seamless deep linking.</p></li>
+        <li><p><strong>Cryptographic Provenance</strong>: Every staged source file in <code class="docutils literal notranslate"><span class="pre">resources/loci_mathematici/sources/</span></code> is audited by byte length and SHA-256 digest in <code class="docutils literal notranslate"><span class="pre">resources/loci_mathematici/sources_manifest.json</span></code>.</p></li>
+        <li><p><strong>Strict Content / Code Separation</strong>: The 4-track Book Codex contains zero executable code, maintaining scholarly philological purity while linking to exact SymPy and Rational Trigonometry models in <code class="docutils literal notranslate"><span class="pre">src/geometor/plato/</span></code> and the accompanying symbolic demonstrations.</p></li>
         <li><p><a class="reference internal" href="burnet-and-jowett.html"><span class="doc">Burnet’s Oxford Classical Text (1900–1907), Jowett (1892) &amp; Stephanus Pagination</span></a></p></li>
         </ul>
         <div class="toctree-wrapper compound">
         </div>
+        </section>
         </section>
 
       </div>
@@ -154,9 +177,8 @@
   <footer>
     <div class="footer-nav">
       <ul>
-        <li><a href="#" class="is-active" aria-selected="true" aria-current="page">About</a></li>
-        <li><a href="../loci_mathematici/concordance.html"  >Master Stephanus Concordance</a></li>
         <li><a href="../changelog.html"  >changelog</a></li>
+        <li><a href="../loci_mathematici/concordance.html"  >Concordance</a></li>
         <li><a href="../loci_mathematici/glossary.html"  >Glossary</a></li>
       </ul>
     </div>
@@ -170,7 +192,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=92734c54"></script>
+  <script src="../_static/documentation_options.js?v=360bc84d"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
