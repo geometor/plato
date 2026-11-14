@@ -2,6 +2,11 @@
 changelog
 =========
 
+0.1.1 (2026-11-13)
+------------------
+
+* Resolve 100% of marginal ``.. folio::`` source links (264 directives + 24 badges) to Burnet OCT Greek TEI-XML line anchors via ``publish folio-links``.
+
 0.1.0 (2026-11-12)
 ------------------
 
