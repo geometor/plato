@@ -11,7 +11,7 @@
 Unit II — Theaetetus: Theodorus's Radical Constructions & Classification of Powers — Greek (Burnet OCT)
 =======================================================================================================
 
-.. rubric:: Editio Graeca Oxoniensis (Ioannes Burnet, 1900–1907) · Theaetetus 147c–148b
+.. rubric:: Greek Edition (Burnet OCT) (Ioannes Burnet, 1900–1907) · Theaetetus 147c–148b
 
 .. picture:: /_static/figures/theodorus_spiral.svg
    :alt: Theaetetus: Theodorus's Radical Constructions & Classification of Powers

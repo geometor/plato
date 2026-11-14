@@ -1,17 +1,19 @@
-:order: 91
+:navigation: header
+:order: 6
+:nav_title: Bibliography
 :layout: book
 :type: apparatus
-:title: Bibliography & Critical Editions
+:title: Bibliography
 
 .. _bibliography:
 
-================================
-Bibliography & Critical Editions
-================================
+============
+Bibliography
+============
 
 .. rubric:: Critical Greek Texts, Public-Domain Translations, Euclidean Propositions & Commentaries
 
-Authoritative editions, Euclidean propositions, ancient commentaries, and modern mathematical histories (**30 entries**) cited across *Loci Mathematici et Geometrici*.
+Authoritative editions, Euclidean propositions, ancient commentaries, and modern mathematical histories (**30 entries**) cited across *Mathematical & Geometric Dialogues*.
 
 .. _cite-burnet-opera-1900:
 

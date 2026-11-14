@@ -59,8 +59,8 @@ Unit I gathers the three foundational mathematical episodes of :person:`Plato's 
 2. **Anamnesis & Doubling the Square by the Diagonal (81e–85d)**: Answering Meno's eristic paradox of inquiry, Socrates summons an untutored household attendant and constructs the :math:`2 \\times 2` square :g:`ABCD <meno-diag:< A B C D >>` (:math:`Q = 4`). After exposing two false arithmetic intuitions—doubling the side to :g:`AE <meno-diag:/ A E />` (:math:`4 \\times 4 = 16`, :g:`AEFG <meno-diag:< A E F G >>`) and taking the sesquialter side :g:`AM <meno-diag:/ A M />` (:math:`3 \\times 3 = 9`, :g:`AMNP <meno-diag:< A M N P >>`)—Socrates draws the four :term:`diagonals <diametros>` :g:`BD <meno-diag:[ B D ]>`, :g:`BH <meno-diag:[ B H ]>`, :g:`HK <meno-diag:[ H K ]>`, and :g:`KD <meno-diag:[ K D ]>`, cutting each :math:`4`-foot square in half (:math:`2 + 2 + 2 + 2 = 8`) to enclose the exact double square :g:`BHKD <meno-diag:< B H K D >>`.
 3. **Inquiry from Hypothesis & Application of Area (86e–87b)**: Pressed to ask whether virtue is teachable prior to knowing its essence, Socrates adopts the geometer's method of :term:`hypothesis <hypothesis>` (*ἐξ ὑποθέσεως*, :ref:`86e <stephanus-meno-86e>`): reducing the inscription of a triangular area inside a given circle to an elliptic :term:`application of area <parateinein>` along the diameter.
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1
@@ -93,8 +93,8 @@ In *Theaetetus* `147c–148b`, the young Athenian geometer :person:`Theaetetus <
 2. **Partition of All Integers into Equilateral & Oblong (147e–148a)**: Recognizing that incommensurable powers are infinite in multitude, the boys partitioned every integer into two classes: **equilateral square numbers** (:term:`isos isakis <isos-isakis>`, :math:`n = k^2`, such as :math:`4, 9, 16`) and **oblong numbers** (:term:`promēkēs <promekes>`, non-square integers bounded by unequal factors).
 3. **Dichotomy of Lengths (*Mēkē*) & Powers (*Dynameis*) (148a–b)**: Lines squaring to equilateral numbers—highlighted at :g:`P1 <theodorus-spiral:P1>`, :g:`P4 <theodorus-spiral:P4>`, :g:`P9 <theodorus-spiral:P9>`, and :g:`P16 <theodorus-spiral:P16>`—are defined as :term:`lengths <mekos>` (*μήκη*); lines squaring to oblong numbers are defined as :term:`powers <dynamis>` (*δυνάμεις*), commensurable not in linear measure but by the plane areas they have the power to generate, adding that the analogous distinction holds for **solids** (*καὶ περὶ τὰ στερεὰ ἄλλο τοιοῦτον*, i.e., cube roots :math:`\\sqrt[3]{n}`).
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1
@@ -123,8 +123,8 @@ Unit III unites the two monumental architects of Western mathematical epistemolo
 2. **Methodological Critique of Geometric Hypotheses (VI, 510c–511d)**: Geometers hypothesize the odd and even, the figures, and the three kinds of angles as self-evident without giving an account of them, using drawn squares and diagonals only to behold **the Square itself** and **the Diagonal itself** through :term:`dianoia <dianoia>`, whereas :term:`noēsis <noesis>` ascends without images to the :term:`unhypothetical principle <anhypotheton>`.
 3. **The Five Sciences of the Quadrivium & the Lament on Stereometry (VII, 525a–534e)**: To turn the soul from becoming to eternal being (`525b–527b`), Socrates orders five ascending sciences: (i) :term:`Arithmetic & Logistic <arithmetike>` (`525a–526c`), (ii) Plane Geometry (`526c–527c`), (iii) :term:`Solid Geometry <stereometria>` (`528a–d`—inserting his prophetic lament that three-dimensional stereometry remains neglected and unguided by cities), (iv) Mathematical Astronomy (`528e–530c`), and (v) Pythagorean Harmonics of Ratios (`530d–531c`), crowned by :term:`Dialectic <dialektike>` (`531d–534e`).
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1
@@ -157,8 +157,8 @@ In *Timaeus* `31b–36d`, :person:`Timaeus of Locri <timaeus>` presents the gran
 2. **Harmonic Division of the World-Soul (35a–36b)**: Slicing the mixed psychic substance into the geometric tetractys of doubles ``1, 2, 4, 8`` and triples ``1, 3, 9, 27`` (spanning four octaves plus a major sixth, :math:`27:1`), the Demiurge inserts into every interval the **harmonic mean** :math:`H = \\frac{2ab}{a+b}` (:g:`G H <timaeus-means:/ G H />`) and **arithmetic mean** :math:`A = \\frac{a+b}{2}` (:g:`O G <timaeus-means:/ O G />`), generating :term:`sesquialter <hemiolios>` fifths (:math:`3:2`), :term:`sesquitertian <epitritos>` fourths (:math:`4:3`), and :term:`epogdoic <epogdoos>` whole tones (:math:`9:8`), and filling every :math:`4:3` fourth with two :math:`9:8` tones plus the exact diatonic :term:`leimma <leimma>` **256 : 243**.
 3. **Circles of the Same and the Different (36b–d)**: Splitting the calibrated harmonic strip lengthwise and bending the two bands into great circles intersecting like the letter **Chi** (:math:`\\mathrm{X}`, :g:`P Q <timaeus-means:[ P Q ]>` across equator :g:`A B <timaeus-means:/ A B />` on :g:`(O, B) <timaeus-means:( O B )>`), the Demiurge establishes the celestial equator (Same) and the ecliptic subdivided in the seven ratios ``1, 2, 3, 4, 8, 9, 27`` (Different).
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1
@@ -194,8 +194,8 @@ In *Timaeus* `53c–56c`, :person:`Plato <plato>` executes the boldest geometric
    - **Cube** (`6` square faces = `24` isosceles right triangles) :math:`\\rightarrow` **Earth** (incommensurable with the :math:`\\sqrt{3}` family and therefore non-transmutable into fire/air/water)
    - **Dodecahedron** (`12` regular pentagonal faces, requiring :math:`\\mathbb{Q}(\\phi)`) :math:`\\rightarrow` **The Whole Cosmos** (`55c4–6`).
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1
@@ -224,8 +224,8 @@ Unit VI gathers the late-Platonic axiomatic, ontological, aesthetic, and pedagog
 2. **Limit (*Peras*), Unlimited (*Apeiron*) & Pure Constructive Beauty (*Philebus* 16c–26d, 51b–52c)**: In *Philebus* `16c–26d`, :person:`Socrates <socrates>` establishes :term:`Limit <peras>` (*πέρας*—the equal, double, and every exact ratio of number to number or measure to measure) and the :term:`Unlimited <apeiron>` (*ἄπειρον*—the indeterminate continuum of more and less) as the universal principles of mathematical order, Adopted verbatim by :person:`Proclus <proclus>` at the head of his *Euclid* commentary. At `51b–52c`, Socrates defines **pure, non-relative beauty**: surfaces and solids constructed cleanly by :term:`compass and straightedge <tornos-kanon>` (*τόρνοις… καὶ κανόσι*).
 3. **Dimensional Incommensurability (*Laws* VII 817e–820d)**: In his final work, the :person:`Athenian Stranger <athenian-stranger>` mandates three liberal mathematical disciplines (arithmetic, metrics of line/surface/solid, and celestial kinematics) and castigates Greek education for assuming that length (:g:`O C <foundations-peras:/ O C />`, :math:`Q=1`), plane surface (:g:`O D <foundations-peras:/ O D />`, :math:`Q=2`), and solid depth (:g:`O E <foundations-peras:/ O E />`, :math:`Q=3`) are universally :term:`commensurable <symmetros-asymmetros>`.
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1

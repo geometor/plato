@@ -26,8 +26,8 @@ Unit III unites the two monumental architects of Western mathematical epistemolo
 2. **Methodological Critique of Geometric Hypotheses (VI, 510c–511d)**: Geometers hypothesize the odd and even, the figures, and the three kinds of angles as self-evident without giving an account of them, using drawn squares and diagonals only to behold **the Square itself** and **the Diagonal itself** through :term:`dianoia <dianoia>`, whereas :term:`noēsis <noesis>` ascends without images to the :term:`unhypothetical principle <anhypotheton>`.
 3. **The Five Sciences of the Quadrivium & the Lament on Stereometry (VII, 525a–534e)**: To turn the soul from becoming to eternal being (`525b–527b`), Socrates orders five ascending sciences: (i) :term:`Arithmetic & Logistic <arithmetike>` (`525a–526c`), (ii) Plane Geometry (`526c–527c`), (iii) :term:`Solid Geometry <stereometria>` (`528a–d`—inserting his prophetic lament that three-dimensional stereometry remains neglected and unguided by cities), (iv) Mathematical Astronomy (`528e–530c`), and (v) Pythagorean Harmonics of Ratios (`530d–531c`), crowned by :term:`Dialectic <dialektike>` (`531d–534e`).
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1

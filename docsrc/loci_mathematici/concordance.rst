@@ -1,4 +1,6 @@
+:navigation: footer
 :order: 90
+:nav_title: Concordance
 :layout: book
 :type: apparatus
 :title: Master Stephanus Concordance

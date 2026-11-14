@@ -11,7 +11,7 @@
 Unit IV — Timaeus: Geometric Proportion & Harmonic Division of the World-Soul — Greek (Burnet OCT)
 ==================================================================================================
 
-.. rubric:: Editio Graeca Oxoniensis (Ioannes Burnet, 1900–1907) · Timaeus 31b–36d
+.. rubric:: Greek Edition (Burnet OCT) (Ioannes Burnet, 1900–1907) · Timaeus 31b–36d
 
 .. picture:: /_static/figures/timaeus_world_soul.svg
    :alt: Timaeus: Geometric Proportion & Harmonic Division of the World-Soul

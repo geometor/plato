@@ -1,11 +1,12 @@
 :navigation: header
-:order: 15
+:order: 25
+:nav_title: Demos
 
 .. _demos:
 
-==============
-Demonstrations
-==============
+=====
+Demos
+=====
 
 .. rubric:: 100% Exact Symbolic SymPy Models & Rational Trigonometry Proofs of Plato's Constructions
 
