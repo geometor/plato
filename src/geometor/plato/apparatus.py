@@ -829,18 +829,20 @@ def _slug_anchor(prefix: str, key: str) -> str:
 def render_glossary_rst() -> str:
     """Render ``docsrc/loci_mathematici/glossary.rst``."""
     lines = [
+        ":navigation: footer",
         ":order: 93",
+        ":nav_title: Glossary",
         ":layout: book",
         ":type: apparatus",
-        ":title: Glossary of Platonic Mathematical & Noetic Terms",
+        ":title: Glossary",
         "",
         ".. _glossary:",
         "",
-        "================================================",
-        "Glossary of Platonic Mathematical & Noetic Terms",
-        "================================================",
+        "========",
+        "Glossary",
+        "========",
         "",
-        ".. rubric:: Polytonic Greek, Scholastic Latin & Mathematical Lexicon of *Loci Mathematici et Geometrici*",
+        ".. rubric:: Polytonic Greek, Scholastic Latin & Mathematical Lexicon of *Mathematical & Geometric Dialogues*",
         "",
         (
             f"Systematic lexicon of **{len(GLOSSARY_DATA)} foundational Platonic concepts** "
@@ -873,23 +875,25 @@ def render_glossary_rst() -> str:
 def render_persons_rst() -> str:
     """Render ``docsrc/loci_mathematici/persons.rst``."""
     lines = [
-        ":order: 92",
+        ":navigation: header",
+        ":order: 5",
+        ":nav_title: People",
         ":layout: book",
         ":type: apparatus",
-        ":title: Index of Persons, Interlocutors & Commentators",
+        ":title: People",
         "",
         ".. _persons:",
         "",
-        "==============================================",
-        "Index of Persons, Interlocutors & Commentators",
-        "==============================================",
+        "======",
+        "People",
+        "======",
         "",
         ".. rubric:: Academic Geometers, Dramatic Interlocutors, Ancient Exegetes & Modern Editors",
         "",
         (
             f"Biographical register of **{len(PERSONS_DATA)} philosophers, mathematicians, "
             "dialogue interlocutors, commentators, and modern philologists** engaged across "
-            "*Loci Mathematici et Geometrici* and the GEOMETOR canon."
+            "*Mathematical & Geometric Dialogues* and the GEOMETOR canon."
         ),
         "",
     ]
@@ -914,23 +918,25 @@ def render_persons_rst() -> str:
 def render_bibliography_rst() -> str:
     """Render ``docsrc/loci_mathematici/bibliography.rst``."""
     lines = [
-        ":order: 91",
+        ":navigation: header",
+        ":order: 6",
+        ":nav_title: Bibliography",
         ":layout: book",
         ":type: apparatus",
-        ":title: Bibliography & Critical Editions",
+        ":title: Bibliography",
         "",
         ".. _bibliography:",
         "",
-        "================================",
-        "Bibliography & Critical Editions",
-        "================================",
+        "============",
+        "Bibliography",
+        "============",
         "",
         ".. rubric:: Critical Greek Texts, Public-Domain Translations, Euclidean Propositions & Commentaries",
         "",
         (
             f"Authoritative editions, Euclidean propositions, ancient commentaries, and "
             f"modern mathematical histories (**{len(CITATIONS_DATA)} entries**) cited across "
-            "*Loci Mathematici et Geometrici*."
+            "*Mathematical & Geometric Dialogues*."
         ),
         "",
     ]

@@ -26,8 +26,8 @@ Unit VI gathers the late-Platonic axiomatic, ontological, aesthetic, and pedagog
 2. **Limit (*Peras*), Unlimited (*Apeiron*) & Pure Constructive Beauty (*Philebus* 16c–26d, 51b–52c)**: In *Philebus* `16c–26d`, :person:`Socrates <socrates>` establishes :term:`Limit <peras>` (*πέρας*—the equal, double, and every exact ratio of number to number or measure to measure) and the :term:`Unlimited <apeiron>` (*ἄπειρον*—the indeterminate continuum of more and less) as the universal principles of mathematical order, Adopted verbatim by :person:`Proclus <proclus>` at the head of his *Euclid* commentary. At `51b–52c`, Socrates defines **pure, non-relative beauty**: surfaces and solids constructed cleanly by :term:`compass and straightedge <tornos-kanon>` (*τόρνοις… καὶ κανόσι*).
 3. **Dimensional Incommensurability (*Laws* VII 817e–820d)**: In his final work, the :person:`Athenian Stranger <athenian-stranger>` mandates three liberal mathematical disciplines (arithmetic, metrics of line/surface/solid, and celestial kinematics) and castigates Greek education for assuming that length (:g:`O C <foundations-peras:/ O C />`, :math:`Q=1`), plane surface (:g:`O D <foundations-peras:/ O D />`, :math:`Q=2`), and solid depth (:g:`O E <foundations-peras:/ O E />`, :math:`Q=3`) are universally :term:`commensurable <symmetros-asymmetros>`.
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1

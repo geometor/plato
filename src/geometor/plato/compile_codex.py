@@ -1,4 +1,4 @@
-"""Deterministic 4-track Book Codex compiler for *Loci Mathematici et Geometrici*.
+"""Deterministic 4-track Book Codex compiler for *Mathematical & Geometric Dialogues*.
 
 Parses John Burnet's Oxford Classical Text TEI-XML (`tlg0059.*.burnet_oct.xml`) and
 Benjamin Jowett's 3rd-edition English texts (`*_jowett_pg*.txt`), aligns Stephanus
@@ -416,7 +416,7 @@ def _render_unit_el_rst(
         heading_main,
         "=" * len(heading_main),
         "",
-        f".. rubric:: Editio Graeca Oxoniensis (Ioannes Burnet, 1900–1907) · {unit.stephanus_summary}",
+        f".. rubric:: Greek Edition (Burnet OCT) (Ioannes Burnet, 1900–1907) · {unit.stephanus_summary}",
         "",
         *_render_picture_block(unit),
     ]
@@ -519,23 +519,35 @@ def _render_unit_notes_rst(unit: CodexUnitSpec) -> str:
 def render_book_index_rst() -> str:
     """Render ``docsrc/loci_mathematici/index.rst``."""
     lines = [
+        ":navigation: header",
         ":order: 1",
+        ":nav_title: Mathematical Dialogues",
         ":layout: book",
-        ":book_title: Loci Mathematici et Geometrici",
-        ":book_subtitle: Plato (c. 428–347 BC) · Burnet Greek OCT (1900–1907) & Jowett English Codex",
+        ":book_title: Mathematical & Geometric Dialogues",
+        ":book_subtitle: Plato on Geometry, Proportion & Noetic Ascent — Burnet Greek OCT & Jowett English Codex",
         ":author: Plato of Athens",
         ":book_theme: classical-serif",
         "",
         ".. _loci-mathematici:",
         "",
-        "==============================================================================",
-        "Loci Mathematici et Geometrici — Plato on Geometry, Proportion & Noetic Ascent",
-        "==============================================================================",
+        "==================================",
+        "Mathematical & Geometric Dialogues",
+        "==================================",
         "",
-        ".. rubric:: Synchronized 4-Track Book Codex (English · Greek Burnet OCT · Summary · Critical Notes)",
+        ".. rubric:: *Loci Mathematici et Geometrici* — Plato on Geometry, Proportion & Noetic Ascent",
+        "",
+        ".. container:: title-page",
+        "",
+        "   | **ΠΛΑΤΩΝΟΣ ΔΙΑΛΟΓΟΙ ΜΑΘΗΜΑΤΙΚΟΙ**",
+        "   | *Loci Mathematici et Geometrici*",
+        "   |",
+        "   | **Author**: :person:`Plato of Athens <plato>` (c. 428–348 BC)",
+        "   | **Critical Greek Edition**: :person:`John Burnet <burnet>` (*Platonis Opera*, Oxford Classical Texts, 1900–1907)",
+        "   | **English Translation**: :person:`Benjamin Jowett <jowett>` (3rd ed., Oxford University Press, 1892)",
+        "   | **GEOMETOR Digital Edition**: Synchronized English, Greek OCT, Summary & Notes Tracks",
         "",
         (
-            "**Loci Mathematici et Geometrici** unites into a single critical Digital Scriptorium "
+            "**Mathematical & Geometric Dialogues** unites into a single critical Digital Scriptorium "
             "edition the eleven foundational mathematical and geometric passages across seven dialogues "
             "of :person:`Plato of Athens <plato>` (*Meno*, *Theaetetus*, *Republic* VI–VII, *Timaeus*, "
             "*Parmenides*, *Philebus*, and *Laws* VII) that established deductive hypothesis, quadratic "
@@ -552,12 +564,12 @@ def render_book_index_rst() -> str:
             ":person:`Aristotle <aristotle>`, :person:`Pacioli <pacioli>`, and :person:`Hoenen <hoenen>`)."
         ),
         "",
-        "Units I–VI — Mathematical & Geometric Dialogues",
-        "-----------------------------------------------",
+        "Table of Contents",
+        "-----------------",
         "",
         ".. toctree::",
         "   :maxdepth: 1",
-        "   :caption: Loci Mathematici",
+        "   :caption: Mathematical Dialogues",
         "",
     ]
 
@@ -567,12 +579,12 @@ def render_book_index_rst() -> str:
     lines.extend(
         [
             "",
-            "Critical Apparatus & Stephanus Concordance",
-            "------------------------------------------",
+            "Scholarly Apparatus",
+            "-------------------",
             "",
             ".. toctree::",
             "   :maxdepth: 1",
-            "   :caption: Critical Apparatus",
+            "   :caption: Scholarly Apparatus",
             "",
             "   concordance",
             "   bibliography",

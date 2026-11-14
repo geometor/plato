@@ -17,8 +17,8 @@ Every Codex unit is presented across **four synchronized tracks** powered by ``p
 
 ----
 
-Codex (*Loci Mathematici et Geometrici*)
-----------------------------------------
+Mathematical & Geometric Dialogues
+----------------------------------
 
 :doc:`Enter the 4-Track Book Codex <loci_mathematici/index>`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -35,10 +35,10 @@ Codex (*Loci Mathematici et Geometrici*)
   :doc:`The Two Elementary Right Triangles (1:1:√2 & 1:√3:2) & Assembly of the Five Cosmic Solids <loci_mathematici/timaeus-polyhedra/timaeus-polyhedra-en>`
 * **Unit VI — Parmenides, Philebus & Laws VII** (``137d–138a``, ``145a–b``; ``16c–26d``, ``51b–52c``; ``817e–820d``):
   :doc:`Optical Straightness, Limit (Peras) & Unlimited (Apeiron), Pure Geometric Beauty & Incommensurability <loci_mathematici/foundations/foundations-en>`
-* **Critical Apparatus**:
-  :doc:`Master Stephanus Concordance (36 Canonical Loci / 58 Cross-Corpus Citations) <loci_mathematici/concordance>` ·
-  :doc:`Bibliography & Editions <loci_mathematici/bibliography>` ·
-  :doc:`Dramatis Personae & Mathematical Authorities <loci_mathematici/persons>` ·
+* **Scholarly Apparatus**:
+  :doc:`Master Stephanus Concordance <loci_mathematici/concordance>` ·
+  :doc:`Bibliography <loci_mathematici/bibliography>` ·
+  :doc:`People <loci_mathematici/persons>` ·
   :doc:`Glossary of Platonic Mathematical & Noetic Terms <loci_mathematici/glossary>`
 
 ----
@@ -46,6 +46,7 @@ Codex (*Loci Mathematici et Geometrici*)
 Symbolic Constructions, Editorial Context & API
 -----------------------------------------------
 
+* :doc:`Using This Edition (Reader's Guide) <usage/index>`
 * :doc:`Exact Symbolic Demonstrations (SymPy & Rational Trigonometry) <demos/index>`
 * :doc:`Mission — Why Plato Anchors the GEOMETOR Canon <mission/index>`
 * :doc:`Burnet's Oxford Classical Text (1900–1907), Jowett (1892) & Stephanus Pagination <about/burnet-and-jowett>`
@@ -58,3 +59,9 @@ Symbolic Constructions, Editorial Context & API
    :hidden:
 
    loci_mathematici/index
+   usage/index
+   mission/index
+   demos/index
+   log/index
+   modules/index
+   about/index

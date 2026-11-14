@@ -26,8 +26,8 @@ In *Timaeus* `31b–36d`, :person:`Timaeus of Locri <timaeus>` presents the gran
 2. **Harmonic Division of the World-Soul (35a–36b)**: Slicing the mixed psychic substance into the geometric tetractys of doubles ``1, 2, 4, 8`` and triples ``1, 3, 9, 27`` (spanning four octaves plus a major sixth, :math:`27:1`), the Demiurge inserts into every interval the **harmonic mean** :math:`H = \frac{2ab}{a+b}` (:g:`G H <timaeus-means:/ G H />`) and **arithmetic mean** :math:`A = \frac{a+b}{2}` (:g:`O G <timaeus-means:/ O G />`), generating :term:`sesquialter <hemiolios>` fifths (:math:`3:2`), :term:`sesquitertian <epitritos>` fourths (:math:`4:3`), and :term:`epogdoic <epogdoos>` whole tones (:math:`9:8`), and filling every :math:`4:3` fourth with two :math:`9:8` tones plus the exact diatonic :term:`leimma <leimma>` **256 : 243**.
 3. **Circles of the Same and the Different (36b–d)**: Splitting the calibrated harmonic strip lengthwise and bending the two bands into great circles intersecting like the letter **Chi** (:math:`\mathrm{X}`, :g:`P Q <timaeus-means:[ P Q ]>` across equator :g:`A B <timaeus-means:/ A B />` on :g:`(O, B) <timaeus-means:( O B )>`), the Demiurge establishes the celestial equator (Same) and the ecliptic subdivided in the seven ratios ``1, 2, 3, 4, 8, 9, 27`` (Different).
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1

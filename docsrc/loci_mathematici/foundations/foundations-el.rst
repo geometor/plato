@@ -11,7 +11,7 @@
 Unit VI — Parmenides, Philebus & Laws VII: Straightness, Limit & Incommensurability — Greek (Burnet OCT)
 ========================================================================================================
 
-.. rubric:: Editio Graeca Oxoniensis (Ioannes Burnet, 1900–1907) · Parmenides 137d–138a, 145a–b; Philebus 16c–26d, 51b–52c; Laws VII 817e–820d
+.. rubric:: Greek Edition (Burnet OCT) (Ioannes Burnet, 1900–1907) · Parmenides 137d–138a, 145a–b; Philebus 16c–26d, 51b–52c; Laws VII 817e–820d
 
 .. picture:: /_static/figures/foundations_peras_compass.svg
    :alt: Parmenides, Philebus & Laws VII: Straightness, Limit & Incommensurability
