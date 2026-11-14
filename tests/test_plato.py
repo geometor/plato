@@ -90,7 +90,7 @@ def _assert_exact_model(model: Model) -> None:
 
 def test_package_version() -> None:
     """Verify semantic version string."""
-    assert __version__ == "0.1.1"
+    assert __version__ == "0.1.3"
 
 
 def test_meno_diagonal_doubling_exact() -> None:

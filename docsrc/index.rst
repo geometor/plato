@@ -8,6 +8,8 @@ GEOMETOR • plato
 
 Critical four-track Digital Scriptorium Book Codex and exact symbolic geometry suite uniting the **eleven foundational mathematical and geometric passages** across seven dialogues of :person:`Plato of Athens <plato>` (c. 428–347 BC)—anchoring all **58 cross-corpus Platonic citations** across :person:`Euclid's <euclid>` *Elements* (``geometor/euclid`` & ``geometor/elements``), :person:`Proclus's <proclus>` *Commentary* (``geometor/proclus``), :person:`Aristotle's <aristotle>` *Analytics* & *Metaphysics* (``geometor/aristotle``), :person:`Fra Luca Pacioli's <pacioli>` *De Divina Proportione* (``geometor/pacioli``), and :person:`Fr. Peter Hoenen S.J.'s <hoenen>` *De Noetica Geometriae* (``geometor/hoenen``).
 
+Over the portal of the Academy stood the celebrated maxim *Ἀγεωμέτρητος μηδεὶς εἰσίτω* ("Let no one ignorant of geometry enter"). Within its precincts, Plato united Pythagorean harmonic ratio theory with Theodorus's and Theaetetus's investigations of quadratic irrationals and Eudoxus's general theory of proportion—creating the intellectual crucible out of which Euclid's thirteen books of *Elements* emerged.
+
 Every Codex unit is presented across **four synchronized tracks** powered by ``photon-platform/publish``:
 
 1. **English** — Verbatim public-domain 3rd revised edition (1892) of :person:`Benjamin Jowett <jowett>`, segmented to exact Stephanus ``a–e`` folio markers.
@@ -48,7 +50,7 @@ Symbolic Constructions, Editorial Context & API
 
 * :doc:`Using This Edition (Reader's Guide) <usage/index>`
 * :doc:`Exact Symbolic Demonstrations (SymPy & Rational Trigonometry) <demos/index>`
-* :doc:`Mission — Why Plato Anchors the GEOMETOR Canon <mission/index>`
+* :doc:`About This Edition, Sources & Methodology <about/index>`
 * :doc:`Burnet's Oxford Classical Text (1900–1907), Jowett (1892) & Stephanus Pagination <about/burnet-and-jowett>`
 * :doc:`Python Package & CLI Reference <modules/index>`
 * :doc:`Project Log <log/index>`
@@ -60,7 +62,6 @@ Symbolic Constructions, Editorial Context & API
 
    loci_mathematici/index
    usage/index
-   mission/index
    demos/index
    log/index
    modules/index
