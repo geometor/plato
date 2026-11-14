@@ -11,7 +11,7 @@
 Unit V — Timaeus: Elementary Right Triangles & Construction of the Cosmic Polyhedra — Greek (Burnet OCT)
 ========================================================================================================
 
-.. rubric:: Editio Graeca Oxoniensis (Ioannes Burnet, 1900–1907) · Timaeus 53c–56c
+.. rubric:: Greek Edition (Burnet OCT) (Ioannes Burnet, 1900–1907) · Timaeus 53c–56c
 
 .. picture:: /_static/figures/timaeus_triangles.svg
    :alt: Timaeus: Elementary Right Triangles & Construction of the Cosmic Polyhedra

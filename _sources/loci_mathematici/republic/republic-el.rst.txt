@@ -11,7 +11,7 @@
 Unit III — Republic VI–VII: The Divided Line, Dianoia & the Quadrivium — Greek (Burnet OCT)
 ===========================================================================================
 
-.. rubric:: Editio Graeca Oxoniensis (Ioannes Burnet, 1900–1907) · Republic VI 509d–511e; VII 525a–534e
+.. rubric:: Greek Edition (Burnet OCT) (Ioannes Burnet, 1900–1907) · Republic VI 509d–511e; VII 525a–534e
 
 .. picture:: /_static/figures/republic_divided_line.svg
    :alt: Republic VI–VII: The Divided Line, Dianoia & the Quadrivium

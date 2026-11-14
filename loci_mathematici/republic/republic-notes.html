@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Unit III — Republic VI–VII: The Divided Line, Dianoia &amp; the Quadrivium — Critical Commentary &amp; Notes &mdash; Loci Mathematici et Geometrici</title>
+  <title>Unit III — Republic VI–VII: The Divided Line, Dianoia &amp; the Quadrivium — Critical Commentary &amp; Notes &mdash; Mathematical &amp; Geometric Dialogues</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
@@ -38,16 +38,28 @@
       <label for="nav-Header-toggle" >Header</label>
       <ul>
         <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >Mathematical & Geometric Dialogues</a>
+        </li>
+        <li>
+          <a href="../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
           <a href="../../mission/index.html"  >Mission</a>
         </li>
         <li>
-          <a href="../../demos/index.html"  >Demonstrations</a>
+          <a href="../../usage/index.html"  >Using This Edition</a>
         </li>
         <li>
-          <a href="../../log/index.html"  >log</a>
+          <a href="../../demos/index.html"  >Demos</a>
         </li>
         <li>
-          <a href="../../modules/index.html"  >modules</a>
+          <a href="../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >Modules</a>
         </li>
       </ul>
     </nav>
@@ -60,7 +72,7 @@
           <div class="book-header-identity">
             <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; plato</a>
             <span class="book-header-sep">/</span>
-            <a class="book-title-link" href="../index.html">Loci Mathematici et Geometrici</a>
+            <a class="book-title-link" href="../index.html">Mathematical & Geometric Dialogues</a>
           </div>
           <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Book Breadcrumbs">
             <span class="book-badge canonical-badge">Republic VI 509d–511e; VII 525a–534e</span>
@@ -155,7 +167,7 @@
         </figure>
         <section class="level-2" id="i-exact-geometric-symbolic-reconstruction">
         <h2>I. Exact Geometric &amp; Symbolic Reconstruction<a class="headerlink" href="#i-exact-geometric-symbolic-reconstruction" title="Link to this heading">¶</a></h2>
-        <p>In <code class="docutils literal notranslate"><span class="pre">geometor.plato.constructions.construct_divided_line</span></code> and <code class="docutils literal notranslate"><span class="pre">verify_divided_line_identity</span></code> (see <a class="reference internal" href="../../demos/index.html"><span class="doc">Demonstrations</span></a>), Socrates’ double proportional section (<cite>509d6–8</cite>) is proved symbolically over an arbitrary ratio <span class="math notranslate nohighlight">\(r &gt; 0\)</span> and constructed by compass and straightedge under the canonical Academic <strong>Golden Section</strong> (<span class="math notranslate nohighlight">\(r = \phi = \frac{1+\sqrt{5}}{2}\)</span>, <a class="citation-ref" id="occ-cite-euclid-ii-11-1" href="../bibliography.html#cite-euclid-ii-11" data-cite="euclid:II.11" title="Euclid — Elements, Book II, Proposition 11 &amp; Book VI, Proposition 30 (Extreme and Mean Ratio) (II.11, VI.30)">Elements II.11 &amp; VI.30</a>):</p>
+        <p>In <code class="docutils literal notranslate"><span class="pre">geometor.plato.constructions.construct_divided_line</span></code> and <code class="docutils literal notranslate"><span class="pre">verify_divided_line_identity</span></code> (see <a class="reference internal" href="../../demos/index.html"><span class="doc">Demos</span></a>), Socrates’ double proportional section (<cite>509d6–8</cite>) is proved symbolically over an arbitrary ratio <span class="math notranslate nohighlight">\(r &gt; 0\)</span> and constructed by compass and straightedge under the canonical Academic <strong>Golden Section</strong> (<span class="math notranslate nohighlight">\(r = \phi = \frac{1+\sqrt{5}}{2}\)</span>, <a class="citation-ref" id="occ-cite-euclid-ii-11-1" href="../bibliography.html#cite-euclid-ii-11" data-cite="euclid:II.11" title="Euclid — Elements, Book II, Proposition 11 &amp; Book VI, Proposition 30 (Extreme and Mean Ratio) (II.11, VI.30)">Elements II.11 &amp; VI.30</a>):</p>
         <ul>
         <li><p>Let <span class="geom-ref" data-ref="divided-line:/ A B /" title="/ A B /">A B</span> (<a class="term-ref glossary-term" id="occ-term-eikasia-1" href="../glossary.html#term-eikasia" data-term="eikasia" title="εἰκασία (eikasia) (Apprehension of shadows and reflections): Lowest segment (/ A B /) of the Divided Line, directed toward cast shadows and specular reflections in water and polished surfaces.">eikasia</a>) have unit measure <span class="math notranslate nohighlight">\(1\)</span>, and let <span class="math notranslate nohighlight">\(AB : BC = AC : CE = CD : DE = 1 : r\)</span>. Then:</p>
         <div class="math notranslate nohighlight">
@@ -186,7 +198,7 @@
         </section>
         <section class="level-2" id="iv-executable-symbolic-verification">
         <h2>IV. Executable Symbolic Verification<a class="headerlink" href="#iv-executable-symbolic-verification" title="Link to this heading">¶</a></h2>
-        <p>In accordance with GEOMETOR’s strict content/code separation for historical editions, executable <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> SymPy constructions and Rational Trigonometry verification routines for <strong>Unit III</strong> live in <code class="docutils literal notranslate"><span class="pre">src/geometor/plato/</span></code> and the companion walkthrough <a class="reference internal" href="../../demos/index.html"><span class="doc">Demonstrations</span></a>.</p>
+        <p>In accordance with GEOMETOR’s strict content/code separation for historical editions, executable <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> SymPy constructions and Rational Trigonometry verification routines for <strong>Unit III</strong> live in <code class="docutils literal notranslate"><span class="pre">src/geometor/plato/</span></code> and the companion walkthrough <a class="reference internal" href="../../demos/index.html"><span class="doc">Demos</span></a>.</p>
         </section>
         </section>
 
@@ -198,7 +210,7 @@
             <a class="book-nav-btn" href="../theaetetus/theaetetus-notes.html" title="Unit II — Theaetetus: Theodorus’s Radical Constructions &amp; Classification of Powers">&larr; <span class="nav-label">Unit II — Theaetetus: Theodorus’s Radical Constructions & Classification of Powers</span></a>
           </div>
           <div class="book-nav-center">
-            <a class="book-toc-link" href="../index.html">Loci Mathematici et Geometrici</a>
+            <a class="book-toc-link" href="../index.html">Mathematical & Geometric Dialogues</a>
           </div>
           <div class="book-nav-next">
             <a class="book-nav-btn" href="../timaeus-world-soul/timaeus-world-soul-notes.html" title="Unit IV — Timaeus: Geometric Proportion &amp; Harmonic Division of the World-Soul"><span class="nav-label">Unit IV — Timaeus: Geometric Proportion & Harmonic Division of the World-Soul</span> &rarr;</a>
@@ -247,7 +259,9 @@
     <div class="footer-nav">
       <ul>
         <li><a href="../../about/index.html"  >About</a></li>
+        <li><a href="../concordance.html"  >Master Stephanus Concordance</a></li>
         <li><a href="../../changelog.html"  >changelog</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
       </ul>
     </div>
     <hr />
@@ -260,7 +274,7 @@
 
   <script src="../../_static/jquery.js?v=5d32c60e"></script>
   <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../../_static/documentation_options.js?v=a58bc63e"></script>
+  <script src="../../_static/documentation_options.js?v=92734c54"></script>
   <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>

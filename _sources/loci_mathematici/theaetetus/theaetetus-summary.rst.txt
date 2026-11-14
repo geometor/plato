@@ -26,8 +26,8 @@ In *Theaetetus* `147c–148b`, the young Athenian geometer :person:`Theaetetus <
 2. **Partition of All Integers into Equilateral & Oblong (147e–148a)**: Recognizing that incommensurable powers are infinite in multitude, the boys partitioned every integer into two classes: **equilateral square numbers** (:term:`isos isakis <isos-isakis>`, :math:`n = k^2`, such as :math:`4, 9, 16`) and **oblong numbers** (:term:`promēkēs <promekes>`, non-square integers bounded by unequal factors).
 3. **Dichotomy of Lengths (*Mēkē*) & Powers (*Dynameis*) (148a–b)**: Lines squaring to equilateral numbers—highlighted at :g:`P1 <theodorus-spiral:P1>`, :g:`P4 <theodorus-spiral:P4>`, :g:`P9 <theodorus-spiral:P9>`, and :g:`P16 <theodorus-spiral:P16>`—are defined as :term:`lengths <mekos>` (*μήκη*); lines squaring to oblong numbers are defined as :term:`powers <dynamis>` (*δυνάμεις*), commensurable not in linear measure but by the plane areas they have the power to generate, adding that the analogous distinction holds for **solids** (*καὶ περὶ τὰ στερεὰ ἄλλο τοιοῦτον*, i.e., cube roots :math:`\sqrt[3]{n}`).
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1

@@ -26,8 +26,8 @@ Unit I gathers the three foundational mathematical episodes of :person:`Plato's 
 2. **Anamnesis & Doubling the Square by the Diagonal (81e–85d)**: Answering Meno's eristic paradox of inquiry, Socrates summons an untutored household attendant and constructs the :math:`2 \times 2` square :g:`ABCD <meno-diag:< A B C D >>` (:math:`Q = 4`). After exposing two false arithmetic intuitions—doubling the side to :g:`AE <meno-diag:/ A E />` (:math:`4 \times 4 = 16`, :g:`AEFG <meno-diag:< A E F G >>`) and taking the sesquialter side :g:`AM <meno-diag:/ A M />` (:math:`3 \times 3 = 9`, :g:`AMNP <meno-diag:< A M N P >>`)—Socrates draws the four :term:`diagonals <diametros>` :g:`BD <meno-diag:[ B D ]>`, :g:`BH <meno-diag:[ B H ]>`, :g:`HK <meno-diag:[ H K ]>`, and :g:`KD <meno-diag:[ K D ]>`, cutting each :math:`4`-foot square in half (:math:`2 + 2 + 2 + 2 = 8`) to enclose the exact double square :g:`BHKD <meno-diag:< B H K D >>`.
 3. **Inquiry from Hypothesis & Application of Area (86e–87b)**: Pressed to ask whether virtue is teachable prior to knowing its essence, Socrates adopts the geometer's method of :term:`hypothesis <hypothesis>` (*ἐξ ὑποθέσεως*, :ref:`86e <stephanus-meno-86e>`): reducing the inscription of a triangular area inside a given circle to an elliptic :term:`application of area <parateinein>` along the diameter.
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1

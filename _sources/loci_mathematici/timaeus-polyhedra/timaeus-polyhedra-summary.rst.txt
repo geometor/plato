@@ -33,8 +33,8 @@ In *Timaeus* `53c–56c`, :person:`Plato <plato>` executes the boldest geometric
    - **Cube** (`6` square faces = `24` isosceles right triangles) :math:`\rightarrow` **Earth** (incommensurable with the :math:`\sqrt{3}` family and therefore non-transmutable into fire/air/water)
    - **Dodecahedron** (`12` regular pentagonal faces, requiring :math:`\mathbb{Q}(\phi)`) :math:`\rightarrow` **The Whole Cosmos** (`55c4–6`).
 
-Stephanus Conspectus
---------------------
+Stephanus Overview
+------------------
 
 .. list-table::
    :header-rows: 1

@@ -11,7 +11,7 @@
 Unit I — Meno: Definition of Figure, Doubling the Square & Geometric Hypothesis — Greek (Burnet OCT)
 ====================================================================================================
 
-.. rubric:: Editio Graeca Oxoniensis (Ioannes Burnet, 1900–1907) · Meno 75d–76a, 81e–85d, 86e–87b
+.. rubric:: Greek Edition (Burnet OCT) (Ioannes Burnet, 1900–1907) · Meno 75d–76a, 81e–85d, 86e–87b
 
 .. picture:: /_static/figures/meno_diagonal_doubling.svg
    :alt: Meno: Definition of Figure, Doubling the Square & Geometric Hypothesis

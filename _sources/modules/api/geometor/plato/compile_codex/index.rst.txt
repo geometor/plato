@@ -5,7 +5,7 @@ geometor.plato.compile_codex
 
 .. autoapi-nested-parse::
 
-   Deterministic 4-track Book Codex compiler for *Loci Mathematici et Geometrici*.
+   Deterministic 4-track Book Codex compiler for *Mathematical & Geometric Dialogues*.
 
    Parses John Burnet's Oxford Classical Text TEI-XML (`tlg0059.*.burnet_oct.xml`) and
    Benjamin Jowett's 3rd-edition English texts (`*_jowett_pg*.txt`), aligns Stephanus

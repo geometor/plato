@@ -1,15 +1,17 @@
+:navigation: footer
 :order: 93
+:nav_title: Glossary
 :layout: book
 :type: apparatus
-:title: Glossary of Platonic Mathematical & Noetic Terms
+:title: Glossary
 
 .. _glossary:
 
-================================================
-Glossary of Platonic Mathematical & Noetic Terms
-================================================
+========
+Glossary
+========
 
-.. rubric:: Polytonic Greek, Scholastic Latin & Mathematical Lexicon of *Loci Mathematici et Geometrici*
+.. rubric:: Polytonic Greek, Scholastic Latin & Mathematical Lexicon of *Mathematical & Geometric Dialogues*
 
 Systematic lexicon of **34 foundational Platonic concepts** governing geometric figure (*schēma*), quadratic powers (*dynameis*), discursive mathematical thought (*dianoia*), harmonic proportion (*analogia*), elementary triangles (*stoicheia*), and Limit (*peras*).
 
