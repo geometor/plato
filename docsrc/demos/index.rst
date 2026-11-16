@@ -10,14 +10,14 @@ Demos
 
 .. rubric:: 100% Exact Symbolic SymPy Models & Rational Trigonometry Proofs of Plato's Constructions
 
-In strict accordance with **GEOMETOR's Content / Code Separation**, the historical Book Codex (:doc:`/loci_mathematici/index`) contains zero embedded Python scripts. All executable constructions live in the ``geometor.plato`` Python package and runnable ``demos/*.py`` scripts documented below, where every coordinate, intersection, quadrance, spread, and harmonic interval is verified symbolically over :math:`\mathbb{Q}` and closed-form quadratic extensions (:math:`\mathbb{Q}(\sqrt{2})`, :math:`\mathbb{Q}(\sqrt{3})`, :math:`\mathbb{Q}(\phi)`, and the Theodorus tower :math:`\mathbb{Q}(\sqrt{2}, \dots, \sqrt{17})`) with ``Model(..., auto_intersect=False)`` and **zero floating-point approximations**.
+In strict accordance with **GEOMETOR's Content / Code Separation**, the historical Book Codex (:doc:`/index`) contains zero embedded Python scripts. All executable constructions live in the ``geometor.plato`` Python package and runnable ``demos/*.py`` scripts documented below, where every coordinate, intersection, quadrance, spread, and harmonic interval is verified symbolically over :math:`\mathbb{Q}` and closed-form quadratic extensions (:math:`\mathbb{Q}(\sqrt{2})`, :math:`\mathbb{Q}(\sqrt{3})`, :math:`\mathbb{Q}(\phi)`, and the Theodorus tower :math:`\mathbb{Q}(\sqrt{2}, \dots, \sqrt{17})`) with ``Model(..., auto_intersect=False)`` and **zero floating-point approximations**.
 
 ----
 
 1. *Meno* ``82b–85b`` — Doubling the Square by the Diagonal
 -----------------------------------------------------------
 
-*Codex Reference*: :doc:`Unit I — Meno (Critical Notes) </loci_mathematici/meno/meno-notes>` · *Script*: ``demos/meno_diagonal.py``
+*Codex Reference*: :doc:`Meno: Doubling the Square (Critical Notes) </meno/82b-85b/notes>` · *Script*: ``demos/meno_diagonal.py``
 
 .. picture:: /_static/figures/meno_diagonal_doubling.svg
    :caption: Exact symbolic model of Socrates' three-stage inquiry with Meno's attendant: given 2-foot square ``ABCD`` (quadrance 4), false 4-foot square ``AEFG`` (quadrance 16), false 3-foot square ``AMNP`` (quadrance 9), and diagonal square ``BHKD`` (quadrance 8).
@@ -46,7 +46,7 @@ In strict accordance with **GEOMETOR's Content / Code Separation**, the historic
 2. *Theaetetus* ``147d–148b`` — Theodorus's Spiral (:math:`\sqrt{2} \dots \sqrt{17}`) & *Dynameis*
 ---------------------------------------------------------------------------------------------------
 
-*Codex Reference*: :doc:`Unit II — Theaetetus (Critical Notes) </loci_mathematici/theaetetus/theaetetus-notes>` · *Script*: ``demos/theodorus_spiral.py``
+*Codex Reference*: :doc:`Theaetetus: Theodorus's Radical Chain (Critical Notes) </theaetetus/147d-148b/notes>` · *Script*: ``demos/theodorus_spiral.py``
 
 .. picture:: /_static/figures/theodorus_spiral.svg
    :caption: Exact compass-and-straightedge spiral from ``P1`` through ``P17`` around center ``O``. Square-number radii ``P1, P4, P9, P16`` are rational lengths (*mēkē*); all thirteen non-square radii are quadratic surds (*dynameis*).
@@ -72,7 +72,7 @@ In strict accordance with **GEOMETOR's Content / Code Separation**, the historic
 3. *Republic* VI ``509d–511e`` — The Divided Line & Proportional Equality of the Middle Segments
 ------------------------------------------------------------------------------------------------
 
-*Codex Reference*: :doc:`Unit III — Republic VI–VII (Critical Notes) </loci_mathematici/republic/republic-notes>` · *Script*: ``demos/divided_line.py``
+*Codex Reference*: :doc:`Republic: The Divided Line (Critical Notes) </republic/509d-511e/notes>` · *Script*: ``demos/divided_line.py``
 
 .. picture:: /_static/figures/republic_divided_line.svg
    :caption: Exact golden-section realization of Plato's Divided Line ``AE`` cut at ``C`` with sub-cuts ``B`` and ``D``, verifying ``|BC| = |CD|`` and the Euclid VI.13 semicircle mean proportional ``|BG| = |BC|``.
@@ -101,7 +101,7 @@ In strict accordance with **GEOMETOR's Content / Code Separation**, the historic
 4. *Timaeus* ``31b–36d`` — Three Means in a Semicircle & the 34-Pitch World-Soul Scale
 --------------------------------------------------------------------------------------
 
-*Codex Reference*: :doc:`Unit IV — Timaeus: World-Soul (Critical Notes) </loci_mathematici/timaeus-world-soul/timaeus-world-soul-notes>` · *Script*: ``demos/timaeus_world_soul.py``
+*Codex Reference*: :doc:`Timaeus: The World-Soul (Critical Notes) </timaeus/31b-36d/notes>` · *Script*: ``demos/timaeus_world_soul.py``
 
 .. picture:: /_static/figures/timaeus_world_soul.svg
    :caption: Pappus's semicircle construction of arithmetic mean ``|OG| = 3``, geometric mean ``|JG| = 2√2``, and harmonic mean ``|GH| = 8/3`` on segments ``|AJ| = 2`` and ``|JB| = 4``, paired with the equatorial Circle of the Same and ecliptic Circle of the Different.
@@ -125,7 +125,7 @@ In strict accordance with **GEOMETOR's Content / Code Separation**, the historic
 5. *Timaeus* ``53c–56c`` — Elementary Right Triangles & Rational Trigonometry Spreads
 -------------------------------------------------------------------------------------
 
-*Codex Reference*: :doc:`Unit V — Timaeus: Polyhedra (Critical Notes) </loci_mathematici/timaeus-polyhedra/timaeus-polyhedra-notes>` · *Script*: ``demos/timaeus_triangles.py``
+*Codex Reference*: :doc:`Timaeus: Elementary Triangles (Critical Notes) </timaeus/53c-56c/notes>` · *Script*: ``demos/timaeus_triangles.py``
 
 .. picture:: /_static/figures/timaeus_triangles.svg
    :caption: Euclid I.1 two-circle construction of equilateral face ``ABC`` subdivided by its three medians/altitudes at centroid ``G`` into six ``1 : √3 : 2`` scalene right half-triangles (quadrances ``1, 3, 4``; spreads ``1/4, 3/4, 1``).
@@ -159,7 +159,7 @@ In strict accordance with **GEOMETOR's Content / Code Separation**, the historic
 6. *Parmenides*, *Philebus* & *Laws* VII — Compass, Straightedge & Dimensional Surds
 ------------------------------------------------------------------------------------
 
-*Codex Reference*: :doc:`Unit VI — Foundations (Critical Notes) </loci_mathematici/foundations/foundations-notes>`
+*Codex Reference*: :doc:`Dialogues on Measure & Proportion (Critical Notes) </foundations/parmenides-137d-138a/notes>`
 
 .. picture:: /_static/figures/foundations_peras_compass.svg
    :caption: Unit circle centered at ``O`` cut along optical sightline ``AB`` (Parmenides 137e), generating length ``1`` (``OC``), plane diagonal ``√2`` (``OD``), and space-diagonal power ``√3`` (``OE``) by compass and straightedge (Philebus 51c; Laws VII 819e).

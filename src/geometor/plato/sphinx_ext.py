@@ -40,6 +40,7 @@ def register_greek_track(book_mod: ModuleType | object | None = None) -> bool:
     aux_basenames = getattr(book_mod, "_AUX_TRACK_BASENAMES", None)
     if isinstance(aux_basenames, set):
         aux_basenames.add("el")
+        aux_basenames.add("greek")
 
     aux_patterns = getattr(book_mod, "_AUX_TRACK_PATTERNS", None)
     if isinstance(aux_patterns, list):
@@ -61,10 +62,11 @@ def register_greek_track(book_mod: ModuleType | object | None = None) -> bool:
         def _qual(local_name: str) -> str:
             return f"{doc_dir}/{local_name}" if doc_dir else local_name
 
-        is_unit_dir = not doc_dir or stem == os.path.basename(doc_dir)
+        is_unit_dir = not doc_dir or stem == os.path.basename(doc_dir) or basename == "index"
         el_cands = [_qual(f"{stem}.el"), _qual(f"{stem}_el"), _qual(f"{stem}-el")]
         if is_unit_dir:
             el_cands.append(_qual("el"))
+            el_cands.append(_qual("greek"))
 
         el_doc = next((cand for cand in el_cands if cand in found_docs), None)
         if el_doc is None:

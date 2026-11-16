@@ -339,10 +339,14 @@ def test_concordance_apparatus_and_codex_purity() -> None:
     assert all_repos == {"euclid", "elements", "proclus", "aristotle", "pacioli", "hoenen"}
 
     # Collect all Stephanus labels across compiled Codex units and verify zero Python scripts in Codex
-    codex_dir = REPO_ROOT / "docsrc" / "loci_mathematici"
+    codex_dirs = [REPO_ROOT / "docsrc" / d for d in ("meno", "theaetetus", "republic", "timaeus", "foundations")]
     defined_labels: set[str] = set()
-    rst_files = sorted(codex_dir.rglob("*.rst"))
-    assert len(rst_files) >= 29  # index + 4 apparatus + 6*4 unit tracks
+    rst_files = [p for d in codex_dirs for p in sorted(d.rglob("*.rst"))]
+    for app in ("concordance.rst", "glossary.rst", "persons.rst", "bibliography.rst"):
+        app_path = REPO_ROOT / "docsrc" / app
+        if app_path.is_file():
+            rst_files.append(app_path)
+    assert len(rst_files) >= 29
 
     for rst_path in rst_files:
         content = rst_path.read_text(encoding="utf-8")

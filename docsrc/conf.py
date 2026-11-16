@@ -29,7 +29,9 @@ repo_name = "plato"
 
 setup_globals(org, org_name, repo, repo_name)  # noqa: F405
 
-project = "GEOMETOR • plato"
+site_title = "Plato"
+project = site_title
+html_title = f"{site_title} • {org_name}"
 author = "Plato of Athens • Ed. GEOMETOR"
 copyright = "2026, GEOMETOR • Burnet OCT (1900–1907) & Jowett (1892) Critical Codex"
 

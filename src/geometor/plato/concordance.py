@@ -726,11 +726,21 @@ def render_concordance_rst() -> str:
         ]
     )
 
+    peripheral_docs = {
+        "plato:leges:737e-738b": "republic/522c-534e/notes",
+        "plato:leges:738a": "republic/522c-534e/notes",
+        "plato:rep:417": "republic/522c-534e/notes",
+        "plato:laws:777D": "foundations/laws-817e-820d/notes",
+        "plato:rep:X.602c": "foundations/philebus-51b-52c/notes",
+        "plato:sophist:235.d": "foundations/philebus-51b-52c/notes",
+    }
+
     for entry in CROSS_CORPUS_PLATO_ENTRIES:
         if entry.in_codex:
             continue
         repos_str = ", ".join(f"``{r}``" for r in entry.repos)
-        note_ref = f":doc:`{entry.unit_slug}/{entry.unit_slug}-notes`"
+        target_doc = peripheral_docs.get(entry.cite_key, f"{entry.unit_slug}/index")
+        note_ref = f":doc:`/{target_doc}`"
         lines.extend(
             [
                 f"   * - ``{entry.cite_key}``",
@@ -773,9 +783,9 @@ def write_concordance_artifacts(repo_root: str | Path) -> dict[str, Path]:
     )
     out_paths["resources/loci_mathematici/sources_manifest.json"] = manifest_path
 
-    rst_path = root / "docsrc" / "loci_mathematici" / "concordance.rst"
+    rst_path = root / "docsrc" / "concordance.rst"
     rst_path.parent.mkdir(parents=True, exist_ok=True)
     rst_path.write_text(rst_text, encoding="utf-8")
-    out_paths["docsrc/loci_mathematici/concordance.rst"] = rst_path
+    out_paths["docsrc/concordance.rst"] = rst_path
 
     return out_paths

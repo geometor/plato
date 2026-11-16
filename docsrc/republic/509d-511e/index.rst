@@ -1,0 +1,119 @@
+:order: 1
+:layout: book
+:type: book
+:title: The Divided Line & Proportional Ascent
+:canonical_id: Republic VI, 509d–511e
+:folio: Rep. 509d
+:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+
+.. _republic-509d-511e:
+.. _republic-509d-511e-en:
+.. _republic-en:
+
+===========================================
+The Divided Line & Proportional Ascent
+===========================================
+
+.. rubric:: Proportional Section of the Visible and Intelligible Realms (509d–511e)
+
+.. epigraph::
+
+   *«ὥσπερ τοίνυν γραμμὴν δίχα τετμημένην λαβὼν ἄνισα τμήματα, πάλιν τέμνε ἑκάτερον τὸ τμῆμα ἀνὰ τὸν αὐτὸν λόγον, τό τε τοῦ ὁρωμένου γένους καὶ τὸ τοῦ νοουμένου…»*
+
+   “Take then a line cut in two into unequal segments, and cut each segment again according to the same ratio—both that of the visible genus and that of the intelligible…” — **Republic VI, 509d6–8**
+
+.. picture:: /_static/figures/republic_divided_line.svg
+   :alt: Republic VI–VII: The Divided Line, Dianoia & the Quadrivium
+   :caption: The Divided Line of Republic VI 509d–511e: cutting [A, E] at C and each realm in the same ratio 1 : r proves identically that sensible Pistis (/ B C /) equals mathematical Dianoia (/ C D /) as geometric mean ordinate B G between Eikasia (/ A B /) and Noesis (/ D E /).
+
+
+III.1 The Divided Line, Geometric Hypotheses & Dianoia vs. Noēsis (509d–511e)
+-----------------------------------------------------------------------------
+
+*English Translation by Benjamin Jowett (3rd ed., 1892) · Project Gutenberg #55201 (Jowett 3rd ed., 1892, with Stephanus pagination)*
+
+.. _stephanus-republic-509d:
+
+.. folio:: Rep. 509d
+
+You have to imagine, then, that there are two ruling powers, and that one of them is set over the intellectual world, the other over the visible. I do not say heaven, lest you should fancy that I am playing upon the name (οὐρανός, ὁρατός). May I suppose that you have this distinction of the visible and intelligible fixed in your mind?
+
+I have.
+
+.. _stephanus-republic-509e:
+.. _stephanus-republic-510a:
+
+.. folio:: Rep. 510a
+
+Now take a line which has been cut into two unequal parts, and divide each of them again in the same proportion, and suppose the two main divisions to answer, one to the visible and the other to the intelligible, and then compare the subdivisions in respect of their clearness and want of clearness, and you will find that the first section in the sphere of the visible consists of images. And by images I mean, in the first place, shadows, and in the second place, reflections in water and in solid, smooth and polished bodies and the like: Do you understand?
+
+Yes, I understand.
+
+Imagine, now, the other section, of which this is only the resemblance, to include the animals which we see, and everything that grows or is made.
+
+Very good.
+
+Would you not admit that both the sections of this division have different degrees of truth, and that the copy is to the original as the sphere of opinion is to the sphere of knowledge?
+
+.. _stephanus-republic-510b:
+
+.. folio:: Rep. 510b
+
+Most undoubtedly.
+
+Next proceed to consider the manner in which the sphere of the intellectual is to be divided.
+
+In what manner?
+
+Thus:--There are two subdivisions, in the lower of which the soul uses the figures given by the former division as images; the enquiry can only be hypothetical, and instead of going upwards to a principle descends to the other end; in the higher of the two, the soul passes out of hypotheses, and goes up to a principle which is above hypotheses, making no use of images as in the former case, but proceeding only in and through the ideas themselves.
+
+I do not quite understand your meaning, he said.
+
+.. _stephanus-republic-510c:
+.. _stephanus-republic-510d:
+
+.. folio:: Rep. 510d
+
+Then I will try again; you will understand me better when I have made some preliminary remarks. You are aware that students of geometry, arithmetic, and the kindred sciences assume the odd and the even and the figures and three kinds of angles and the like in their several branches of science; these are their hypotheses, which they and every body are supposed to know, and therefore they do not deign to give any account of them either to themselves or others; but they begin with them, and go on until they arrive at last, and in a consistent manner, at their conclusion?
+
+Yes, he said, I know.
+
+.. _stephanus-republic-510e:
+
+.. folio:: Rep. 510e
+
+And do you not know also that although they make use of the visible forms and reason about them, they are thinking not of these, but of the ideals which they resemble; not of the figures which they draw, but of the absolute square and the absolute diameter, and so on--the forms which they draw or make, and which have shadows and reflections in water of their own, are converted by them into images, but they are really seeking to behold the things themselves, which can only be seen with the eye of the mind?
+
+.. _stephanus-republic-511a:
+
+.. folio:: Rep. 511a
+
+That is true.
+
+And of this kind I spoke as the intelligible, although in the search after it the soul is compelled to use hypotheses; not ascending to a first principle, because she is unable to rise above the region of hypothesis, but employing the objects of which the shadows below are resemblances in their turn as images, they having in relation to the shadows and reflections of them a greater distinctness, and therefore a higher value.
+
+.. _stephanus-republic-511b:
+
+.. folio:: Rep. 511b
+
+I understand, he said, that you are speaking of the province of geometry and the sister arts.
+
+.. _stephanus-republic-511c:
+
+.. folio:: Rep. 511c
+
+And when I speak of the other division of the intelligible, you will understand me to speak of that other sort of knowledge which reason herself attains by the power of dialectic, using the hypotheses not as first principles, but only as hypotheses--that is to say, as steps and points of departure into a world which is above hypotheses, in order that she may soar beyond them to the first principle of the whole; and clinging to this and then to that which depends on this, by successive steps she descends again without the aid of any sensible object, from ideas, through ideas, and in ideas she ends.
+
+.. _stephanus-republic-511d:
+
+.. folio:: Rep. 511d
+
+I understand you, he replied; not perfectly, for you seem to me to be describing a task which is really tremendous; but, at any rate, I understand you to say that knowledge and being, which the science of dialectic contemplates, are clearer than the notions of the arts, as they are termed, which proceed from hypotheses only: these are also contemplated by the understanding, and not by the senses: yet, because they start from hypotheses and do not ascend to a principle, those who contemplate them appear to you not to exercise the higher reason upon them, although when a first principle is added to them they are cognizable by the higher reason. And the habit which is concerned with geometry and the cognate sciences I suppose that you would term understanding and not reason, as being intermediate between opinion and reason.
+
+.. _stephanus-republic-511e:
+
+.. folio:: Rep. 511e
+
+You have quite conceived my meaning, I said; and now, corresponding to these four divisions, let there be four faculties in the soul--reason answering to the highest, understanding to the second, faith (or conviction) to the third, and perception of shadows to the last--and let there be a scale of them, and let us suppose that the several faculties have clearness in the same degree that their objects have truth.
+
+I understand, he replied, and give my assent, and accept your arrangement.
