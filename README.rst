@@ -24,23 +24,6 @@ Books in This Archive
 - `Theaetetus <https://geometor.github.io/plato/theaetetus/>`_ — Theodorus's spiral of surds, incommensurable dynameis, and the nature of mathematical knowledge.
 - `Timaeus <https://geometor.github.io/plato/timaeus/>`_ — The proportional bond of the World-Soul, musical ratios, and the elementary cosmic polyhedra.
 
-Python Package & Modules
-------------------------
-
-The ``geometor-plato`` Python package (``import geometor.plato``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
-
-- ``apparatus.py`` — Scholarly apparatus registries (glossary, persons, bibliography) for *geometor-plato*.
-- ``commentary.py`` — Scholarly summaries, mathematical reconstructions, and Greek philology notes for Units I–VI.
-- ``compile_codex.py`` — Deterministic 4-track Book Codex compiler for *Mathematical & Geometric Dialogues*.
-- ``concordance.py`` — Stephanus concordance and SHA-256 primary-source manifest for *geometor-plato*.
-- ``constructions.py`` — Exact symbolic constructions for Plato's Mathematical & Geometric Dialogues.
-- ``harmonics.py`` — Exact rational harmonics of the World-Soul in Plato's *Timaeus* (35b–36b).
-- ``render.py`` — Interactive ``.euclid-graphic`` SVG renderer for Plato's geometric constructions.
-- ``units.py`` — Canonical unit and Stephanus passage definitions for *Loci Mathematici et Geometrici*.
-- ``cli.py`` — Command-line interface (``geometor-plato``) for compiling the Codex and verifying models.
-- ``sphinx_ext.py`` — Sphinx extension registering the Burnet Greek (``-el``) companion track in ``publish``.
-
-See the `API Reference <https://geometor.github.io/plato/modules/>`_ for full module documentation.
 
 Repository Contents
 -------------------
