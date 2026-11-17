@@ -49,7 +49,7 @@ Dialogues on Measure & Proportion
 
 .. rubric:: Scholarly Apparatus
 
-:doc:`Master Stephanus Concordance </concordance>` · :doc:`Index of Persons </persons>` · :doc:`Platonic Glossary </glossary>` · :doc:`Bibliography </bibliography>`
+:doc:`Master Stephanus Concordance </concordance>` · :doc:`Index of Persons </people/index>` · :doc:`Platonic Glossary </glossary>` · :doc:`Bibliography </bibliography>`
 
 .. toctree::
    :hidden:

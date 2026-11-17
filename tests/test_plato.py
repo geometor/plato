@@ -342,10 +342,11 @@ def test_concordance_apparatus_and_codex_purity() -> None:
     codex_dirs = [REPO_ROOT / "docsrc" / d for d in ("meno", "theaetetus", "republic", "timaeus", "foundations")]
     defined_labels: set[str] = set()
     rst_files = [p for d in codex_dirs for p in sorted(d.rglob("*.rst"))]
-    for app in ("concordance.rst", "glossary.rst", "persons.rst", "bibliography.rst"):
+    for app in ("concordance.rst", "glossary.rst", "people/index.rst", "bibliography.rst"):
         app_path = REPO_ROOT / "docsrc" / app
         if app_path.is_file():
             rst_files.append(app_path)
+    rst_files.extend(sorted((REPO_ROOT / "docsrc" / "people").glob("*.rst")))
     assert len(rst_files) >= 29
 
     for rst_path in rst_files:
