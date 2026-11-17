@@ -63,7 +63,7 @@ Document collections throughout the site (such as the :doc:`Development Log <../
 6. People, Bibliography & Glossary Tooltips
 -------------------------------------------
 
-* **People (``:person:``)**: Historical figures and dialogue interlocutors (such as :person:`Plato of Athens <plato>`, :person:`Socrates <socrates>`, :person:`Theaetetus <theaetetus>`, :person:`Timaeus <timaeus>`, :person:`John Burnet <burnet>`, and :person:`Benjamin Jowett <jowett>`) display rich biographical hover cards linking to the :doc:`People Register </persons>`.
+* **People (``:person:``)**: Historical figures and dialogue interlocutors (such as :person:`Plato of Athens <plato>`, :person:`Socrates <socrates>`, :person:`Theaetetus <theaetetus>`, :person:`Timaeus <timaeus>`, :person:`John Burnet <burnet>`, and :person:`Benjamin Jowett <jowett>`) display rich biographical hover cards linking to the :doc:`People Register </people/index>`.
 * **Citations (``:cite:``)**: Inline citations link to critical editions and primary witnesses in the :doc:`Bibliography </bibliography>`.
 * **Technical Terms (``:term:``)**: Platonic Greek mathematical terms (such as :term:`dynamis <dynamis>`, :term:`dianoia <dianoia>`, :term:`peras <peras>`, :term:`analogia <analogia>`, and :term:`schema <schema>`) link to the :doc:`Technical Glossary </glossary>`.
 * **Theme Switching**: Toggle between Light and Dark themes via the header button to suit your reading environment.

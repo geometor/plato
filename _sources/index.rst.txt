@@ -24,8 +24,7 @@ Every Codex unit is presented across **four synchronized tracks** powered by ``p
 3. **Summary** — Argumentative architecture, deductive structure, and Stephanus passage breakdown.
 4. **Critical Notes** — Interactive ``.euclid-graphic`` SVG reconstructions (``:g:`` / ``:eq:``), literal Greek mathematical philology notes correcting :person:`Benjamin Jowett's <jowett>` literary paraphrases, and reception across :person:`Euclid <euclid>`, :person:`Proclus <proclus>`, :person:`Aristotle <aristotle>`, :person:`Pacioli <pacioli>`, and :person:`Hoenen <hoenen>`.
 
-.. collection::
-   :type: book
+.. reference-directory::
    :sort: order
 
 .. toctree::
@@ -39,7 +38,7 @@ Every Codex unit is presented across **four synchronized tracks** powered by ``p
    foundations/index
    concordance
    glossary
-   persons
+   people/index
    bibliography
    usage/index
    about/index
