@@ -3,7 +3,7 @@
 :title: Elementary Triangles — Summary
 :canonical_id: Timaeus 53c–56c
 :folio: Tim. 53c
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _timaeus-53c-56c-summary:
 .. _timaeus-polyhedra-summary:
@@ -48,8 +48,8 @@ Stephanus Overview
    * - **V.1 Elementary Triangles**
      - ``53c–54d``
      - Stereometric genesis; :math:`1:1:\sqrt{2}` isosceles vs. :math:`1:\sqrt{3}:2` half-equilateral (*triple in power*).
-     - :ref:`EN <stephanus-timaeus-53c>` · :ref:`EL <stephanus-el-timaeus-53c>`
+     - :ref:`English <stephanus-timaeus-53c>` · :ref:`Greek <stephanus-el-timaeus-53c>`
    * - **V.2 Five Cosmic Solids**
      - ``54d–56c``
      - 6-triangle equilateral face, 4-triangle square face, 5 regular solids, and transmutation equations.
-     - :ref:`EN <stephanus-timaeus-54d>` · :ref:`EL <stephanus-el-timaeus-54d>`
+     - :ref:`English <stephanus-timaeus-54d>` · :ref:`Greek <stephanus-el-timaeus-54d>`

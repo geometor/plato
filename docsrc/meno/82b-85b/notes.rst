@@ -3,7 +3,7 @@
 :title: Slave-Boy Square Doubling — Notes
 :canonical_id: Meno 82b–85b
 :folio: Meno 82b
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _meno-82b-85b-notes:
 .. _meno-81e-85d-notes:

@@ -3,7 +3,7 @@
 :title: World-Soul & Means — Notes
 :canonical_id: Timaeus 31b–36d
 :folio: Tim. 31b
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _timaeus-31b-36d-notes:
 .. _timaeus-world-soul-notes:

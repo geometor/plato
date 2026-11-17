@@ -4,7 +4,7 @@
 :title: Limit (Peras), Unlimited (Apeiron) & Measure
 :canonical_id: Philebus 16c–26d
 :folio: Phil. 16c
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _philebus-16c-26d:
 .. _philebus-16c-26d-en:

@@ -3,6 +3,11 @@ GEOMETOR • plato
 
 **Visit the Online Archive:** https://geometor.github.io/plato/
 
+.. image:: docsrc/_static/figures/foundations_peras_compass.svg
+   :alt: GEOMETOR • plato featured geometric construction
+   :target: https://geometor.github.io/plato/
+   :align: center
+
 **Plato • Meno, Theaetetus, Republic, Timaeus, Dialogues on Measure • semantic digital archive**
 
 Mission

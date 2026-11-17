@@ -3,7 +3,7 @@
 :title: Definition of Figure — Greek (Burnet OCT)
 :canonical_id: Meno 75d–76a
 :folio: Meno 75d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 ===========================================
 Definition of Figure — Greek (Burnet OCT)

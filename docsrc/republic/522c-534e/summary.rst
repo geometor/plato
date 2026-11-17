@@ -3,7 +3,7 @@
 :title: The Quadrivium & Dialectic — Summary
 :canonical_id: Republic VII, 522c–534e
 :folio: Rep. 522c
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _republic-525a-534e-summary:
 .. _republic-522c-534e-summary:
@@ -35,8 +35,8 @@ Stephanus Overview
    * - **III.2 Arithmetic & Geometry**
      - ``VII, 525a–528d``
      - Indivisible unit, plane geometry of eternal being, and neglected 3D stereometry (`528b`).
-     - :ref:`EN <stephanus-republic-525a>` · :ref:`EL <stephanus-el-republic-525a>`
+     - :ref:`English <stephanus-republic-525a>` · :ref:`Greek <stephanus-el-republic-525a>`
    * - **III.3 Astronomy, Harmonics & Dialectic**
      - ``VII, 528e–534e``
      - Kinematics of true ratios, critique of empirical harmonics, and *dialektikē* as coping-stone.
-     - :ref:`EN <stephanus-republic-529a>` · :ref:`EL <stephanus-el-republic-529a>`
+     - :ref:`English <stephanus-republic-529a>` · :ref:`Greek <stephanus-el-republic-529a>`

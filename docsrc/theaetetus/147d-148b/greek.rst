@@ -3,7 +3,7 @@
 :title: Theodorus's Irrationals — Greek (Burnet OCT)
 :canonical_id: Theaetetus 147d–148b
 :folio: Theaet. 147d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _theaetetus-147d-148b-el:
 .. _theaetetus-147c-148b-el:

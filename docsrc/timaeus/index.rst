@@ -8,6 +8,7 @@
 :book_subtitle: The Proportional Bond of the World-Soul & the Elementary Cosmic Polyhedra
 :author: Plato of Athens
 :book_theme: classical-serif
+:tracks: English: index | Greek: title-el
 :excerpt: Timaeus of Locri expounds the mathematical creation of the cosmos: the 34-pitch diatonic scale and means of the World-Soul (31b–36d), and the stereometric assembly of the five regular solids from elementary right triangles (53c–56c).
 
 .. _timaeus:
@@ -54,3 +55,10 @@ Timaeus
 
    31b-36d/index
    53c-56c/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-el

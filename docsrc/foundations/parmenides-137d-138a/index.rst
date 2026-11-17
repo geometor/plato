@@ -4,7 +4,7 @@
 :title: Round Equidistance & Optical Straightness
 :canonical_id: Parmenides 137d–138a
 :folio: Parm. 137d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _parmenides-137d-138a:
 .. _parmenides-137d-138a-en:

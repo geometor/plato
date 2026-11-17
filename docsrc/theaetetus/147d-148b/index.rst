@@ -4,7 +4,7 @@
 :title: Theodorus's Irrationals & Classification of Powers
 :canonical_id: Theaetetus 147d–148b
 :folio: Theaet. 147d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _theaetetus-147d-148b:
 .. _theaetetus-147c-148b:

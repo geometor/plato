@@ -8,6 +8,7 @@
 :book_subtitle: Parmenides, Philebus & Laws VII — Straightness, Limit & Incommensurability
 :author: Plato of Athens
 :book_theme: classical-serif
+:tracks: English: index | Greek: title-el
 :excerpt: The late Platonic foundations of mathematical ontology and education: optical straightness and roundness (Parmenides 137d–138a, 145a–b), Limit (peras) and pure geometrical beauty (Philebus 16c–26d, 51b–52c), and linear, planar, and solid incommensurability (Laws VII 817e–820d).
 
 .. _foundations:
@@ -59,3 +60,10 @@ Dialogues on Measure & Proportion
    philebus-16c-26d/index
    philebus-51b-52c/index
    laws-817e-820d/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-el

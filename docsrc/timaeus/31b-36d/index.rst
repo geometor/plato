@@ -4,7 +4,7 @@
 :title: Proportional Bond & Harmonic Scale of the World-Soul
 :canonical_id: Timaeus 31b–36d
 :folio: Tim. 31b
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _timaeus-31b-36d:
 .. _timaeus-31b-36d-en:

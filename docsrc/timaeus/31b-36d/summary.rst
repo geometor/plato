@@ -3,7 +3,7 @@
 :title: World-Soul & Means — Summary
 :canonical_id: Timaeus 31b–36d
 :folio: Tim. 31b
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _timaeus-31b-36d-summary:
 .. _timaeus-world-soul-summary:
@@ -41,8 +41,8 @@ Stephanus Overview
    * - **IV.1 Cosmic Analogia**
      - ``31b–32c``
      - Plane (1 mean) vs. solid (2 means) proportion binding Fire, Air, Water, and Earth.
-     - :ref:`EN <stephanus-timaeus-31b>` · :ref:`EL <stephanus-el-timaeus-31b>`
+     - :ref:`English <stephanus-timaeus-31b>` · :ref:`Greek <stephanus-el-timaeus-31b>`
    * - **IV.2 World-Soul Gamut**
      - ``35a–36d``
      - Doubles & triples, arithmetic/harmonic means, ``9:8`` tone, ``256:243`` *leimma*, and :math:`\mathrm{X}`-circles.
-     - :ref:`EN <stephanus-timaeus-35a>` · :ref:`EL <stephanus-el-timaeus-35a>`
+     - :ref:`English <stephanus-timaeus-35a>` · :ref:`Greek <stephanus-el-timaeus-35a>`

@@ -3,7 +3,7 @@
 :title: Definition of Figure — Summary
 :canonical_id: Meno 75d–76a
 :folio: Meno 75d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _meno-75d-76a-summary:
 
@@ -34,4 +34,4 @@ Stephanus Overview
    * - **I.1 Definition of Figure**
      - ``75d–76a``
      - Genus vs. species; surface, solid (*stereon*), and :term:`limit <peras>` (*peras*).
-     - :ref:`EN <stephanus-meno-75d>` · :ref:`EL <stephanus-el-meno-75d>`
+     - :ref:`English <stephanus-meno-75d>` · :ref:`Greek <stephanus-el-meno-75d>`

@@ -3,7 +3,7 @@
 :title: The Divided Line — Summary
 :canonical_id: Republic VI, 509d–511e
 :folio: Rep. 509d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _republic-509d-511e-summary:
 .. _republic-summary:
@@ -40,4 +40,4 @@ Stephanus Overview
    * - **III.1 The Divided Line**
      - ``VI, 509d–511e``
      - *Eikasia*, *pistis*, *dianoia*, *noēsis*; geometric hypotheses & diagrams.
-     - :ref:`EN <stephanus-republic-509d>` · :ref:`EL <stephanus-el-republic-509d>`
+     - :ref:`English <stephanus-republic-509d>` · :ref:`Greek <stephanus-el-republic-509d>`

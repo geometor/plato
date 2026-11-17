@@ -3,7 +3,7 @@
 :title: Method of Hypothesis — Summary
 :canonical_id: Meno 86e–87b
 :folio: Meno 86e
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _meno-86e-87b-summary:
 
@@ -34,4 +34,4 @@ Stephanus Overview
    * - **I.3 Geometric Hypothesis**
      - ``86e–87b``
      - Analytic reduction of circular inscription to elliptic application of areas (:cite:`Elements VI.28 <euclid:VI.28>`).
-     - :ref:`EN <stephanus-meno-86e>` · :ref:`EL <stephanus-el-meno-86e>`
+     - :ref:`English <stephanus-meno-86e>` · :ref:`Greek <stephanus-el-meno-86e>`

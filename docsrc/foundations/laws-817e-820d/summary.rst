@@ -3,7 +3,7 @@
 :title: Incommensurability — Summary
 :canonical_id: Laws VII, 817e–820d
 :folio: Laws 817e
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _laws-817e-820d-summary:
 .. _foundations-summary:
@@ -39,4 +39,4 @@ Stephanus Overview
    * - **VI.5 Laws VII Incommensurability**
      - ``VII, 817e–820d``
      - Commensurable vs. incommensurable lengths, planes, and solids (:math:`1, \sqrt{2}, \sqrt{3}`).
-     - :ref:`EN <stephanus-laws-817e>` · :ref:`EL <stephanus-el-laws-817e>`
+     - :ref:`English <stephanus-laws-817e>` · :ref:`Greek <stephanus-el-laws-817e>`

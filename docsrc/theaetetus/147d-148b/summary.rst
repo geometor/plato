@@ -3,7 +3,7 @@
 :title: Theodorus's Irrationals — Summary
 :canonical_id: Theaetetus 147d–148b
 :folio: Theaet. 147d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _theaetetus-147d-148b-summary:
 .. _theaetetus-147c-148b-summary:
@@ -42,8 +42,8 @@ Stephanus Overview
    * - **II.1 Theodorus's Diagram**
      - ``147c–147d``
      - Case-by-case irrationality of :math:`\sqrt{3}, \sqrt{5}, \dots, \sqrt{17}`.
-     - :ref:`EN <stephanus-theaetetus-147c>` · :ref:`EL <stephanus-el-theaetetus-147c>`
+     - :ref:`English <stephanus-theaetetus-147c>` · :ref:`Greek <stephanus-el-theaetetus-147c>`
    * - **II.2 Lengths & Powers**
      - ``147e–148b``
      - Universal number-theoretic criterion (:cite:`Elements X.9 <euclid:X.def.1>`) & extension to solids.
-     - :ref:`EN <stephanus-theaetetus-147e>` · :ref:`EL <stephanus-el-theaetetus-147e>`
+     - :ref:`English <stephanus-theaetetus-147e>` · :ref:`Greek <stephanus-el-theaetetus-147e>`

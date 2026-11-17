@@ -4,7 +4,7 @@
 :title: Definition of Figure as the Limit of Solid
 :canonical_id: Meno 75d–76a
 :folio: Meno 75d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _meno-75d-76a:
 
