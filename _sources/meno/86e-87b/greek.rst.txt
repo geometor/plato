@@ -3,7 +3,7 @@
 :title: Method of Hypothesis — Greek (Burnet OCT)
 :canonical_id: Meno 86e–87b
 :folio: Meno 86e
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _meno-86e-87b-el:
 

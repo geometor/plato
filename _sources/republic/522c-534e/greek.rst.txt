@@ -3,7 +3,7 @@
 :title: The Quadrivium — Greek (Burnet OCT)
 :canonical_id: Republic VII, 522c–534e
 :folio: Rep. 522c
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _republic-525a-534e-el:
 

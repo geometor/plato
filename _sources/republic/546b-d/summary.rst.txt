@@ -4,7 +4,7 @@
 :title: The Nuptial Number — Summary
 :canonical_id: Republic VIII, 546b–d
 :folio: Rep. 546b
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _republic-546b-d-summary:
 

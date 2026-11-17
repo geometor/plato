@@ -3,7 +3,7 @@
 :title: Pure Beauty — Greek (Burnet OCT)
 :canonical_id: Philebus 51b–52c
 :folio: Phil. 51b
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _philebus-51b-52c-el:
 

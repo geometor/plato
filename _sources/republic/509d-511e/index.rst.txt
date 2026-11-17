@@ -4,7 +4,7 @@
 :title: The Divided Line & Proportional Ascent
 :canonical_id: Republic VI, 509d–511e
 :folio: Rep. 509d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _republic-509d-511e:
 .. _republic-509d-511e-en:

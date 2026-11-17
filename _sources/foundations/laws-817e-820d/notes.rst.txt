@@ -3,7 +3,7 @@
 :title: Incommensurability — Notes
 :canonical_id: Laws VII, 817e–820d
 :folio: Laws 817e
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _laws-817e-820d-notes:
 .. _foundations-notes:

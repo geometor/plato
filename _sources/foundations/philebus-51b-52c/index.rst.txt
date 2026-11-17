@@ -4,7 +4,7 @@
 :title: Pure Geometric Beauty by Compass & Rule
 :canonical_id: Philebus 51b–52c
 :folio: Phil. 51b
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _philebus-51b-52c:
 .. _philebus-51b-52c-en:

@@ -3,7 +3,7 @@
 :title: Slave-Boy Square Doubling — Summary
 :canonical_id: Meno 82b–85b
 :folio: Meno 82b
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _meno-82b-85b-summary:
 .. _meno-81e-85d-summary:
@@ -40,4 +40,4 @@ Stephanus Overview
    * - **I.2 Diagonal Doubling**
      - ``81e–85d``
      - Given square (:math:`Q=4`), refutation of :math:`Q=16` & :math:`Q=9`, aporia, and diagonal proof (:math:`Q=8`).
-     - :ref:`EN <stephanus-meno-81e>` · :ref:`EL <stephanus-el-meno-81e>`
+     - :ref:`English <stephanus-meno-81e>` · :ref:`Greek <stephanus-el-meno-81e>`

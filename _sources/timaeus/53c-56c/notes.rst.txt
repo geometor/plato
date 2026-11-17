@@ -3,7 +3,7 @@
 :title: Elementary Triangles — Notes
 :canonical_id: Timaeus 53c–56c
 :folio: Tim. 53c
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _timaeus-53c-56c-notes:
 .. _timaeus-polyhedra-notes:

@@ -3,7 +3,7 @@
 :title: Limit & Unlimited — Summary
 :canonical_id: Philebus 16c–26d
 :folio: Phil. 16c
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _philebus-16c-26d-summary:
 
@@ -32,4 +32,4 @@ Stephanus Overview
    * - **VI.3–4 Philebus Limit & Beauty**
      - ``16c–26d, 51b–52c``
      - *Peras* & *apeiron*; pure geometric beauty wrought by *tornos* and *kanōn*.
-     - :ref:`EN <stephanus-philebus-16c>` · :ref:`EL <stephanus-el-philebus-16c>`
+     - :ref:`English <stephanus-philebus-16c>` · :ref:`Greek <stephanus-el-philebus-16c>`

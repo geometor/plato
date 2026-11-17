@@ -3,7 +3,7 @@
 :title: Limit & Unlimited — Greek (Burnet OCT)
 :canonical_id: Philebus 16c–26d
 :folio: Phil. 16c
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _philebus-16c-26d-el:
 

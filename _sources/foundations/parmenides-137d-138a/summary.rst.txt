@@ -3,7 +3,7 @@
 :title: Round & Straight — Summary
 :canonical_id: Parmenides 137d–138a
 :folio: Parm. 137d
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _parmenides-137d-138a-summary:
 
@@ -34,4 +34,4 @@ Stephanus Overview
    * - **VI.1–2 Parmenides Definitions**
      - ``137d–138a, 145a–b``
      - Round equidistance, optical straightness, and figure (*schēma*).
-     - :ref:`EN <stephanus-parmenides-137d>` · :ref:`EL <stephanus-el-parmenides-137d>`
+     - :ref:`English <stephanus-parmenides-137d>` · :ref:`Greek <stephanus-el-parmenides-137d>`

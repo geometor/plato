@@ -8,6 +8,7 @@
 :book_subtitle: Virtue, Anamnesis, Doubling the Square & Geometric Hypothesis
 :author: Plato of Athens
 :book_theme: classical-serif
+:tracks: English: index | Greek: title-el
 :excerpt: Socrates demonstrates mathematical recollection (anamnesis) on the slave boy by doubling a square via its diagonal (82b–85b), defines figure as the limit of solid (75d–76a), and introduces the geometer's method of hypothesis (86e–87b).
 
 .. _meno:
@@ -55,3 +56,10 @@ Meno
    75d-76a/index
    82b-85b/index
    86e-87b/index
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-el

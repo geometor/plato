@@ -3,7 +3,7 @@
 :title: Extremes & Figure — Notes
 :canonical_id: Parmenides 145a–b
 :folio: Parm. 145a
-:tracks: English: index | Greek (Burnet OCT): greek | Summary: summary | Notes: notes
+:tracks: English: index | Greek: greek | Summary: summary | Notes: notes
 
 .. _parmenides-145a-b-notes:
 
