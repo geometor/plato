@@ -1,0 +1,38 @@
+{
+  "repository": "geometor/plato",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "burnet-oct-perseus",
+      "title": "Platonis Opera (John Burnet OCT, 1900–1907 via Perseus)",
+      "author": "John Burnet (ed.)",
+      "year": "1900",
+      "era": "Perseus Digital Library",
+      "languages": [
+        "Greek"
+      ],
+      "site_url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Greco-Roman",
+      "local_path": "resources/",
+      "pages": null,
+      "publisher": "Oxford Classical Texts / Perseus Canonical GreekLit",
+      "rights": "Public Domain (1900–1907)",
+      "excerpt": "7 Burnet OCT TEI-XML files (tlg0059.*.burnet_oct.xml)."
+    },
+    {
+      "id": "jowett-1892-gutenberg",
+      "title": "The Dialogues of Plato (trans. Benjamin Jowett, 3rd ed., 1892)",
+      "author": "Benjamin Jowett (trans.)",
+      "year": "1892",
+      "era": "Project Gutenberg",
+      "languages": [
+        "English"
+      ],
+      "site_url": "https://www.gutenberg.org/ebooks/1643",
+      "local_path": "resources/",
+      "pages": null,
+      "publisher": "Oxford University Press / Project Gutenberg (#1643, #1726, #55201, #1572, #1687, #1744, #1750)",
+      "rights": "Public Domain (1892)",
+      "excerpt": "7 Project Gutenberg Jowett 1892 English translations matching the Greek TEI witnesses."
+    }
+  ]
+}
