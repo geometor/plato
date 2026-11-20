@@ -3,6 +3,12 @@ GEOMETOR • plato
 
 **Visit the Online Archive:** https://geometor.github.io/plato/
 
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • plato Medallion
+   :target: https://geometor.github.io/plato/
+   :width: 180px
+   :align: center
+
 .. image:: docsrc/_static/figures/foundations_peras_compass.svg
    :alt: GEOMETOR • plato featured geometric construction
    :target: https://geometor.github.io/plato/
