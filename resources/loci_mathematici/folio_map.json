@@ -1705,6 +1705,96 @@
       "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L220",
       "en": "resources/loci_mathematici/sources/en/parmenides_jowett_pg1687.txt#L2186",
       "default": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L220"
+    },
+    "Meno 75d": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg024.burnet_oct.xml#L276",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg024.burnet_oct.xml#L276",
+      "en": "resources/loci_mathematici/sources/en/meno_jowett_pg1643.txt#L1176",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg024.burnet_oct.xml#L276"
+    },
+    "Parm. 137d": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L220",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L220",
+      "en": "resources/loci_mathematici/sources/en/parmenides_jowett_pg1687.txt#L2186",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L220"
+    },
+    "Parmenides 137d": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L220",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L220",
+      "en": "resources/loci_mathematici/sources/en/parmenides_jowett_pg1687.txt#L2186",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L220"
+    },
+    "Parm. 145a": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L574",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L574",
+      "en": "resources/loci_mathematici/sources/en/parmenides_jowett_pg1687.txt#L2922",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L574"
+    },
+    "Parmenides 145a": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L574",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L574",
+      "en": "resources/loci_mathematici/sources/en/parmenides_jowett_pg1687.txt#L2922",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg009.burnet_oct.xml#L574"
+    },
+    "Rep. 522c": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L3848",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L3848",
+      "en": "resources/loci_mathematici/sources/en/republic_jowett_pg55201.txt#L20441",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L3848"
+    },
+    "Republic 522c": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L3848",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L3848",
+      "en": "resources/loci_mathematici/sources/en/republic_jowett_pg55201.txt#L20441",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L3848"
+    },
+    "Rep. 546b": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282",
+      "en": "resources/loci_mathematici/sources/en/republic_jowett_pg55201.txt#L21783",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282"
+    },
+    "Republic 546b": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282",
+      "en": "resources/loci_mathematici/sources/en/republic_jowett_pg55201.txt#L21783",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282"
+    },
+    "Rep. 546d": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282",
+      "en": "resources/loci_mathematici/sources/en/republic_jowett_pg55201.txt#L21802",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282"
+    },
+    "Republic 546d": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282",
+      "en": "resources/loci_mathematici/sources/en/republic_jowett_pg55201.txt#L21802",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg030.burnet_oct.xml#L4282"
+    },
+    "Tim. 31b": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L239",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L239",
+      "en": "resources/loci_mathematici/sources/en/timaeus_jowett_pg1572.txt#L4548",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L239"
+    },
+    "Timaeus 31b": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L239",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L239",
+      "en": "resources/loci_mathematici/sources/en/timaeus_jowett_pg1572.txt#L4548",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L239"
+    },
+    "Tim. 53c": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L340",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L340",
+      "en": "resources/loci_mathematici/sources/en/timaeus_jowett_pg1572.txt#L5398",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L340"
+    },
+    "Timaeus 53c": {
+      "el": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L340",
+      "grc": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L340",
+      "en": "resources/loci_mathematici/sources/en/timaeus_jowett_pg1572.txt#L5398",
+      "default": "resources/loci_mathematici/sources/el/tlg0059.tlg031.burnet_oct.xml#L340"
     }
   }
 }
