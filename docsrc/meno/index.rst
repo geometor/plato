@@ -7,6 +7,9 @@
 :book_title: Meno
 :book_subtitle: Virtue, Anamnesis, Doubling the Square & Geometric Hypothesis
 :author: Plato of Athens
+:year: -385
+:year_label: ca. 385 BCE
+:edition_year: 1892
 :book_theme: classical-serif
 :tracks: English: index | Greek: title-el
 :excerpt: Socrates demonstrates mathematical recollection (anamnesis) on the slave boy by doubling a square via its diagonal (82b–85b), defines figure as the limit of solid (75d–76a), and introduces the geometer's method of hypothesis (86e–87b).
