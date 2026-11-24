@@ -7,6 +7,9 @@
 :book_title: Republic
 :book_subtitle: The Divided Line, the Quadrivium & the Nuptial Number
 :author: Plato of Athens
+:year: -375
+:year_label: ca. 375 BCE
+:edition_year: 1892
 :book_theme: classical-serif
 :tracks: English: index | Greek: title-el
 :excerpt: Plato's mathematical curriculum of the philosopher-king: the proportional Divided Line (VI, 509d–511e), the five sciences of the Quadrivium and Stereometry (VII, 522c–534e), and the geometrical Nuptial Number (VIII, 546b–d).

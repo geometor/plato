@@ -7,6 +7,9 @@
 :book_title: Theaetetus
 :book_subtitle: Theodorus's Irrationals, Incommensurable Dynameis & Definition of Knowledge
 :author: Plato of Athens
+:year: -369
+:year_label: ca. 369 BCE
+:edition_year: 1892
 :book_theme: classical-serif
 :tracks: English: index | Greek: title-el
 :excerpt: Theodorus of Cyrene constructs the spiral of square roots from 3 to 17 square feet, leading Theaetetus and the younger Socrates to generalize the classification of lengths (mēkē) vs. powers (dynameis) (147d–148b).
