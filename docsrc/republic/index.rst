@@ -53,14 +53,6 @@ Republic
 :doc:`Master Stephanus Concordance </concordance>` · :doc:`Index of Persons </people/index>` · :doc:`Platonic Glossary </glossary>` · :doc:`Bibliography </bibliography>`
 
 .. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   509d-511e/index
-   522c-534e/index
-   546b-d/index
-
-.. toctree::
    :maxdepth: 1
    :hidden:
    :caption: Title Pages

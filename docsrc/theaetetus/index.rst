@@ -53,12 +53,6 @@ Theaetetus
 :doc:`Master Stephanus Concordance </concordance>` · :doc:`Index of Persons </people/index>` · :doc:`Platonic Glossary </glossary>` · :doc:`Bibliography </bibliography>`
 
 .. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   147d-148b/index
-
-.. toctree::
    :maxdepth: 1
    :hidden:
    :caption: Title Pages
