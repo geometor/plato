@@ -53,14 +53,6 @@ Meno
 :doc:`Master Stephanus Concordance </concordance>` · :doc:`Index of Persons </people/index>` · :doc:`Platonic Glossary </glossary>` · :doc:`Bibliography </bibliography>`
 
 .. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   75d-76a/index
-   82b-85b/index
-   86e-87b/index
-
-.. toctree::
    :maxdepth: 1
    :hidden:
    :caption: Title Pages

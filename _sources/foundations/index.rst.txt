@@ -55,16 +55,6 @@ Dialogues on Measure & Proportion
 :doc:`Master Stephanus Concordance </concordance>` · :doc:`Index of Persons </people/index>` · :doc:`Platonic Glossary </glossary>` · :doc:`Bibliography </bibliography>`
 
 .. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   parmenides-137d-138a/index
-   parmenides-145a-b/index
-   philebus-16c-26d/index
-   philebus-51b-52c/index
-   laws-817e-820d/index
-
-.. toctree::
    :maxdepth: 1
    :hidden:
    :caption: Title Pages

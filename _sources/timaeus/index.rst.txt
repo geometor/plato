@@ -53,13 +53,6 @@ Timaeus
 :doc:`Master Stephanus Concordance </concordance>` · :doc:`Index of Persons </people/index>` · :doc:`Platonic Glossary </glossary>` · :doc:`Bibliography </bibliography>`
 
 .. toctree::
-   :hidden:
-   :maxdepth: 2
-
-   31b-36d/index
-   53c-56c/index
-
-.. toctree::
    :maxdepth: 1
    :hidden:
    :caption: Title Pages
